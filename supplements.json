@@ -404,61 +404,78 @@
       ]
     },
     {
-      "id": "rhodiola",
+      "id": "rhodiola-rosea",
       "name": "Rhodiola Rosea",
       "classification": "Adaptogenic Herb",
-      "emoji": "🌸",
-      "summary": "An adaptogen that combats fatigue and improves mental performance under stress.",
-      "shortDesc": "Fights fatigue, enhances mental endurance.",
+      "emoji": "🌹",
+      "summary": "Salidroside and rosavins in Rhodiola rosea reduce fatigue, improve endurance, and build stress resilience.",
+      "shortDesc": "Anti-fatigue and resilience adaptogen.",
       "benefits": [
-        "Reduced fatigue",
-        "Mental endurance",
-        "Mood support",
-        "Stress resilience"
+        "Fatigue reduction",
+        "Stress resilience",
+        "Cognitive performance",
+        "Exercise endurance",
+        "Mood"
       ],
       "dosage": {
-        "male": "200–400 mg",
-        "female": "200–400 mg",
-        "beginner": "100 mg",
-        "upperLimit": "600 mg/day"
+        "male": "200–600 mg/day (3% rosavins, 1% salidroside)",
+        "female": "200–600 mg/day",
+        "beginner": "200 mg/day",
+        "upperLimit": "1500 mg/day"
       },
       "forms": [
         {
-          "name": "3% rosavins / 1% salidroside",
-          "bioavailability": "Standardized",
-          "bestFor": "All uses",
-          "notes": "Look for SHR-5 extract."
+          "name": "Rhodiola SHR-5 extract (3%/1%)",
+          "bioavailability": "High",
+          "bestFor": "Clinical standard form",
+          "notes": "Most RCT-validated extract."
+        },
+        {
+          "name": "Rhodiola Extract 3% rosavins",
+          "bioavailability": "High",
+          "bestFor": "General adaptogen",
+          "notes": "Standard market form."
+        },
+        {
+          "name": "Rhodiola Root Powder",
+          "bioavailability": "Moderate",
+          "bestFor": "Budget option",
+          "notes": "Whole root; variable potency."
         }
       ],
-      "mechanism": "Modulates monoamines and HPA axis, reducing fatigue signalling.",
-      "bestTime": "Morning",
-      "withFood": "Either",
+      "mechanism": "Salidroside activates AMPK increasing ATP; rosavins modulate MAO inhibiting serotonin catabolism; regulates HPA via neuropeptide Y.",
+      "bestTime": "Morning on empty stomach",
+      "withFood": "Without food (may increase bioavailability)",
       "synergies": [
         "Ashwagandha",
-        "B Vitamins"
+        "Eleuthero",
+        "Cordyceps"
       ],
       "sideEffects": [
-        "Insomnia if taken late",
-        "Irritability at high doses"
+        "Insomnia (stimulating)",
+        "GI upset",
+        "Dry mouth",
+        "Headache"
       ],
       "interactions": [
-        "MAOIs",
-        "Stimulants"
+        "MAO inhibitors",
+        "Stimulants",
+        "Blood sugar medications"
       ],
       "evidence": 4,
-      "popularity": 4,
+      "popularity": 5,
       "references": [
         {
-          "title": "Rhodiola and Mental Fatigue",
+          "title": "Rhodiola Fatigue",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22228617/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19016404/"
         }
       ],
       "goals": [
+        "Lower stress",
         "More energy",
-        "Sharper focus",
-        "Improve mood",
-        "Lower stress"
+        "Athletic performance",
+        "Brain health"
       ]
     },
     {
@@ -654,61 +671,74 @@
       ]
     },
     {
-      "id": "bacopa",
+      "id": "bacopa-brahmi",
       "name": "Bacopa Monnieri",
-      "classification": "Ayurvedic Herb",
-      "emoji": "🌱",
-      "summary": "A traditional Ayurvedic herb clinically shown to improve memory consolidation, reduce anxiety, and enhance long-term cognitive performance.",
-      "shortDesc": "Enhances memory, recall, and reduces anxiety.",
+      "classification": "Nootropic Herb",
+      "emoji": "🌿",
+      "summary": "Bacosides in Bacopa monnieri enhance synaptic signaling, reduce acetylcholine breakdown, and improve memory over weeks.",
+      "shortDesc": "Memory-boosting herb that works over weeks.",
       "benefits": [
-        "Improved memory consolidation",
-        "Faster information processing",
-        "Reduced anxiety",
-        "Neuroprotection"
+        "Memory consolidation",
+        "Learning",
+        "Anxiety reduction",
+        "Neuroprotection",
+        "ADHD support"
       ],
       "dosage": {
-        "male": "300–600 mg/day",
-        "female": "300–600 mg/day",
+        "male": "300–450 mg/day (45% bacosides)",
+        "female": "300–450 mg/day",
         "beginner": "150 mg/day",
-        "upperLimit": "900 mg/day"
+        "upperLimit": "1000 mg/day"
       },
       "forms": [
         {
-          "name": "Standardized extract (20% bacosides)",
-          "bioavailability": "Moderate",
+          "name": "Bacopa Extract (45% bacosides)",
+          "bioavailability": "High",
           "bestFor": "Memory, cognition",
-          "notes": "Requires 8–12 weeks for full effect."
+          "notes": "Most studied standardized form."
+        },
+        {
+          "name": "BaCognize® (45% bacopaside)",
+          "bioavailability": "High",
+          "bestFor": "Premium validated form",
+          "notes": "Specific standardized extract with RCT evidence."
+        },
+        {
+          "name": "Bacopa raw herb powder",
+          "bioavailability": "Low",
+          "bestFor": "Traditional",
+          "notes": "Low potency; high dose required."
         }
       ],
-      "mechanism": "Bacosides enhance synaptic plasticity by modulating acetylcholine and serotonin systems; antioxidant protection of neurons.",
-      "bestTime": "Morning",
-      "withFood": "Yes — fat-soluble, improved with food",
+      "mechanism": "Bacosides activate protein kinase activity restoring acetylcholine release; inhibit acetylcholinesterase; reduce oxidative stress.",
+      "bestTime": "Morning with food",
+      "withFood": "With fat-containing meal",
       "synergies": [
+        "Alpha-GPC",
         "Lion's Mane",
-        "Phosphatidylserine",
-        "Omega-3"
+        "Ginkgo"
       ],
       "sideEffects": [
-        "GI discomfort",
-        "Fatigue at high doses",
-        "Nausea"
+        "GI upset (significant — common side effect)",
+        "Dry mouth",
+        "Fatigue initially"
       ],
       "interactions": [
-        "Anticholinergics",
-        "Sedatives"
+        "Anticholinergic drugs",
+        "Thyroid medications"
       ],
       "evidence": 4,
-      "popularity": 3,
+      "popularity": 4,
       "references": [
         {
-          "title": "Bacopa and Memory Enhancement",
+          "title": "Bacopa Cognitive Enhancement",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22747190/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12093601/"
         }
       ],
       "goals": [
         "Brain health",
-        "Sharper focus",
+        "Memory",
         "Lower stress"
       ]
     },
@@ -986,65 +1016,79 @@
       ]
     },
     {
-      "id": "nmn",
+      "id": "nmn-supplement",
       "name": "NMN (Nicotinamide Mononucleotide)",
       "classification": "NAD+ Precursor",
-      "emoji": "🧬",
-      "summary": "A direct precursor to NAD+, the molecule central to energy metabolism, DNA repair, and aging. NMN supplementation raises NAD+ levels that decline with age.",
-      "shortDesc": "Raises NAD+, supports energy and longevity.",
+      "emoji": "🔬",
+      "summary": "A direct precursor to NAD+ that bypasses rate-limiting steps in the NAD+ biosynthesis pathway, supporting mitochondrial function, DNA repair, SIRT1 activation, and cellular aging reversal.",
+      "shortDesc": "Direct NAD+ precursor for mitochondrial health, DNA repair, and anti-aging.",
       "benefits": [
-        "Elevated NAD+ levels",
-        "DNA repair support",
-        "Metabolic efficiency",
-        "Cellular energy"
+        "NAD+ elevation",
+        "Mitochondrial function",
+        "DNA repair",
+        "SIRT1/3/5 activation",
+        "Insulin sensitivity",
+        "Muscle endurance",
+        "Cognitive aging prevention"
       ],
       "dosage": {
-        "male": "250–500 mg/day",
+        "male": "250–1000 mg/day",
         "female": "250–500 mg/day",
-        "beginner": "125 mg/day",
-        "upperLimit": "1000 mg/day"
+        "beginner": "250 mg/day",
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "NMN powder/capsule",
-          "bioavailability": "Moderate",
-          "bestFor": "Longevity, NAD+ boost",
-          "notes": "Sublingual form may increase absorption."
+          "name": "NMN Beta (β-NMN)",
+          "bioavailability": "High",
+          "bestFor": "NAD+ elevation, mitochondria, aging",
+          "notes": "Most stable and studied form."
         },
         {
-          "name": "Liposomal NMN",
+          "name": "Sublingual NMN",
+          "bioavailability": "Very High",
+          "bestFor": "Bypasses gut; fastest NAD+ elevation",
+          "notes": "Sublingual avoids first-pass NAMPT processing."
+        },
+        {
+          "name": "NMN Liposomal",
           "bioavailability": "High",
-          "bestFor": "Maximum absorption",
-          "notes": "More expensive but better uptake."
+          "bestFor": "Enhanced bioavailability",
+          "notes": "Phospholipid protection from degradation."
         }
       ],
-      "mechanism": "Converted to NAD+ via the salvage pathway; activates sirtuins (longevity proteins) and PARP enzymes for DNA repair.",
-      "bestTime": "Morning",
-      "withFood": "Either",
+      "mechanism": "Converted to NAD+ via NMNAT enzymes in cells; NAD+ activates sirtuins (SIRT1–7) and PARPs for DNA repair; substrate for CD38 (consumed, hence apigenin synergy); fuels electron transport chain.",
+      "bestTime": "Morning on empty stomach or pre-workout",
+      "withFood": "Can take fasted or with meals",
       "synergies": [
+        "Apigenin",
         "Resveratrol",
-        "TMG (trimethylglycine)",
-        "CoQ10"
+        "TMG",
+        "Exercise",
+        "Metformin alternative"
       ],
       "sideEffects": [
-        "Nausea at high doses",
-        "Mild flushing (rare)"
+        "Generally very well tolerated",
+        "Mild GI upset",
+        "Flushing (less than niacin)",
+        "Nausea at high doses"
       ],
       "interactions": [
-        "Chemotherapy agents"
+        "Chemotherapy (theoretical, NAD fuels DNA repair in tumors)"
       ],
-      "evidence": 3,
-      "popularity": 4,
+      "evidence": 4,
+      "popularity": 5,
       "references": [
         {
-          "title": "NMN Supplementation in Humans",
+          "title": "NMN and NAD metabolism aging",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33888596/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24987009/"
         }
       ],
       "goals": [
         "Longevity",
-        "More energy",
+        "Energy",
+        "Metabolic health",
         "Brain health"
       ]
     },
@@ -1246,21 +1290,22 @@
       ]
     },
     {
-      "id": "citrulline",
+      "id": "l-citrulline",
       "name": "L-Citrulline",
-      "classification": "Non-Essential Amino Acid",
+      "classification": "Amino Acid",
       "emoji": "🍉",
-      "summary": "A precursor to arginine that boosts nitric oxide production, improving blood flow, pump, and endurance during exercise.",
-      "shortDesc": "Boosts nitric oxide, blood flow, and muscle pump.",
+      "summary": "A superior nitric oxide booster that bypasses first-pass liver metabolism, producing more sustained NO than arginine.",
+      "shortDesc": "Better than arginine for nitric oxide and performance.",
       "benefits": [
-        "Enhanced muscle pump",
-        "Improved oxygen delivery",
-        "Reduced muscle soreness",
-        "Cardiovascular support"
+        "Nitric oxide boost",
+        "Muscle pump",
+        "Endurance",
+        "Blood pressure reduction",
+        "Fatigue reduction"
       ],
       "dosage": {
-        "male": "6–8 g/day",
-        "female": "4–6 g/day",
+        "male": "6–8 g/day (pure L-Citrulline)",
+        "female": "6–8 g/day",
         "beginner": "3 g/day",
         "upperLimit": "10 g/day"
       },
@@ -1268,44 +1313,45 @@
         {
           "name": "L-Citrulline (pure)",
           "bioavailability": "High",
-          "bestFor": "Nitric oxide, blood flow",
-          "notes": "More effective than arginine for NO production."
+          "bestFor": "Best NO boost",
+          "notes": "Preferred over citrulline malate for pure NO."
         },
         {
-          "name": "Citrulline Malate",
+          "name": "Citrulline Malate 2:1",
           "bioavailability": "High",
-          "bestFor": "Endurance, energy",
-          "notes": "Malate adds ATP cycle support."
+          "bestFor": "Performance, endurance",
+          "notes": "Malate also reduces fatigue; research standard."
         }
       ],
-      "mechanism": "Converts to arginine in kidneys, which drives nitric oxide synthase to produce NO, causing vasodilation.",
-      "bestTime": "30–60 min pre-workout",
-      "withFood": "Either",
+      "mechanism": "Bypasses hepatic arginase degradation; converted to arginine in kidney providing sustained NOS substrate.",
+      "bestTime": "30–60 min before exercise",
+      "withFood": "With or without food",
       "synergies": [
-        "Beta-Alanine",
-        "Creatine",
-        "Beetroot Extract"
+        "Arginine",
+        "Beet Root",
+        "Pine Bark Extract"
       ],
       "sideEffects": [
-        "GI discomfort at high doses",
-        "Mild headache"
+        "GI upset at high doses",
+        "Hypotension"
       ],
       "interactions": [
-        "PDE5 inhibitors (Viagra)"
+        "PDE5 inhibitors",
+        "Nitrates",
+        "Blood pressure meds"
       ],
       "evidence": 4,
-      "popularity": 4,
+      "popularity": 5,
       "references": [
         {
-          "title": "L-Citrulline and Exercise Performance",
+          "title": "Citrulline Performance",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25674699/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23022123/"
         }
       ],
       "goals": [
-        "Build muscle",
-        "Faster recovery",
-        "More energy"
+        "Athletic performance",
+        "Heart health"
       ]
     },
     {
@@ -1492,63 +1538,74 @@
       ]
     },
     {
-      "id": "nac",
+      "id": "nac-supplement",
       "name": "NAC (N-Acetyl Cysteine)",
-      "classification": "Antioxidant Amino Acid",
-      "emoji": "🧪",
-      "summary": "NAC is a glutathione precursor with powerful antioxidant, anti-inflammatory, and detoxification properties — one of the most broadly useful supplements in medicine.",
-      "shortDesc": "Replenishes glutathione, detoxifies, and reduces inflammation.",
+      "classification": "Amino Acid Derivative",
+      "emoji": "🛡️",
+      "summary": "A cysteine derivative and glutathione precursor with mucolytic, hepatoprotective, and antioxidant properties, used for acetaminophen overdose, respiratory conditions, and OCD.",
+      "shortDesc": "Glutathione precursor and mucolytic for liver detox, respiratory, and OCD relief.",
       "benefits": [
         "Glutathione synthesis",
-        "Liver detoxification",
-        "Respiratory health",
-        "Reduced oxidative stress"
+        "Mucolytic (lung health)",
+        "Liver detoxification (acetaminophen overdose)",
+        "OCD and compulsive behavior reduction",
+        "Anti-inflammatory",
+        "Addiction reduction"
       ],
       "dosage": {
         "male": "600–1800 mg/day",
         "female": "600–1200 mg/day",
-        "beginner": "300 mg/day",
-        "upperLimit": "2400 mg/day"
+        "beginner": "600 mg/day",
+        "upperLimit": "3000 mg/day"
       },
       "forms": [
         {
-          "name": "NAC capsules",
-          "bioavailability": "Moderate (~10%)",
-          "bestFor": "Antioxidant defense, liver",
-          "notes": "Liposomal improves bioavailability."
+          "name": "NAC Standard Capsule/Powder",
+          "bioavailability": "Moderate-High",
+          "bestFor": "Glutathione, liver, respiratory, OCD",
+          "notes": "Most common form; well-absorbed."
+        },
+        {
+          "name": "NAC Effervescent Tablet",
+          "bioavailability": "High",
+          "bestFor": "Respiratory, mucolytic, convenience",
+          "notes": "Effervescent form for respiratory conditions."
         }
       ],
-      "mechanism": "Precursor to cysteine, the rate-limiting substrate for glutathione synthesis; directly scavenges reactive oxygen species.",
-      "bestTime": "Morning, away from meals for max absorption",
-      "withFood": "Either; with food reduces nausea",
+      "mechanism": "Converted to cysteine → glutathione (via gamma-glutamylcysteine synthetase); disrupts disulfide bonds in mucus; inhibits NF-kB; glutamate modulator (reduces glutamate excess in OCD); reduces NMDA excitotoxicity.",
+      "bestTime": "Morning or split doses",
+      "withFood": "With food to reduce GI upset",
       "synergies": [
-        "TUDCA",
-        "Alpha Lipoic Acid",
+        "Glycine (GlyNAC)",
+        "Alpha-Lipoic Acid",
+        "Selenium",
         "Vitamin C"
       ],
       "sideEffects": [
-        "Nausea",
         "GI upset",
-        "Rash in rare cases"
+        "Nausea",
+        "Rash",
+        "Possible worsening of asthma at very high doses"
       ],
       "interactions": [
-        "Nitroglycerin",
-        "Activated charcoal"
+        "Nitroglycerin (hypotension risk)",
+        "Activated charcoal",
+        "Chemotherapy"
       ],
-      "evidence": 4,
-      "popularity": 3,
+      "evidence": 5,
+      "popularity": 5,
       "references": [
         {
-          "title": "NAC and Antioxidant Defense",
+          "title": "NAC glutathione and clinical uses",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31574652/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23013202/"
         }
       ],
       "goals": [
-        "Stronger immunity",
-        "Better gut health",
-        "Longevity",
-        "Faster recovery"
+        "Liver health",
+        "Respiratory health",
+        "Detox support",
+        "Mental health"
       ]
     },
     {
@@ -1915,68 +1972,82 @@
       ]
     },
     {
-      "id": "quercetin",
+      "id": "quercetin-supplement",
       "name": "Quercetin",
-      "classification": "Flavonoid Polyphenol",
+      "classification": "Polyphenol/Longevity",
       "emoji": "🍎",
-      "summary": "A powerful plant flavonoid with antiviral, antihistamine, anti-inflammatory, and senolytic (clearing senescent cells) properties.",
-      "shortDesc": "Anti-inflammatory, antihistamine, and senolytic effects.",
+      "summary": "A ubiquitous plant flavonoid with senolytic, antiviral, anti-inflammatory, and AMPK-activating properties, acting as a zinc ionophore and mast cell stabilizer.",
+      "shortDesc": "Flavonoid senolytic and zinc ionophore for anti-aging, allergy, and immunity.",
       "benefits": [
+        "Senolytic activity",
+        "Zinc ionophore (antiviral)",
+        "Mast cell stabilization (anti-allergy)",
+        "AMPK activation",
         "Anti-inflammatory",
-        "Antihistamine / allergy relief",
-        "Senolytic (clears zombie cells)",
-        "Antiviral properties"
+        "Anti-cancer",
+        "Cardiovascular protection"
       ],
       "dosage": {
-        "male": "500–1000 mg/day",
-        "female": "500–1000 mg/day",
+        "male": "250–1000 mg/day",
+        "female": "250–500 mg/day",
         "beginner": "250 mg/day",
-        "upperLimit": "2000 mg/day"
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Quercetin Phytosome",
-          "bioavailability": "High (20x standard)",
-          "bestFor": "Absorption, senolytic, allergy",
-          "notes": "Paired with sunflower phospholipids."
+          "name": "Quercetin Dihydrate",
+          "bioavailability": "Low-Moderate (lipid-soluble)",
+          "bestFor": "General antioxidant, anti-inflammatory",
+          "notes": "Standard form; poor water solubility."
         },
         {
-          "name": "Standard quercetin",
-          "bioavailability": "Low",
-          "bestFor": "Budget option",
-          "notes": "Stack with bromelain to improve absorption."
+          "name": "Quercetin Phytosome (Quercefit)",
+          "bioavailability": "Very High (20x)",
+          "bestFor": "Senolysis, antiviral, allergy, AMPK",
+          "notes": "Sunflower phospholipid complex; dramatically improved BA."
+        },
+        {
+          "name": "Quercetin + Bromelain",
+          "bioavailability": "High",
+          "bestFor": "Anti-allergy, anti-inflammatory synergy",
+          "notes": "Bromelain enhances quercetin absorption."
         }
       ],
-      "mechanism": "Inhibits NF-κB and COX-2 inflammatory pathways; blocks histamine release; induces apoptosis in senescent cells (senolytic).",
-      "bestTime": "With meals",
-      "withFood": "Yes — fat enhances absorption significantly",
+      "mechanism": "Zinc ionophore transports Zn²⁺ into cells (antiviral); inhibits NF-kB and NLRP3; positive allosteric modulator of SIRT1; inhibits Senescence-Associated Secretory Phenotype (SASP).",
+      "bestTime": "With meals; with zinc for antiviral effect",
+      "withFood": "With fat-containing food (fat-soluble)",
       "synergies": [
+        "Zinc",
         "Vitamin C",
-        "Bromelain",
-        "Resveratrol"
+        "Fisetin",
+        "Piperine",
+        "Bromelain"
       ],
       "sideEffects": [
-        "Headache at high doses",
-        "GI upset"
+        "GI upset at high doses",
+        "Headache",
+        "Potential CYP3A4 interaction"
       ],
       "interactions": [
+        "Warfarin",
         "Cyclosporine",
-        "Quinolone antibiotics",
-        "Warfarin"
+        "CYP3A4 substrates",
+        "Quinolone antibiotics"
       ],
-      "evidence": 3,
-      "popularity": 3,
+      "evidence": 4,
+      "popularity": 5,
       "references": [
         {
-          "title": "Quercetin Bioavailability and Anti-Inflammatory Effects",
+          "title": "Quercetin anti-inflammatory and senolytic",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31464359/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27537836/"
         }
       ],
       "goals": [
-        "Stronger immunity",
         "Longevity",
-        "Faster recovery"
+        "Immune support",
+        "Anti-inflammatory",
+        "Allergy relief"
       ]
     },
     {
@@ -3769,61 +3840,73 @@
       ]
     },
     {
-      "id": "magnesium-threonate",
+      "id": "magnesium-l-threonate",
       "name": "Magnesium L-Threonate",
       "classification": "Essential Mineral",
       "emoji": "🧠",
-      "summary": "A patented form of magnesium that uniquely crosses the blood-brain barrier, enhancing synaptic density.",
-      "shortDesc": "Brain-penetrating magnesium for cognition.",
+      "summary": "A patented magnesium form specifically designed to cross the blood-brain barrier and increase brain magnesium levels, uniquely improving cognitive function, memory, and sleep architecture.",
+      "shortDesc": "Brain-penetrating magnesium for cognitive enhancement, memory, and sleep.",
       "benefits": [
-        "Memory improvement",
-        "Synaptic plasticity",
-        "Cognitive aging",
-        "Anxiety"
+        "Brain magnesium elevation",
+        "Memory enhancement",
+        "Cognitive performance",
+        "Synaptic density improvement",
+        "Sleep quality and quality",
+        "Anxiety reduction"
       ],
       "dosage": {
-        "male": "1500–2000 mg/day (144 mg elemental)",
+        "male": "1500–2000 mg/day (MgT; ~144 mg elemental Mg)",
         "female": "1500–2000 mg/day",
-        "beginner": "1000 mg/day",
-        "upperLimit": "2000 mg/day"
+        "beginner": "1500 mg/day",
+        "upperLimit": "2000 mg MgT/day"
       },
       "forms": [
         {
-          "name": "Magtein (MgT)",
-          "bioavailability": "High CNS penetration",
-          "bestFor": "Cognition, memory",
-          "notes": "Patented; crosses BBB efficiently."
+          "name": "Magtein (patented Mg L-Threonate)",
+          "bioavailability": "Very High (CNS)",
+          "bestFor": "Brain health, memory, synapses, sleep",
+          "notes": "Patented form; multiple human RCTs."
+        },
+        {
+          "name": "Magnesium L-Threonate Generic",
+          "bioavailability": "High",
+          "bestFor": "Same uses as Magtein",
+          "notes": "Generic equivalent; verify quality."
         }
       ],
-      "mechanism": "Threonate transporter in the brain facilitates entry; increases synaptic Mg2+ density improving LTP.",
-      "bestTime": "Evening (cognitive + sleep)",
+      "mechanism": "Threonate carrier actively transports magnesium across BBB via sodium-dependent transporter; increases brain Mg²⁺ → enhances NMDA receptor function → improves synaptic plasticity → LTP and memory.",
+      "bestTime": "Evening before bed (promotes sleep architecture)",
       "withFood": "With or without food",
       "synergies": [
+        "L-Theanine",
+        "Phosphatidylserine",
         "Lion's Mane",
-        "Bacopa",
-        "L-Theanine"
+        "Bacopa"
       ],
       "sideEffects": [
-        "Headache initially",
-        "GI discomfort"
+        "Drowsiness (take in evening)",
+        "GI upset",
+        "Headache initially"
       ],
       "interactions": [
         "Antibiotics",
-        "CNS depressants"
+        "Bisphosphonates",
+        "Neuromuscular blocking drugs"
       ],
       "evidence": 4,
-      "popularity": 4,
+      "popularity": 5,
       "references": [
         {
-          "title": "Magnesium Threonate and Cognition",
+          "title": "Magnesium L-threonate and cognitive function",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/20152124/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34113358/"
         }
       ],
       "goals": [
         "Brain health",
+        "Memory",
         "Better sleep",
-        "Longevity"
+        "Lower stress"
       ]
     },
     {
@@ -6209,76 +6292,77 @@
       ]
     },
     {
-      "id": "lemon-balm",
+      "id": "lemon-balm-rosavins",
       "name": "Lemon Balm (Melissa officinalis)",
       "classification": "Herbal Extract",
-      "emoji": "🍋",
-      "summary": "Rosmarinic acid in lemon balm inhibits GABA transaminase and has anxiolytic, antiviral, and cognitive effects.",
-      "shortDesc": "Calming herb for anxiety, sleep, and HSV.",
+      "emoji": "🌿",
+      "summary": "A calming herb from the mint family that reduces GABA degradation via GABA transaminase inhibition, producing mild sedation, anxiety relief, and improved sleep.",
+      "shortDesc": "GABA transaminase inhibitor for anxiety, sleep, and cognitive calm.",
       "benefits": [
-        "Anxiety relief",
-        "Sleep quality",
-        "Cognitive focus",
-        "Antiviral (HSV-1)",
-        "GI relaxation"
+        "Anxiety reduction",
+        "Sleep improvement",
+        "GABA elevation",
+        "Stress relief",
+        "Mood improvement",
+        "Digestive calming"
       ],
       "dosage": {
-        "male": "300–600 mg/day",
+        "male": "300–900 mg/day",
         "female": "300–600 mg/day",
         "beginner": "300 mg/day",
-        "upperLimit": "2000 mg/day"
+        "upperLimit": "2 g/day"
       },
       "forms": [
         {
-          "name": "Lemon Balm extract (5% rosmarinic acid)",
-          "bioavailability": "High",
-          "bestFor": "Anxiety, sleep",
-          "notes": "Standardized extract."
+          "name": "Lemon Balm Extract (Cyracos, standardized)",
+          "bioavailability": "Moderate-High",
+          "bestFor": "Anxiety, sleep, GABA support",
+          "notes": "Standardized for rosmarinic acid and flavonoids."
         },
         {
-          "name": "Lemon Balm tea",
+          "name": "Lemon Balm Dried Herb Powder",
           "bioavailability": "Moderate",
-          "bestFor": "Mild calming",
-          "notes": "Traditional; 1–2 cups/day."
+          "bestFor": "Traditional use, tea preparation",
+          "notes": "Variable potency."
         },
         {
-          "name": "Lemon Balm tincture",
-          "bioavailability": "High",
-          "bestFor": "Flexible dosing",
-          "notes": "Liquid extract; faster onset."
+          "name": "Lemon Balm Tincture",
+          "bioavailability": "Moderate-High",
+          "bestFor": "Quick absorption, acute anxiety",
+          "notes": "Liquid extract for faster onset."
         }
       ],
-      "mechanism": "Rosmarinic acid inhibits GABA-T; extract binds GABA-A and muscarinic ACh receptors.",
-      "bestTime": "Evening or with meals",
-      "withFood": "With food",
+      "mechanism": "Rosmarinic acid inhibits GABA transaminase (enzyme breaking down GABA); flavonoids modulate serotonergic receptors; antiviral (anti-herpes) rosmarinic acid mechanism.",
+      "bestTime": "Evening or 30 min before stressful events",
+      "withFood": "With or without food",
       "synergies": [
         "Valerian",
+        "Passionflower",
         "L-Theanine",
-        "Magnesium"
+        "Magnesium Glycinate"
       ],
       "sideEffects": [
         "Drowsiness",
-        "Nausea",
-        "Inhibits thyroid (theoretical at high doses)"
+        "Thyroid inhibition at very high doses (theoretical)"
       ],
       "interactions": [
-        "Thyroid medications",
+        "Thyroid medications (theoretical)",
         "Sedatives",
-        "HIV medications"
+        "Thyroid-active compounds"
       ],
-      "evidence": 3,
+      "evidence": 4,
       "popularity": 3,
       "references": [
         {
-          "title": "Lemon Balm and Anxiety",
+          "title": "Lemon balm GABA and anxiety",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/24720812/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24209484/"
         }
       ],
       "goals": [
-        "Lower stress",
         "Better sleep",
-        "Brain health"
+        "Lower stress",
+        "Mental health"
       ]
     },
     {
@@ -7894,71 +7978,6 @@
       ]
     },
     {
-      "id": "l-citrulline",
-      "name": "L-Citrulline",
-      "classification": "Amino Acid",
-      "emoji": "🍉",
-      "summary": "A superior nitric oxide booster that bypasses first-pass liver metabolism, producing more sustained NO than arginine.",
-      "shortDesc": "Better than arginine for nitric oxide and performance.",
-      "benefits": [
-        "Nitric oxide boost",
-        "Muscle pump",
-        "Endurance",
-        "Blood pressure reduction",
-        "Fatigue reduction"
-      ],
-      "dosage": {
-        "male": "6–8 g/day (pure L-Citrulline)",
-        "female": "6–8 g/day",
-        "beginner": "3 g/day",
-        "upperLimit": "10 g/day"
-      },
-      "forms": [
-        {
-          "name": "L-Citrulline (pure)",
-          "bioavailability": "High",
-          "bestFor": "Best NO boost",
-          "notes": "Preferred over citrulline malate for pure NO."
-        },
-        {
-          "name": "Citrulline Malate 2:1",
-          "bioavailability": "High",
-          "bestFor": "Performance, endurance",
-          "notes": "Malate also reduces fatigue; research standard."
-        }
-      ],
-      "mechanism": "Bypasses hepatic arginase degradation; converted to arginine in kidney providing sustained NOS substrate.",
-      "bestTime": "30–60 min before exercise",
-      "withFood": "With or without food",
-      "synergies": [
-        "Arginine",
-        "Beet Root",
-        "Pine Bark Extract"
-      ],
-      "sideEffects": [
-        "GI upset at high doses",
-        "Hypotension"
-      ],
-      "interactions": [
-        "PDE5 inhibitors",
-        "Nitrates",
-        "Blood pressure meds"
-      ],
-      "evidence": 4,
-      "popularity": 5,
-      "references": [
-        {
-          "title": "Citrulline Performance",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23022123/"
-        }
-      ],
-      "goals": [
-        "Athletic performance",
-        "Heart health"
-      ]
-    },
-    {
       "id": "l-leucine",
       "name": "L-Leucine",
       "classification": "Amino Acid (BCAA)",
@@ -8210,131 +8229,132 @@
       ]
     },
     {
-      "id": "taurine",
+      "id": "taurine-supplement",
       "name": "Taurine",
-      "classification": "Amino Acid",
+      "classification": "Amino Acid Derivative",
       "emoji": "⚡",
-      "summary": "A sulfonic acid found abundantly in heart, brain, and muscles; supports cardiovascular function, exercise performance, and longevity.",
-      "shortDesc": "Cardiovascular support, performance, and longevity amino acid.",
+      "summary": "A conditionally essential sulfur amino acid with diverse roles in cardiovascular health, osmoregulation, bile acid conjugation, neurological function, and exercise performance.",
+      "shortDesc": "Multi-role amino acid for heart health, energy drinks, and cellular protection.",
       "benefits": [
-        "Cardiovascular health",
+        "Cardiovascular protection",
         "Exercise performance",
         "Antioxidant",
-        "Insulin sensitivity",
-        "Neuroprotection"
+        "Blood sugar regulation",
+        "Eye health (retinal taurine)",
+        "Anxiety reduction"
       ],
       "dosage": {
-        "male": "1–3 g/day",
-        "female": "1–3 g/day",
+        "male": "1–6 g/day",
+        "female": "1–4 g/day",
         "beginner": "1 g/day",
-        "upperLimit": "6 g/day"
+        "upperLimit": "10 g/day"
       },
       "forms": [
         {
-          "name": "Taurine powder",
+          "name": "Taurine Free Form Powder",
           "bioavailability": "High",
-          "bestFor": "General, performance",
-          "notes": "Pure taurine; cost-effective."
+          "bestFor": "Energy, cardiovascular, exercise",
+          "notes": "Inexpensive; dissolves well."
         },
         {
-          "name": "Taurine capsules",
+          "name": "Taurine Capsules",
           "bioavailability": "High",
           "bestFor": "Convenience",
-          "notes": "Pre-measured."
+          "notes": "Standard capsule form."
         }
       ],
-      "mechanism": "Regulates intracellular calcium in cardiomyocytes; acts as osmolyte stabilizing cell volume; activates GABA-A receptors.",
+      "mechanism": "Osmoregulates cell volume; conjugates bile acids; activates GABA and glycine receptors; scavenges hypochlorous acid; improves mitochondrial function via calcium regulation.",
       "bestTime": "Pre-workout or with meals",
       "withFood": "With or without food",
       "synergies": [
         "Magnesium",
         "CoQ10",
+        "B vitamins",
         "Carnitine"
       ],
       "sideEffects": [
-        "Generally very safe at normal doses",
-        "Drowsiness at very high doses"
+        "Very well tolerated; rare GI upset"
       ],
-      "interactions": [
-        "Lithium (potential interaction)"
-      ],
+      "interactions": [],
       "evidence": 4,
       "popularity": 4,
       "references": [
         {
-          "title": "Taurine Longevity",
+          "title": "Taurine longevity and health",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37272297/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37283371/"
         }
       ],
       "goals": [
         "Heart health",
-        "Athletic performance",
-        "Longevity"
+        "Sports performance",
+        "Longevity",
+        "Energy"
       ]
     },
     {
-      "id": "glycine",
+      "id": "glycine-supplement",
       "name": "Glycine",
       "classification": "Amino Acid",
-      "emoji": "😴",
-      "summary": "The simplest amino acid; glycine activates inhibitory glycine receptors improving sleep quality and collagen synthesis.",
-      "shortDesc": "Sleep quality, collagen synthesis, and liver protection.",
+      "emoji": "💤",
+      "summary": "The simplest amino acid, serving as both an inhibitory neurotransmitter and a structural component of collagen and glutathione, with proven sleep-improving and anti-aging effects.",
+      "shortDesc": "Simplest amino acid for sleep quality, collagen synthesis, and longevity.",
       "benefits": [
         "Sleep quality improvement",
+        "Core body temperature reduction at night",
         "Collagen synthesis",
-        "Liver protection",
-        "Blood sugar balance",
-        "Muscle repair"
+        "Glutathione precursor",
+        "Anti-inflammatory",
+        "Metabolic benefits (GlyNAC)"
       ],
       "dosage": {
-        "male": "3–5 g/day",
-        "female": "3–5 g/day",
+        "male": "3–12 g/day",
+        "female": "3–12 g/day",
         "beginner": "3 g/day",
-        "upperLimit": "10 g/day"
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Glycine powder",
+          "name": "Glycine Powder",
           "bioavailability": "High",
-          "bestFor": "Sleep, collagen",
-          "notes": "Sweetish taste; easy to mix."
+          "bestFor": "Sleep, collagen, glutathione, anti-aging",
+          "notes": "Inexpensive; sweet taste; mixes well."
         },
         {
-          "name": "Glycine capsules",
+          "name": "Magnesium Glycinate (combo)",
           "bioavailability": "High",
-          "bestFor": "Convenience",
-          "notes": "Pre-measured doses."
+          "bestFor": "Sleep + magnesium benefits",
+          "notes": "Glycinate chelate delivers both nutrients."
         }
       ],
-      "mechanism": "Binds strychnine-sensitive glycine receptors lowering core body temperature (sleep signal); N-methyltransferase donor.",
-      "bestTime": "Before bed (3 g)",
-      "withFood": "Can take 30 min before bed",
+      "mechanism": "Inhibitory neurotransmitter at spinal cord glycine receptors; reduces core body temperature to improve sleep onset; anti-inflammatory via glycine-gated chloride channels; methyl acceptor role.",
+      "bestTime": "Before bed (3 g for sleep); with meals for collagen/detox",
+      "withFood": "With or without food",
       "synergies": [
-        "Magnesium",
-        "L-Theanine",
-        "Collagen"
+        "NAC (GlyNAC combo)",
+        "Collagen",
+        "Proline",
+        "B6"
       ],
       "sideEffects": [
-        "Generally extremely safe",
-        "Mild GI at high doses"
+        "Soft stools at high doses",
+        "Rare GI upset"
       ],
-      "interactions": [
-        "No significant interactions"
-      ],
+      "interactions": [],
       "evidence": 4,
       "popularity": 4,
       "references": [
         {
-          "title": "Glycine Sleep",
+          "title": "Glycine and sleep quality RCT",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22529837/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22952018/"
         }
       ],
       "goals": [
         "Better sleep",
-        "Skin health",
-        "Longevity"
+        "Longevity",
+        "Gut health",
+        "Recovery"
       ]
     },
     {
@@ -9223,74 +9243,70 @@
       ]
     },
     {
-      "id": "turkey-tail",
+      "id": "turkey-tail-mushroom",
       "name": "Turkey Tail (Trametes versicolor)",
       "classification": "Medicinal Mushroom",
-      "emoji": "🍄",
-      "summary": "PSK and PSP polysaccharides from turkey tail are among the most studied anti-cancer immune adjuncts.",
-      "shortDesc": "Potent immune-modulating and anti-cancer mushroom.",
+      "emoji": "🍂",
+      "summary": "A polypore mushroom containing PSK and PSP polysaccharopeptides with robust immune-modulating and anti-cancer adjunct properties, widely studied in oncology.",
+      "shortDesc": "Immune-modulating mushroom with anti-cancer adjunct properties.",
       "benefits": [
-        "Immune activation",
+        "Immune modulation",
         "Anti-cancer adjunct",
-        "Gut microbiome support",
-        "Antioxidant"
+        "Gut microbiome support (prebiotic)",
+        "NK cell and T-cell activation",
+        "Antiviral properties"
       ],
       "dosage": {
-        "male": "1500–3000 mg/day",
-        "female": "1500–3000 mg/day",
-        "beginner": "1500 mg/day",
-        "upperLimit": "9000 mg/day"
+        "male": "1–3 g/day",
+        "female": "1–3 g/day",
+        "beginner": "1 g/day",
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Turkey Tail Extract (30%+ beta-glucans)",
+          "name": "Turkey Tail Extract (standardized PSK)",
           "bioavailability": "High",
-          "bestFor": "Immune, cancer support",
-          "notes": "Standardized extract."
+          "bestFor": "Immune modulation, cancer support",
+          "notes": "PSK (Krestin) is a standardized polysaccharopeptide."
         },
         {
-          "name": "Turkey Tail Mycelium Biomass",
+          "name": "Turkey Tail Powder (fruiting body)",
           "bioavailability": "Moderate",
-          "bestFor": "Budget",
-          "notes": "Lower polysaccharide content."
-        },
-        {
-          "name": "PSK (Krestin)",
-          "bioavailability": "High",
-          "bestFor": "Clinical cancer support",
-          "notes": "Approved pharmaceutical in Japan."
+          "bestFor": "Prebiotic, immune support",
+          "notes": "Contains beta-glucans and prebiotics."
         }
       ],
-      "mechanism": "PSK and PSP bind pattern recognition receptors (TLR2/Dectin-1) activating NK cells, dendritic cells, and T-cells.",
-      "bestTime": "Morning",
-      "withFood": "With or without food",
+      "mechanism": "PSK and PSP polysaccharopeptides activate dendritic cells, NK cells, and T-lymphocytes; modulate TLR2/4 signaling; support beneficial gut bacteria.",
+      "bestTime": "Morning or with meals",
+      "withFood": "With food",
       "synergies": [
         "Reishi",
         "Astragalus",
-        "Probiotics"
+        "Prebiotics",
+        "Vitamin D3"
       ],
       "sideEffects": [
-        "GI upset",
-        "Discolored nails",
+        "Mild GI upset",
+        "Dark stools",
         "Rare allergic reaction"
       ],
       "interactions": [
-        "Immunosuppressants",
-        "Chemotherapy (consult oncologist)"
+        "Chemotherapy (consult oncologist)",
+        "Immunosuppressants"
       ],
       "evidence": 4,
       "popularity": 4,
       "references": [
         {
-          "title": "Turkey Tail PSK Cancer",
+          "title": "Turkey tail PSK in cancer",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/19043080/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23435028/"
         }
       ],
       "goals": [
-        "Stronger immunity",
-        "Longevity",
-        "Gut health"
+        "Immune support",
+        "Gut health",
+        "Cancer prevention"
       ]
     },
     {
@@ -10115,66 +10131,61 @@
       ]
     },
     {
-      "id": "pqq",
+      "id": "lions-mane-pqq",
       "name": "PQQ (Pyrroloquinoline Quinone)",
-      "classification": "Mitochondrial Biogenesis",
+      "classification": "NAD+ Precursor",
       "emoji": "⚡",
-      "summary": "PQQ is the only known nutrient that stimulates mitochondrial biogenesis — the creation of new mitochondria.",
-      "shortDesc": "Stimulates new mitochondria creation.",
+      "summary": "A redox-active cofactor and antioxidant that stimulates mitochondrial biogenesis via PGC-1α, supports nerve growth factor synthesis, and protects mitochondria from oxidative damage.",
+      "shortDesc": "Mitochondrial biogenesis activator and neuroprotective redox cofactor.",
       "benefits": [
         "Mitochondrial biogenesis",
-        "Energy",
-        "Neuroprotection",
-        "Anti-inflammatory",
-        "Cognitive function"
+        "NGF synthesis support",
+        "Cognitive improvement",
+        "Cellular energy",
+        "Antioxidant in mitochondria",
+        "Sleep quality improvement"
       ],
       "dosage": {
-        "male": "10–40 mg/day",
-        "female": "10–30 mg/day",
+        "male": "10–20 mg/day",
+        "female": "10–20 mg/day",
         "beginner": "10 mg/day",
-        "upperLimit": "40 mg/day"
+        "upperLimit": "20 mg/day"
       },
       "forms": [
         {
-          "name": "PQQ disodium salt",
+          "name": "PQQ Disodium Salt (BioPQQ)",
           "bioavailability": "High",
-          "bestFor": "Mitochondria, cognition",
-          "notes": "Standard supplement form."
-        },
-        {
-          "name": "PQQ + CoQ10 combo",
-          "bioavailability": "High",
-          "bestFor": "Synergistic mitochondrial",
-          "notes": "Combined for superior energy support."
+          "bestFor": "Mitochondrial health, cognition, NGF",
+          "notes": "Most clinically studied form."
         }
       ],
-      "mechanism": "Activates PGC-1α and CREB pathways inducing mitochondrial biogenesis; REDOX cycling cofactor generating reactive oxygen species selectively.",
-      "bestTime": "Morning",
-      "withFood": "With food",
+      "mechanism": "Activates PGC-1α → stimulates mitochondrial biogenesis; CREB activation → NGF synthesis; scavenges superoxide and hydroxyl radicals specifically in mitochondria; modulates NMDA receptors.",
+      "bestTime": "Morning with food",
+      "withFood": "With fat-containing food",
       "synergies": [
         "CoQ10",
-        "ALCAR",
-        "Alpha Lipoic Acid"
+        "Acetyl-L-Carnitine",
+        "Lion's Mane",
+        "Omega-3 DHA"
       ],
       "sideEffects": [
-        "GI upset at high doses",
-        "Diarrhea"
+        "Generally very well tolerated",
+        "Headache at high doses",
+        "Sleep disturbance if taken late"
       ],
-      "interactions": [
-        "No significant known interactions"
-      ],
+      "interactions": [],
       "evidence": 3,
-      "popularity": 3,
+      "popularity": 4,
       "references": [
         {
-          "title": "PQQ Mitochondrial Biogenesis",
+          "title": "PQQ and mitochondrial biogenesis",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/20861528/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20861478/"
         }
       ],
       "goals": [
-        "More energy",
         "Brain health",
+        "Energy",
         "Longevity"
       ]
     },
@@ -10659,78 +10670,6 @@
       ]
     },
     {
-      "id": "bacopa-brahmi",
-      "name": "Bacopa Monnieri",
-      "classification": "Nootropic Herb",
-      "emoji": "🌿",
-      "summary": "Bacosides in Bacopa monnieri enhance synaptic signaling, reduce acetylcholine breakdown, and improve memory over weeks.",
-      "shortDesc": "Memory-boosting herb that works over weeks.",
-      "benefits": [
-        "Memory consolidation",
-        "Learning",
-        "Anxiety reduction",
-        "Neuroprotection",
-        "ADHD support"
-      ],
-      "dosage": {
-        "male": "300–450 mg/day (45% bacosides)",
-        "female": "300–450 mg/day",
-        "beginner": "150 mg/day",
-        "upperLimit": "1000 mg/day"
-      },
-      "forms": [
-        {
-          "name": "Bacopa Extract (45% bacosides)",
-          "bioavailability": "High",
-          "bestFor": "Memory, cognition",
-          "notes": "Most studied standardized form."
-        },
-        {
-          "name": "BaCognize® (45% bacopaside)",
-          "bioavailability": "High",
-          "bestFor": "Premium validated form",
-          "notes": "Specific standardized extract with RCT evidence."
-        },
-        {
-          "name": "Bacopa raw herb powder",
-          "bioavailability": "Low",
-          "bestFor": "Traditional",
-          "notes": "Low potency; high dose required."
-        }
-      ],
-      "mechanism": "Bacosides activate protein kinase activity restoring acetylcholine release; inhibit acetylcholinesterase; reduce oxidative stress.",
-      "bestTime": "Morning with food",
-      "withFood": "With fat-containing meal",
-      "synergies": [
-        "Alpha-GPC",
-        "Lion's Mane",
-        "Ginkgo"
-      ],
-      "sideEffects": [
-        "GI upset (significant — common side effect)",
-        "Dry mouth",
-        "Fatigue initially"
-      ],
-      "interactions": [
-        "Anticholinergic drugs",
-        "Thyroid medications"
-      ],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Bacopa Cognitive Enhancement",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/12093601/"
-        }
-      ],
-      "goals": [
-        "Brain health",
-        "Memory",
-        "Lower stress"
-      ]
-    },
-    {
       "id": "vinpocetine",
       "name": "Vinpocetine",
       "classification": "Nootropic",
@@ -10872,81 +10811,6 @@
         "Hormonal balance",
         "Athletic performance",
         "Better sleep"
-      ]
-    },
-    {
-      "id": "rhodiola-rosea",
-      "name": "Rhodiola Rosea",
-      "classification": "Adaptogenic Herb",
-      "emoji": "🌹",
-      "summary": "Salidroside and rosavins in Rhodiola rosea reduce fatigue, improve endurance, and build stress resilience.",
-      "shortDesc": "Anti-fatigue and resilience adaptogen.",
-      "benefits": [
-        "Fatigue reduction",
-        "Stress resilience",
-        "Cognitive performance",
-        "Exercise endurance",
-        "Mood"
-      ],
-      "dosage": {
-        "male": "200–600 mg/day (3% rosavins, 1% salidroside)",
-        "female": "200–600 mg/day",
-        "beginner": "200 mg/day",
-        "upperLimit": "1500 mg/day"
-      },
-      "forms": [
-        {
-          "name": "Rhodiola SHR-5 extract (3%/1%)",
-          "bioavailability": "High",
-          "bestFor": "Clinical standard form",
-          "notes": "Most RCT-validated extract."
-        },
-        {
-          "name": "Rhodiola Extract 3% rosavins",
-          "bioavailability": "High",
-          "bestFor": "General adaptogen",
-          "notes": "Standard market form."
-        },
-        {
-          "name": "Rhodiola Root Powder",
-          "bioavailability": "Moderate",
-          "bestFor": "Budget option",
-          "notes": "Whole root; variable potency."
-        }
-      ],
-      "mechanism": "Salidroside activates AMPK increasing ATP; rosavins modulate MAO inhibiting serotonin catabolism; regulates HPA via neuropeptide Y.",
-      "bestTime": "Morning on empty stomach",
-      "withFood": "Without food (may increase bioavailability)",
-      "synergies": [
-        "Ashwagandha",
-        "Eleuthero",
-        "Cordyceps"
-      ],
-      "sideEffects": [
-        "Insomnia (stimulating)",
-        "GI upset",
-        "Dry mouth",
-        "Headache"
-      ],
-      "interactions": [
-        "MAO inhibitors",
-        "Stimulants",
-        "Blood sugar medications"
-      ],
-      "evidence": 4,
-      "popularity": 5,
-      "references": [
-        {
-          "title": "Rhodiola Fatigue",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/19016404/"
-        }
-      ],
-      "goals": [
-        "Lower stress",
-        "More energy",
-        "Athletic performance",
-        "Brain health"
       ]
     },
     {
@@ -11169,81 +11033,6 @@
         "Blood sugar support",
         "Weight management",
         "Heart health"
-      ]
-    },
-    {
-      "id": "nac-n-acetyl-cysteine",
-      "name": "NAC (N-Acetyl Cysteine)",
-      "classification": "Antioxidant Amino Acid",
-      "emoji": "🛡️",
-      "summary": "The rate-limiting precursor to glutathione, NAC is used clinically for liver protection, lung health, and mental health.",
-      "shortDesc": "Glutathione precursor for detox, lungs, and mood.",
-      "benefits": [
-        "Glutathione synthesis",
-        "Liver protection",
-        "Lung health",
-        "OCD/anxiety",
-        "Acetaminophen antidote"
-      ],
-      "dosage": {
-        "male": "600–1800 mg/day",
-        "female": "600–1800 mg/day",
-        "beginner": "600 mg/day",
-        "upperLimit": "2400 mg/day"
-      },
-      "forms": [
-        {
-          "name": "NAC capsules",
-          "bioavailability": "High",
-          "bestFor": "General detox, glutathione",
-          "notes": "Standard pharmaceutical grade."
-        },
-        {
-          "name": "NAC IV",
-          "bioavailability": "Very High",
-          "bestFor": "Clinical, overdose treatment",
-          "notes": "Hospital use."
-        },
-        {
-          "name": "NAC + Glycine (GlyNAC)",
-          "bioavailability": "High",
-          "bestFor": "Enhanced glutathione synthesis",
-          "notes": "GlyNAC combo superior for aging."
-        }
-      ],
-      "mechanism": "Provides cysteine for glutathione synthetase; GSH neutralizes ROS; restores glutamate-glutamine balance in OCD/addiction.",
-      "bestTime": "With meals",
-      "withFood": "With food",
-      "synergies": [
-        "Selenium",
-        "Vitamin C",
-        "Glycine"
-      ],
-      "sideEffects": [
-        "GI upset",
-        "Headache",
-        "Rare severe skin reactions",
-        "Cysteine excess"
-      ],
-      "interactions": [
-        "Nitroglycerin (hypotension)",
-        "Activated charcoal",
-        "Certain antibiotics"
-      ],
-      "evidence": 4,
-      "popularity": 5,
-      "references": [
-        {
-          "title": "NAC Glutathione",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/16869952/"
-        }
-      ],
-      "goals": [
-        "Detox support",
-        "Liver health",
-        "Lung health",
-        "Antioxidant support"
       ]
     },
     {
@@ -11551,74 +11340,74 @@
       ]
     },
     {
-      "id": "astaxanthin",
+      "id": "astaxanthin-supplement",
       "name": "Astaxanthin",
-      "classification": "Carotenoid Antioxidant",
-      "emoji": "🦞",
-      "summary": "The most potent lipid-phase antioxidant known, 6000x stronger than vitamin C; found in salmon and shrimp.",
-      "shortDesc": "Ultra-potent antioxidant for skin, eyes, and recovery.",
+      "classification": "Polyphenol/Longevity",
+      "emoji": "🦩",
+      "summary": "The most powerful natural antioxidant known (6000x stronger than vitamin C by singlet oxygen quenching), a carotenoid from Haematococcus pluvialis algae with cardiovascular, eye, skin, and athletic benefits.",
+      "shortDesc": "World's most potent antioxidant carotenoid for skin, eyes, heart, and endurance.",
       "benefits": [
-        "Superior antioxidant",
+        "Most potent natural antioxidant",
+        "Eye health (macular degeneration prevention)",
         "Skin photoprotection",
-        "Eye health",
-        "Exercise recovery",
-        "Anti-inflammatory"
+        "Cardiovascular protection",
+        "Athletic endurance improvement",
+        "Anti-inflammatory",
+        "Neuroprotection"
       ],
       "dosage": {
         "male": "4–12 mg/day",
         "female": "4–12 mg/day",
         "beginner": "4 mg/day",
-        "upperLimit": "24 mg/day"
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Natural Astaxanthin (Haematococcus)",
+          "name": "Natural Astaxanthin (Haematococcus pluvialis)",
           "bioavailability": "High",
-          "bestFor": "All uses; best quality",
-          "notes": "From microalgae; superior to synthetic."
+          "bestFor": "All benefits; eye, skin, heart, endurance",
+          "notes": "Natural algae-derived; superior to synthetic."
         },
         {
-          "name": "Synthetic Astaxanthin",
+          "name": "Synthetic Astaxanthin (petrochemical)",
           "bioavailability": "Moderate",
-          "bestFor": "Budget",
-          "notes": "Petrochemically derived; weaker antioxidant."
-        },
-        {
-          "name": "Astaxanthin + DHA",
-          "bioavailability": "High",
-          "bestFor": "Synergistic brain/eye",
-          "notes": "Combined for double omega-3 antioxidant protection."
+          "bestFor": "Lower potency than natural",
+          "notes": "Not recommended for supplementation."
         }
       ],
-      "mechanism": "Spans entire phospholipid bilayer quenching ROS at both membrane surfaces; activates Nrf2; 1O2 quenching at 1872 kcal/mol.",
-      "bestTime": "With largest meal",
-      "withFood": "With fat — essential for absorption",
+      "mechanism": "Spans cell membrane bilayer as unique antioxidant; quenches singlet oxygen 6000x more potently than vitamin C; modulates NF-kB, Nrf2, and NO pathways; protects mitochondria and membrane lipids.",
+      "bestTime": "With meals",
+      "withFood": "Required — fat-soluble carotenoid",
       "synergies": [
-        "Omega-3",
         "Vitamin E",
-        "CoQ10"
+        "Omega-3",
+        "CoQ10",
+        "Lutein",
+        "Zeaxanthin"
       ],
       "sideEffects": [
-        "Very safe",
-        "Skin discoloration at very high doses (carotenodermia)"
+        "Orange skin pigmentation at high doses",
+        "GI upset",
+        "Dark-colored stools"
       ],
       "interactions": [
-        "No significant interactions"
+        "Blood thinners (theoretical)",
+        "Hormone medications"
       ],
       "evidence": 4,
       "popularity": 4,
       "references": [
         {
-          "title": "Astaxanthin Antioxidant",
+          "title": "Astaxanthin antioxidant and health",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/16234178/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21281504/"
         }
       ],
       "goals": [
-        "Skin health",
+        "Longevity",
         "Eye health",
-        "Athletic performance",
-        "Antioxidant support"
+        "Skin health",
+        "Sports performance"
       ]
     },
     {
@@ -11756,73 +11545,74 @@
       ]
     },
     {
-      "id": "lycopene",
+      "id": "lycopene-supplement",
       "name": "Lycopene",
-      "classification": "Carotenoid Antioxidant",
+      "classification": "Polyphenol/Longevity",
       "emoji": "🍅",
-      "summary": "A red carotenoid concentrated in tomatoes with potent antioxidant activity and evidence for prostate cancer prevention.",
-      "shortDesc": "Prostate-protective red antioxidant from tomatoes.",
+      "summary": "A red carotenoid from tomatoes with powerful antioxidant properties preferentially protecting against prostate cancer, cardiovascular disease, and UV-induced skin damage.",
+      "shortDesc": "Tomato carotenoid antioxidant for prostate health, cardiovascular, and skin protection.",
       "benefits": [
         "Prostate cancer prevention",
-        "Antioxidant",
         "Cardiovascular protection",
-        "Skin protection",
+        "Skin UV protection",
+        "LDL oxidation reduction",
+        "Bone density preservation",
         "Anti-inflammatory"
       ],
       "dosage": {
         "male": "10–30 mg/day",
-        "female": "10–25 mg/day",
+        "female": "10–30 mg/day",
         "beginner": "10 mg/day",
-        "upperLimit": "75 mg/day"
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Tomato-derived Lycopene",
+          "name": "Lycopene from Tomato Extract",
           "bioavailability": "High",
-          "bestFor": "Prostate, antioxidant",
-          "notes": "Natural cis-isomers from tomato paste."
+          "bestFor": "Prostate, cardiovascular, skin",
+          "notes": "Standardized tomato oleoresin."
         },
         {
-          "name": "Synthetic all-trans Lycopene",
-          "bioavailability": "Moderate",
-          "bestFor": "Budget",
-          "notes": "Less bioavailable cis isomers than food-derived."
+          "name": "LycoRed (natural tomato lycopene)",
+          "bioavailability": "Very High",
+          "bestFor": "Highest bioavailability lycopene",
+          "notes": "Oil-suspended natural lycopene complex."
         },
         {
-          "name": "Lycopene + Selenium",
-          "bioavailability": "High",
-          "bestFor": "Prostate protection",
-          "notes": "Synergistic combination."
+          "name": "Cooked Tomato Products",
+          "bioavailability": "Moderate (food source)",
+          "bestFor": "General antioxidant, prostate prevention",
+          "notes": "Cooking breaks down cell walls; increases lycopene release."
         }
       ],
-      "mechanism": "Quenches singlet O2 and peroxyl radicals; inhibits androgen signaling in prostate; reduces LDL oxidation.",
+      "mechanism": "Concentrated in prostate, adrenal, and testes; quenches singlet oxygen 2x more potently than beta-carotene; inhibits IGF-1 signaling in prostate cells; reduces LDL oxidation via lipoprotein protection.",
       "bestTime": "With meals",
-      "withFood": "With fat",
+      "withFood": "Required — fat-soluble carotenoid; cooked with oil is best",
       "synergies": [
-        "Selenium",
         "Vitamin E",
-        "Astaxanthin"
+        "Astaxanthin",
+        "Lutein",
+        "Omega-3"
       ],
       "sideEffects": [
-        "GI upset at high doses",
-        "Carotenodermia (skin reddening)"
+        "Lycopenemia (skin orangeness) at very high doses",
+        "GI upset"
       ],
-      "interactions": [
-        "No significant interactions"
-      ],
-      "evidence": 3,
+      "interactions": [],
+      "evidence": 4,
       "popularity": 3,
       "references": [
         {
-          "title": "Lycopene Prostate Cancer",
+          "title": "Lycopene and prostate cancer prevention",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/11194549/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10952783/"
         }
       ],
       "goals": [
-        "Prostate health",
-        "Antioxidant support",
-        "Heart health"
+        "Men's health",
+        "Cancer prevention",
+        "Heart health",
+        "Skin health"
       ]
     },
     {
@@ -11894,73 +11684,71 @@
       ]
     },
     {
-      "id": "msm",
+      "id": "msm-methylsulfonylmethane",
       "name": "MSM (Methylsulfonylmethane)",
-      "classification": "Sulfur Compound",
+      "classification": "Sports Nutrition",
       "emoji": "🦴",
-      "summary": "Organic sulfur compound supporting joint cartilage, reducing oxidative stress, and improving exercise recovery.",
-      "shortDesc": "Sulfur donor for joints, tendons, and recovery.",
+      "summary": "An organic sulfur compound with potent anti-inflammatory properties, widely used for joint pain, arthritis, muscle recovery, and skin/hair health.",
+      "shortDesc": "Organic sulfur for joint pain, anti-inflammation, and connective tissue support.",
       "benefits": [
-        "Joint pain relief",
-        "Cartilage support",
-        "Antioxidant",
-        "Allergy relief",
-        "Exercise recovery"
+        "Joint pain reduction",
+        "Anti-inflammatory",
+        "Muscle soreness reduction",
+        "Skin health",
+        "Allergy symptom relief",
+        "Antioxidant (glutathione precursor)"
       ],
       "dosage": {
-        "male": "1000–3000 mg/day",
-        "female": "1000–3000 mg/day",
+        "male": "1000–6000 mg/day",
+        "female": "1000–4000 mg/day",
         "beginner": "1000 mg/day",
-        "upperLimit": "6000 mg/day"
+        "upperLimit": "10 g/day"
       },
       "forms": [
         {
-          "name": "OptiMSM (distilled MSM)",
+          "name": "MSM Powder (OptiMSM, pure)",
           "bioavailability": "High",
-          "bestFor": "Premium purity",
-          "notes": "Highest purity; most bioavailable."
+          "bestFor": "Joint pain, inflammation, recovery",
+          "notes": "OptiMSM is distillation-purified; purest form."
         },
         {
-          "name": "MSM (crystallized)",
+          "name": "MSM Capsules",
           "bioavailability": "High",
-          "bestFor": "General joint support",
-          "notes": "Standard form."
-        },
-        {
-          "name": "MSM + Glucosamine + Chondroitin",
-          "bioavailability": "High",
-          "bestFor": "Comprehensive joint formula",
-          "notes": "Combined joint complex."
+          "bestFor": "Convenience",
+          "notes": "Same efficacy as powder form."
         }
       ],
-      "mechanism": "Provides bioavailable sulfur for glycosaminoglycan synthesis in cartilage; reduces NF-κB-driven joint inflammation; SAM donor.",
-      "bestTime": "With meals",
-      "withFood": "With food",
+      "mechanism": "Provides bioavailable sulfur for glutathione and amino acid synthesis; inhibits NF-kB and COX-2; reduces hydrogen peroxide production; supports collagen cross-linking.",
+      "bestTime": "With meals, split doses",
+      "withFood": "With food to reduce GI upset",
       "synergies": [
         "Glucosamine",
         "Chondroitin",
+        "Collagen",
+        "Vitamin C",
         "Boswellia"
       ],
       "sideEffects": [
-        "GI upset",
-        "Headache initially",
-        "Mild detox reaction"
+        "Mild GI upset",
+        "Headache initially (detox reaction)",
+        "Insomnia if taken late"
       ],
       "interactions": [
-        "Blood thinners (mild antiplatelet)"
+        "Blood thinners (theoretical sulfur interaction)"
       ],
-      "evidence": 3,
+      "evidence": 4,
       "popularity": 4,
       "references": [
         {
-          "title": "MSM Joint Pain",
+          "title": "MSM for joint pain and inflammation",
           "source": "PubMed",
           "url": "https://pubmed.ncbi.nlm.nih.gov/16309928/"
         }
       ],
       "goals": [
         "Joint health",
-        "Athletic performance"
+        "Recovery",
+        "Skin health"
       ]
     },
     {
@@ -13110,65 +12898,64 @@
       ]
     },
     {
-      "id": "plant-protein-pea",
+      "id": "pea-protein",
       "name": "Pea Protein Isolate",
       "classification": "Sports Nutrition",
       "emoji": "🫛",
-      "summary": "A vegan complete protein from yellow peas with high leucine content comparable to whey for muscle building.",
-      "shortDesc": "Vegan complete protein rivaling whey.",
+      "summary": "A plant-derived protein from yellow split peas with a complete amino acid profile, hypoallergenic properties, and clinical evidence for muscle gain comparable to whey protein.",
+      "shortDesc": "Complete plant protein comparable to whey for muscle gain without dairy allergens.",
       "benefits": [
-        "Muscle protein synthesis",
-        "Recovery",
-        "Vegan protein",
-        "Satiety"
+        "Muscle protein synthesis (comparable to whey)",
+        "Hypoallergenic",
+        "Kidney-friendly",
+        "Satiety improvement",
+        "Blood pressure reduction (pea peptides)"
       ],
       "dosage": {
-        "male": "25–40 g/day",
-        "female": "20–30 g/day",
+        "male": "25–50 g/day",
+        "female": "20–40 g/day",
         "beginner": "25 g/day",
         "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Pea Protein Isolate (85%+)",
+          "name": "Pea Protein Isolate (85–90% protein)",
           "bioavailability": "High",
-          "bestFor": "Vegan MPS",
-          "notes": "Best plant protein for muscle building."
+          "bestFor": "Vegan muscle building, allergy-friendly protein",
+          "notes": "Most concentrated form; low FODMAP."
         },
         {
-          "name": "Pea + Rice Protein Blend (70:30)",
-          "bioavailability": "High",
-          "bestFor": "Complete amino profile",
-          "notes": "Combines pea and rice for full amino spectrum."
+          "name": "Pea Protein Concentrate (80% protein)",
+          "bioavailability": "Moderate-High",
+          "bestFor": "General use, slightly more fiber",
+          "notes": "Lower cost; contains more oligosaccharides."
         }
       ],
-      "mechanism": "Pea protein provides ~8% leucine; methionine is limiting AA (corrected by rice blend); digestibility ~93% vs whey 99%.",
-      "bestTime": "Post-workout",
+      "mechanism": "BCAA content (high arginine, moderate leucine) stimulates mTOR; pea peptides inhibit ACE for blood pressure; slower gastric emptying vs whey provides sustained amino acid release.",
+      "bestTime": "Post-workout or between meals",
       "withFood": "With or without food",
       "synergies": [
-        "Creatine",
-        "Leucine",
-        "B12"
+        "Rice Protein (complete amino acid combo)",
+        "Leucine supplement",
+        "Creatine"
       ],
       "sideEffects": [
-        "GI upset",
-        "Bloating",
-        "Heavy metal contamination risk in poor quality"
+        "Gas and bloating in some individuals",
+        "GI upset at high doses"
       ],
-      "interactions": [
-        "No significant interactions"
-      ],
+      "interactions": [],
       "evidence": 4,
       "popularity": 4,
       "references": [
         {
-          "title": "Pea Protein vs Whey",
+          "title": "Pea protein vs whey muscle gains",
           "source": "PubMed",
           "url": "https://pubmed.ncbi.nlm.nih.gov/25628520/"
         }
       ],
       "goals": [
-        "Build muscle",
+        "Muscle building",
+        "Sports performance",
         "Weight management"
       ]
     },
@@ -13750,71 +13537,74 @@
       ]
     },
     {
-      "id": "pregnenolone",
+      "id": "pregnenolone-supplement",
       "name": "Pregnenolone",
-      "classification": "Prohormone / Neurosteroid",
-      "emoji": "🧠",
-      "summary": "The mother of all steroid hormones, pregnenolone serves as precursor to DHEA, progesterone, cortisol, and neurosteroids.",
-      "shortDesc": "Master neurosteroid and steroid hormone precursor.",
+      "classification": "Polyphenol/Longevity",
+      "emoji": "🧬",
+      "summary": "A neurosteroid and precursor to all steroid hormones including DHEA, progesterone, and cortisol, with memory-enhancing and mood-stabilizing properties via GABA and NMDA receptor modulation.",
+      "shortDesc": "Mother of all steroid hormones; neurosteroid for memory, mood, and hormonal balance.",
       "benefits": [
         "Memory enhancement",
-        "DHEA/progesterone precursor",
-        "Mood",
-        "Fatigue",
-        "Neurogenesis"
+        "Mood stabilization",
+        "Hormonal precursor",
+        "Neuroprotection",
+        "Arthritis symptom relief",
+        "Fatigue reduction"
       ],
       "dosage": {
         "male": "10–50 mg/day",
-        "female": "5–25 mg/day",
+        "female": "10–30 mg/day",
         "beginner": "10 mg/day",
         "upperLimit": "100 mg/day"
       },
       "forms": [
         {
-          "name": "Pregnenolone micronized",
+          "name": "Pregnenolone (micronized)",
           "bioavailability": "High",
-          "bestFor": "Neurosteroid, general",
-          "notes": "Best absorbed form."
+          "bestFor": "Memory, mood, hormonal support",
+          "notes": "Best absorbed as micronized powder."
         },
         {
-          "name": "Pregnenolone sublingual",
+          "name": "Pregnenolone (sublingual)",
           "bioavailability": "Very High",
-          "bestFor": "Fastest onset",
-          "notes": "Bypasses first-pass metabolism."
+          "bestFor": "Rapid neurosteroid effects",
+          "notes": "Faster onset via sublingual route."
         }
       ],
-      "mechanism": "Pregnenolone modulates GABA-A and NMDA receptors directly; converted to DHEA, progesterone, cortisol by tissue-specific enzymes.",
-      "bestTime": "Morning",
-      "withFood": "With fat",
+      "mechanism": "Precursor to all steroid hormones via the cholesterol → pregnenolone step; acts directly as neurosteroid at GABAA (inhibits), NMDA (modulates), and sigma-1 receptors; potentiates memory consolidation in hippocampus.",
+      "bestTime": "Morning with food",
+      "withFood": "With fat-containing food",
       "synergies": [
         "DHEA",
-        "Vitamin D",
+        "Progesterone",
+        "Vitamin D3",
         "Phosphatidylserine"
       ],
       "sideEffects": [
+        "Overstimulation/insomnia at high doses",
         "Acne",
-        "Anxiety",
-        "Insomnia",
-        "Palpitations",
-        "Hormone-sensitive conditions"
+        "Hair loss",
+        "Possible anxiety",
+        "Hormonal imbalance"
       ],
       "interactions": [
-        "Hormone replacement",
+        "Hormone therapies",
         "Corticosteroids",
-        "Anticoagulants"
+        "Sedatives (opposes GABA)"
       ],
-      "evidence": 2,
-      "popularity": 2,
+      "evidence": 3,
+      "popularity": 3,
       "references": [
         {
-          "title": "Pregnenolone Memory",
+          "title": "Pregnenolone neurosteroid review",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/9221788/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10454453/"
         }
       ],
       "goals": [
         "Brain health",
-        "Hormonal balance"
+        "Hormonal support",
+        "Energy"
       ]
     },
     {
@@ -14294,77 +14084,79 @@
       ]
     },
     {
-      "id": "green-tea-extract",
+      "id": "green-tea-egcg",
       "name": "Green Tea Extract (EGCG)",
-      "classification": "Thermogenic / Antioxidant",
+      "classification": "Polyphenol/Longevity",
       "emoji": "🍵",
-      "summary": "EGCG and catechins in green tea extract inhibit COMT (the enzyme that breaks down adrenaline) boosting fat oxidation.",
-      "shortDesc": "Thermogenic antioxidant and fat oxidation booster.",
+      "summary": "The primary polyphenol in green tea with broad anti-cancer, antioxidant, metabolic, and neuroprotective properties, also used for fat oxidation and cardiovascular health.",
+      "shortDesc": "EGCG catechin for metabolism, cancer prevention, and antioxidant defense.",
       "benefits": [
-        "Fat oxidation",
-        "Thermogenesis",
-        "Antioxidant",
-        "Cardiovascular health",
-        "Cognitive function"
+        "EGCG antioxidant",
+        "Fat oxidation enhancement",
+        "Cardiovascular protection",
+        "Anti-cancer properties",
+        "Blood sugar regulation",
+        "Neuroprotection"
       ],
       "dosage": {
-        "male": "400–800 mg EGCG/day",
-        "female": "400–800 mg/day",
-        "beginner": "400 mg/day",
-        "upperLimit": "800 mg/day"
+        "male": "200–800 mg EGCG/day",
+        "female": "200–600 mg/day",
+        "beginner": "200 mg/day",
+        "upperLimit": "800 mg EGCG/day"
       },
       "forms": [
         {
           "name": "Green Tea Extract (50% EGCG)",
-          "bioavailability": "High",
-          "bestFor": "Fat loss, antioxidant",
-          "notes": "Standardized catechin extract."
+          "bioavailability": "Moderate-High",
+          "bestFor": "General health, antioxidant, metabolism",
+          "notes": "Standardized to EGCG content."
         },
         {
-          "name": "Decaffeinated GTE",
-          "bioavailability": "High",
-          "bestFor": "Caffeine-sensitive use",
-          "notes": "EGCG without caffeine."
+          "name": "Decaffeinated Green Tea Extract",
+          "bioavailability": "Moderate-High",
+          "bestFor": "EGCG without caffeine",
+          "notes": "Better for afternoon/evening use."
         },
         {
-          "name": "Matcha powder",
+          "name": "Matcha Powder (whole leaf)",
           "bioavailability": "Moderate",
-          "bestFor": "Whole food source",
-          "notes": "Whole leaf; contains L-theanine."
+          "bestFor": "Food-form EGCG with L-theanine",
+          "notes": "Contains both EGCG and L-theanine for calm focus."
         }
       ],
-      "mechanism": "EGCG inhibits COMT prolonging catecholamine action; inhibits fatty acid synthase; activates AMPK.",
-      "bestTime": "Before meals or exercise",
-      "withFood": "With food (reduces GI irritation)",
+      "mechanism": "EGCG inhibits catechol-O-methyltransferase (COMT) to extend catecholamine effects; inhibits FASN for anti-cancer and fat reduction; activates AMPK; chelates metal ions.",
+      "bestTime": "Morning or before exercise",
+      "withFood": "Between meals on empty stomach for best absorption (food reduces EGCG absorption)",
       "synergies": [
-        "Caffeine",
-        "CLA",
-        "L-Carnitine"
+        "Caffeine (synergistic fat oxidation)",
+        "Piperine",
+        "Vitamin C",
+        "Quercetin"
       ],
       "sideEffects": [
+        "Liver toxicity at very high doses (>800 mg EGCG fasted)",
         "GI upset",
-        "Liver toxicity at very high doses",
-        "Iron absorption reduction"
+        "Iron absorption inhibition"
       ],
       "interactions": [
-        "Blood thinners",
-        "Iron supplements",
-        "Stimulants",
-        "Bortezomib"
+        "Iron supplements (take apart)",
+        "Warfarin",
+        "Statins"
       ],
-      "evidence": 4,
-      "popularity": 4,
+      "evidence": 5,
+      "popularity": 5,
       "references": [
         {
-          "title": "EGCG Fat Oxidation",
+          "title": "Green tea EGCG health effects",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/10584049/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10552882/"
         }
       ],
       "goals": [
         "Weight management",
-        "Antioxidant support",
-        "Heart health"
+        "Heart health",
+        "Longevity",
+        "Cancer prevention"
       ]
     },
     {
@@ -14708,65 +14500,66 @@
       ]
     },
     {
-      "id": "collagen-type2",
+      "id": "collagen-type-2",
       "name": "Type II Collagen (UC-II)",
-      "classification": "Structural Protein",
-      "emoji": "🦴",
-      "summary": "Undenatured type II collagen works via oral tolerance to suppress cartilage autoimmunity in osteoarthritis.",
-      "shortDesc": "Joint cartilage collagen via immune tolerance.",
+      "classification": "Sports Nutrition",
+      "emoji": "🦵",
+      "summary": "Native undenatured type II collagen from chicken sternum that works via oral tolerance to reduce knee joint pain and stiffness through a unique immunomodulatory mechanism.",
+      "shortDesc": "Undenatured chicken collagen for joint pain via immune tolerance at 40 mg/day.",
       "benefits": [
-        "Cartilage preservation",
-        "Osteoarthritis relief",
-        "Joint flexibility",
-        "Immune tolerance"
+        "Knee joint pain reduction",
+        "Improved joint mobility",
+        "Cartilage protection",
+        "Anti-inflammatory joint effect"
       ],
       "dosage": {
-        "male": "40 mg UC-II or 10 g hydrolyzed/day",
-        "female": "40 mg UC-II or 10 g/day",
-        "beginner": "40 mg UC-II",
-        "upperLimit": "No established UL"
+        "male": "40 mg/day (UC-II)",
+        "female": "40 mg/day",
+        "beginner": "40 mg/day",
+        "upperLimit": "80 mg/day"
       },
       "forms": [
         {
-          "name": "UC-II (undenatured, 40mg)",
-          "bioavailability": "High",
-          "bestFor": "Articular cartilage immune tolerance",
-          "notes": "Patented; induces Treg cells in Peyer's patches."
+          "name": "UC-II (undenatured type II collagen)",
+          "bioavailability": "High (oral tolerance)",
+          "bestFor": "Joint pain, osteoarthritis, athletic joints",
+          "notes": "Only 40 mg required; different mechanism from hydrolyzed collagen."
         },
         {
           "name": "Hydrolyzed Type II Collagen",
-          "bioavailability": "High",
-          "bestFor": "Cartilage amino acids",
-          "notes": "Provides raw material for cartilage matrix."
+          "bioavailability": "Moderate",
+          "bestFor": "Joint cartilage support",
+          "notes": "Digested form; requires higher doses (10+ grams)."
         }
       ],
-      "mechanism": "Undenatured triple helix in Peyer's patches activates T-regulatory cells suppressing cytokines attacking cartilage collagen.",
-      "bestTime": "On empty stomach (UC-II)",
-      "withFood": "Without food for UC-II; with food for hydrolyzed",
+      "mechanism": "Undenatured collagen induces oral immune tolerance in gut-associated lymphoid tissue (GALT) — regulatory T cells then suppress cartilage-attacking inflammation in joints.",
+      "bestTime": "On empty stomach (critical for oral tolerance)",
+      "withFood": "Must take on empty stomach",
       "synergies": [
-        "Glucosamine",
-        "Chondroitin",
-        "MSM"
+        "Hyaluronic Acid",
+        "Boron",
+        "MSM",
+        "Vitamin C"
       ],
       "sideEffects": [
-        "GI upset",
-        "Rare allergic reaction (chicken-derived)"
+        "Generally very well tolerated"
       ],
       "interactions": [
-        "Immunosuppressants"
+        "Immunosuppressants (may reduce efficacy)"
       ],
       "evidence": 4,
-      "popularity": 4,
+      "popularity": 3,
       "references": [
         {
-          "title": "UC-II Joint Health",
+          "title": "UC-II collagen and joint pain",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23795497/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17076983/"
         }
       ],
       "goals": [
         "Joint health",
-        "Anti-inflammation"
+        "Sports performance",
+        "Injury prevention"
       ]
     },
     {
@@ -16236,69 +16029,78 @@
       ]
     },
     {
-      "id": "aged-garlic-kyolic",
+      "id": "aged-garlic-extract",
       "name": "Aged Garlic Extract (Kyolic)",
       "classification": "Herbal Extract",
       "emoji": "🧄",
-      "summary": "Aged for 20 months at room temperature, Kyolic garlic converts unstable allicin to stable S-allyl compounds without odor.",
-      "shortDesc": "Odorless aged garlic for cardiovascular health.",
+      "summary": "An odorless garlic supplement aged 20 months to convert harsh allicin into stable S-allylcysteine, with superior cardiovascular, immune, and anti-cancer benefits over raw garlic.",
+      "shortDesc": "Odorless aged garlic with stable S-allylcysteine for heart, immunity, and cancer prevention.",
       "benefits": [
-        "LDL oxidation prevention",
-        "Blood pressure",
-        "Platelet aggregation",
-        "Immune support",
+        "Blood pressure reduction",
+        "LDL cholesterol reduction",
+        "Platelet aggregation inhibition",
+        "Immune activation",
+        "Anti-cancer (organosulfur compounds)",
         "Anti-aging"
       ],
       "dosage": {
-        "male": "600–1800 mg/day",
-        "female": "600–1800 mg/day",
-        "beginner": "600 mg/day",
-        "upperLimit": "5000 mg/day"
+        "male": "600–1200 mg/day",
+        "female": "600 mg/day",
+        "beginner": "300 mg/day",
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Kyolic Aged Garlic Extract (AGE)",
-          "bioavailability": "High",
-          "bestFor": "Cardiovascular, immune",
-          "notes": "20-month aging; odorless S-allyl cysteine."
+          "name": "Aged Garlic Extract (Kyolic)",
+          "bioavailability": "High (stable SAC)",
+          "bestFor": "Cardiovascular, immune, cancer prevention",
+          "notes": "S-allylcysteine stable and odorless; most studied form."
         },
         {
-          "name": "Kyolic Formula 100 (with yeast)",
-          "bioavailability": "High",
-          "bestFor": "Comprehensive cardiovascular",
-          "notes": "Includes B vitamins."
+          "name": "Raw Garlic (allicin)",
+          "bioavailability": "Low (unstable)",
+          "bestFor": "Antimicrobial, acute effects",
+          "notes": "Allicin unstable; degrades rapidly."
+        },
+        {
+          "name": "Allicin Powder (stabilized)",
+          "bioavailability": "Moderate",
+          "bestFor": "Antimicrobial, acute cardiovascular",
+          "notes": "Stabilized allicin preparation."
         }
       ],
-      "mechanism": "S-allyl cysteine (SAC) inhibits HMG-CoA reductase; SAC and S-allyl mercaptocysteine prevent LDL oxidation; reduce PAF-mediated platelet activation.",
+      "mechanism": "SAC inhibits HMG-CoA reductase; organosulfur compounds inhibit platelet aggregation; activation of NK cells and macrophages; inhibit NF-kB; H2S vasodilation.",
       "bestTime": "With meals",
       "withFood": "With food",
       "synergies": [
         "CoQ10",
         "Omega-3",
+        "B vitamins",
         "Vitamin C"
       ],
       "sideEffects": [
-        "Blood thinning",
-        "Headache",
-        "GI upset (minimal vs fresh garlic)"
+        "Odorless — minimal",
+        "GI upset at high doses",
+        "Blood-thinning"
       ],
       "interactions": [
-        "Warfarin",
-        "Antiplatelet drugs",
+        "Blood thinners",
+        "HIV medications (ritonavir)",
         "Saquinavir"
       ],
-      "evidence": 4,
+      "evidence": 5,
       "popularity": 4,
       "references": [
         {
-          "title": "Aged Garlic Cardiovascular",
+          "title": "Aged garlic extract cardiovascular",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26195414/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26764326/"
         }
       ],
       "goals": [
         "Heart health",
-        "Stronger immunity"
+        "Immune support",
+        "Blood pressure"
       ]
     },
     {
@@ -16721,68 +16523,68 @@
       ]
     },
     {
-      "id": "ribose-d-ribose",
+      "id": "d-ribose",
       "name": "D-Ribose",
-      "classification": "Energy Sugar",
+      "classification": "Sports Nutrition",
       "emoji": "⚡",
-      "summary": "A pentose sugar that bypasses the rate-limiting step in ATP synthesis, rapidly replenishing energy in heart and muscle cells.",
-      "shortDesc": "ATP precursor for rapid energy recovery post-exercise.",
+      "summary": "A naturally occurring 5-carbon sugar that is the structural backbone of ATP and RNA, used therapeutically for cardiac energy recovery and exercise performance.",
+      "shortDesc": "ATP backbone sugar for cardiac energy, fibromyalgia, and recovery.",
       "benefits": [
-        "ATP replenishment",
+        "ATP regeneration",
+        "Cardiac energy recovery",
+        "Fibromyalgia energy support",
         "Exercise recovery",
-        "Cardiac energy",
-        "Fibromyalgia fatigue",
-        "Performance"
+        "Reduced muscle soreness"
       ],
       "dosage": {
         "male": "5–15 g/day",
         "female": "5–10 g/day",
         "beginner": "5 g/day",
-        "upperLimit": "30 g/day"
+        "upperLimit": "20 g/day"
       },
       "forms": [
         {
-          "name": "D-Ribose powder",
-          "bioavailability": "Very High",
-          "bestFor": "Energy, cardiac, fibromyalgia",
-          "notes": "Most common; mix in water."
+          "name": "D-Ribose Powder",
+          "bioavailability": "High",
+          "bestFor": "Cardiac health, energy recovery, fibromyalgia",
+          "notes": "Dissolves well in water; sweet taste."
         },
         {
-          "name": "D-Ribose capsules",
+          "name": "D-Ribose Capsules",
           "bioavailability": "High",
-          "bestFor": "Convenient",
-          "notes": "Pre-measured doses."
+          "bestFor": "Convenience",
+          "notes": "Standard capsule form."
         }
       ],
-      "mechanism": "Ribose-5-phosphate is obligatory precursor for de novo purine nucleotide synthesis; rate-limiting step bypassed by exogenous ribose.",
-      "bestTime": "Post-workout or morning",
-      "withFood": "With water or food",
+      "mechanism": "Pentose phosphate pathway substrate for ATP de novo synthesis; replenishes adenine nucleotide pool in cardiac and skeletal muscle.",
+      "bestTime": "Pre- and post-exercise; morning for energy",
+      "withFood": "With or without food",
       "synergies": [
         "CoQ10",
+        "L-Carnitine",
         "Magnesium Malate",
-        "ALCAR"
+        "B vitamins"
       ],
       "sideEffects": [
-        "Hypoglycemia (lowers blood sugar)",
-        "GI upset at high doses",
-        "Headache"
+        "Hypoglycemia at high doses (lowers blood sugar)",
+        "GI upset"
       ],
       "interactions": [
-        "Diabetes medications",
-        "Blood thinners"
+        "Insulin",
+        "Diabetes medications"
       ],
       "evidence": 3,
       "popularity": 3,
       "references": [
         {
-          "title": "D-Ribose Cardiac Energy",
+          "title": "D-ribose and cardiac recovery",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/12448777/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12006126/"
         }
       ],
       "goals": [
-        "More energy",
-        "Athletic performance",
+        "Energy",
+        "Sports performance",
         "Heart health"
       ]
     },
@@ -16860,75 +16662,68 @@
       ]
     },
     {
-      "id": "evening-primrose",
+      "id": "evening-primrose-oil",
       "name": "Evening Primrose Oil (GLA)",
-      "classification": "Women's Health / Fatty Acid",
-      "emoji": "🌸",
-      "summary": "GLA in evening primrose converts to DGLA inhibiting inflammatory prostaglandins, useful for PMS and breast pain.",
-      "shortDesc": "GLA fatty acid for PMS, breast pain, and skin.",
+      "classification": "Herbal Extract",
+      "emoji": "🌼",
+      "summary": "A seed oil exceptionally rich in gamma-linolenic acid (GLA), used for hormonal balance, eczema, PMS, breast pain, and rheumatoid arthritis.",
+      "shortDesc": "High-GLA oil for PMS, eczema, hormonal balance, and joint inflammation.",
       "benefits": [
-        "PMS relief",
+        "PMS symptom relief",
+        "Eczema and skin inflammation",
         "Breast pain (mastalgia)",
-        "Skin eczema",
-        "Menopausal symptoms",
-        "Anti-inflammatory"
+        "Rheumatoid arthritis",
+        "Hormonal balance",
+        "Nerve pain (diabetic neuropathy)"
       ],
       "dosage": {
-        "male": "3000–6000 mg/day",
-        "female": "3000–6000 mg/day",
-        "beginner": "1000 mg/day",
-        "upperLimit": "8000 mg/day"
+        "male": "1–3 g/day",
+        "female": "1–4 g/day",
+        "beginner": "1 g/day",
+        "upperLimit": "8 g/day"
       },
       "forms": [
         {
-          "name": "Evening Primrose Oil (9% GLA)",
+          "name": "Evening Primrose Oil Softgel",
           "bioavailability": "High",
-          "bestFor": "PMS, skin",
-          "notes": "Standard EPO supplement."
-        },
-        {
-          "name": "Borage Oil (23% GLA)",
-          "bioavailability": "High",
-          "bestFor": "Higher GLA per capsule",
-          "notes": "More concentrated GLA source."
-        },
-        {
-          "name": "Black Currant Oil (15–20% GLA)",
-          "bioavailability": "High",
-          "bestFor": "Balanced omega-6",
-          "notes": "Contains both GLA and SDA."
+          "bestFor": "PMS, eczema, breast pain, hormones",
+          "notes": "Standardized to 8–10% GLA content."
         }
       ],
-      "mechanism": "GLA elongated to DGLA competes with arachidonic acid; DGLA-derived PGE1 reduces PGE2 and LTB4 pro-inflammatory mediators.",
+      "mechanism": "GLA → DGLA → PGE1 (anti-inflammatory) and 15-HETrE (5-LOX inhibitor); competes with arachidonic acid; may modulate prolactin sensitivity in breast tissue.",
       "bestTime": "With meals",
       "withFood": "With fat-containing food",
       "synergies": [
-        "Omega-3",
-        "Vitamin B6",
-        "Magnesium"
+        "Omega-3 EPA/DHA",
+        "Vitamin E",
+        "Zinc",
+        "B6"
       ],
       "sideEffects": [
         "GI upset",
-        "Blood thinning",
-        "May worsen seizures in schizophrenia (on phenothiazines)"
+        "Headache",
+        "Blood-thinning",
+        "Possible seizure threshold lowering (high doses)"
       ],
       "interactions": [
-        "Anticoagulants",
-        "Antiplatelet drugs",
-        "Phenothiazine antipsychotics"
+        "Blood thinners",
+        "Anticonvulsants",
+        "Phenothiazines"
       ],
-      "evidence": 3,
-      "popularity": 3,
+      "evidence": 4,
+      "popularity": 4,
       "references": [
         {
-          "title": "Evening Primrose PMS",
+          "title": "Evening primrose oil PMS and eczema",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/8960882/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8250682/"
         }
       ],
       "goals": [
-        "Hormonal balance",
-        "Skin health"
+        "Women's health",
+        "Skin health",
+        "Anti-inflammatory",
+        "Hormonal balance"
       ]
     },
     {
@@ -17682,79 +17477,86 @@
       ]
     },
     {
-      "id": "acetylcholine-support",
+      "id": "choline-bitartrate",
       "name": "Choline Bitartrate",
-      "classification": "Choline Source",
+      "classification": "Water-Soluble Vitamin",
       "emoji": "🧠",
-      "summary": "A water-soluble choline salt providing acetylcholine precursor at the most affordable cost, though with modest CNS uptake.",
-      "shortDesc": "Budget choline source for acetylcholine synthesis.",
+      "summary": "An essential nutrient and precursor to acetylcholine and phosphatidylcholine, supporting cognitive function, liver health, and muscle performance.",
+      "shortDesc": "Essential nutrient for brain function and liver health.",
       "benefits": [
         "Acetylcholine synthesis",
-        "Liver fat (NAFLD prevention)",
-        "Fetal brain development",
-        "Memory"
+        "Liver fat metabolism",
+        "Memory support",
+        "Muscle function"
       ],
       "dosage": {
-        "male": "400–1000 mg/day",
-        "female": "400–1000 mg/day",
-        "beginner": "400 mg/day",
+        "male": "550 mg/day",
+        "female": "425 mg/day",
+        "beginner": "250 mg/day",
         "upperLimit": "3500 mg/day"
       },
       "forms": [
         {
           "name": "Choline Bitartrate",
-          "bioavailability": "Low–Moderate (CNS)",
-          "bestFor": "Budget choline, liver",
-          "notes": "Most affordable; limited BBB crossing."
-        },
-        {
-          "name": "Choline Chloride",
           "bioavailability": "Moderate",
-          "bestFor": "General choline",
-          "notes": "Common in animal feeds; human use."
-        },
-        {
-          "name": "CDP-Choline (Citicoline)",
-          "bioavailability": "High (CNS)",
-          "bestFor": "Best brain choline",
-          "notes": "Provides cytidine bonus; premium."
+          "bestFor": "General supplementation, liver health",
+          "notes": "Most affordable form; moderate brain penetration."
         },
         {
           "name": "Alpha-GPC",
-          "bioavailability": "High (CNS)",
-          "bestFor": "Best for brain + performance",
-          "notes": "Highest BBB crossing."
+          "bioavailability": "High",
+          "bestFor": "Cognitive enhancement, sports performance",
+          "notes": "Superior brain bioavailability."
+        },
+        {
+          "name": "CDP-Choline (Citicoline)",
+          "bioavailability": "High",
+          "bestFor": "Neuroprotection, focus",
+          "notes": "Also provides cytidine for RNA synthesis."
+        },
+        {
+          "name": "Phosphatidylcholine",
+          "bioavailability": "High",
+          "bestFor": "Liver health, membrane support",
+          "notes": "Found in lecithin; best for liver conditions."
+        },
+        {
+          "name": "DMAE",
+          "bioavailability": "Moderate",
+          "bestFor": "Mood, focus",
+          "notes": "Weaker choline precursor; crosses BBB easily."
         }
       ],
-      "mechanism": "Absorbed via intestinal CTL1/CTL2 transporters; phosphorylated to phosphocholine → CDP-choline → phosphatidylcholine; MAT-2 substrate.",
-      "bestTime": "Morning",
-      "withFood": "With food",
+      "mechanism": "Precursor to acetylcholine neurotransmitter and phosphatidylcholine membrane component.",
+      "bestTime": "Morning or pre-workout",
+      "withFood": "With or without food",
       "synergies": [
-        "Alpha-GPC",
+        "B12",
+        "Folate",
         "Inositol",
-        "B12"
+        "DHA"
       ],
       "sideEffects": [
-        "Fishy body odor at high doses",
+        "Fishy odor at high doses",
         "GI upset",
-        "Hypotension at very high doses"
+        "Headache if choline-sensitive"
       ],
       "interactions": [
-        "Anticholinergic drugs",
-        "Methotrexate"
+        "Anticholinergic medications"
       ],
-      "evidence": 3,
-      "popularity": 3,
+      "evidence": 4,
+      "popularity": 4,
       "references": [
         {
-          "title": "Choline Liver Health",
+          "title": "Choline and cognitive function",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26109578/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29540324/"
         }
       ],
       "goals": [
         "Brain health",
-        "Liver health"
+        "Liver health",
+        "Sports performance"
       ]
     },
     {
@@ -18763,75 +18565,72 @@
       ]
     },
     {
-      "id": "feverfew",
+      "id": "feverfew-extract",
       "name": "Feverfew (Tanacetum parthenium)",
       "classification": "Herbal Extract",
       "emoji": "🌼",
-      "summary": "Parthenolide in feverfew inhibits NF-κB, serotonin release, and platelet aggregation for migraine prevention.",
-      "shortDesc": "Migraine-prevention herb via NF-κB inhibition.",
+      "summary": "A chrysanthemum-family herb containing parthenolide that prevents migraines by inhibiting platelet aggregation, serotonin release, and inflammatory prostaglandin synthesis.",
+      "shortDesc": "Parthenolide-rich herb for migraine prevention and anti-inflammatory effects.",
       "benefits": [
         "Migraine prevention",
+        "Headache frequency reduction",
         "Anti-inflammatory",
         "Platelet aggregation inhibition",
         "Fever reduction",
-        "Arthritis"
+        "Arthritis support"
       ],
       "dosage": {
-        "male": "50–150 mg/day (0.2-0.35% parthenolide)",
+        "male": "50–150 mg/day (standardized 0.2% parthenolide)",
         "female": "50–150 mg/day",
         "beginner": "50 mg/day",
         "upperLimit": "300 mg/day"
       },
       "forms": [
         {
-          "name": "Feverfew Extract (0.7% parthenolide)",
-          "bioavailability": "High",
-          "bestFor": "Migraine prevention",
-          "notes": "Standardized parthenolide form."
+          "name": "Feverfew Extract (0.2% parthenolide)",
+          "bioavailability": "Moderate-High",
+          "bestFor": "Migraine prevention, anti-inflammatory",
+          "notes": "Standardized to parthenolide; most effective form."
         },
         {
-          "name": "Freeze-dried Feverfew leaf",
-          "bioavailability": "High",
-          "bestFor": "Traditional migraine",
-          "notes": "Fresh freeze-dried preserves parthenolide."
-        },
-        {
-          "name": "Feverfew CO2 extract",
-          "bioavailability": "High",
-          "bestFor": "Concentrated",
-          "notes": "Most potent extraction method."
+          "name": "Dried Feverfew Leaf",
+          "bioavailability": "Moderate",
+          "bestFor": "Traditional use, migraine prevention",
+          "notes": "Variable parthenolide content."
         }
       ],
-      "mechanism": "Parthenolide alkylates NF-κB subunits inhibiting inflammatory gene expression; inhibits serotonin release from platelets and neutrophil activity.",
-      "bestTime": "Daily with meals (preventive)",
+      "mechanism": "Parthenolide inhibits platelet aggregation, reduces serotonin release from platelets, inhibits NF-kB, suppresses arachidonic acid metabolism via PLA2 inhibition.",
+      "bestTime": "Daily continuous use for migraine prevention",
       "withFood": "With food",
       "synergies": [
         "Magnesium",
-        "Riboflavin",
-        "CoQ10"
+        "B2 (Riboflavin)",
+        "CoQ10",
+        "Ginger"
       ],
       "sideEffects": [
-        "Mouth ulcers",
+        "Rebound headache if stopped abruptly",
+        "Oral ulcers (with fresh leaf)",
         "GI upset",
-        "Rebound headache on discontinuation",
-        "Not in pregnancy"
+        "Possible uterine contraction"
       ],
       "interactions": [
         "Blood thinners",
         "NSAIDs",
-        "Iron"
+        "SSRIs"
       ],
-      "evidence": 3,
+      "evidence": 4,
       "popularity": 3,
       "references": [
         {
-          "title": "Feverfew Migraine",
+          "title": "Feverfew migraine prevention meta-analysis",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/2301383/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15109264/"
         }
       ],
       "goals": [
-        "Pain relief"
+        "Migraine relief",
+        "Anti-inflammatory"
       ]
     },
     {
@@ -19262,74 +19061,74 @@
       ]
     },
     {
-      "id": "shatavari",
+      "id": "shatavari-extract",
       "name": "Shatavari (Asparagus racemosus)",
       "classification": "Adaptogenic Herb",
-      "emoji": "🌿",
-      "summary": "Steroidal saponins (shatavarins) in shatavari support female reproductive health, milk production, and adrenal adaptation.",
-      "shortDesc": "Female adaptogen for hormones and lactation.",
+      "emoji": "🌱",
+      "summary": "A female tonic adaptogen from Ayurvedic medicine with steroidal saponins that support hormonal balance, lactation, fertility, menopausal symptoms, and immune function via estrogenic and adaptogenic activity.",
+      "shortDesc": "Ayurvedic female adaptogen for hormonal balance, lactation, and fertility support.",
       "benefits": [
-        "Female hormonal balance",
-        "Lactation support",
-        "Menopausal support",
-        "Adaptogenic",
-        "Gut health"
+        "Hormone balance (phytoestrogenic)",
+        "Lactation enhancement (galactagogue)",
+        "Fertility support",
+        "Menopausal symptom relief",
+        "Immune modulation",
+        "Adaptogenic stress response",
+        "Digestive soothing"
       ],
       "dosage": {
-        "male": "500–2000 mg/day",
+        "male": "500–1000 mg/day",
         "female": "500–2000 mg/day",
         "beginner": "500 mg/day",
-        "upperLimit": "5000 mg/day"
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Shatavari root extract (30% saponins)",
+          "name": "Shatavari Root Extract (standardized saponins)",
           "bioavailability": "High",
-          "bestFor": "Female hormones, lactation",
-          "notes": "Standardized form."
+          "bestFor": "Hormonal, lactation, fertility",
+          "notes": "Standardized for steroidal saponins (shatavarin I-IV)."
         },
         {
-          "name": "Shatavari root powder",
+          "name": "Shatavari Powder (churna)",
           "bioavailability": "Moderate",
-          "bestFor": "Traditional Ayurvedic",
-          "notes": "Traditional form in milk."
-        },
-        {
-          "name": "Shatavari liquid extract",
-          "bioavailability": "High",
-          "bestFor": "Faster absorption",
-          "notes": "Tincture form."
+          "bestFor": "Traditional Ayurvedic use, digestive",
+          "notes": "Mixed with warm milk per Ayurvedic tradition."
         }
       ],
-      "mechanism": "Shatavarins have estrogen-like activity via ERα; immunomodulatory polysaccharides; increases prolactin for lactation via dopamine modulation.",
-      "bestTime": "Morning or twice daily",
-      "withFood": "With warm milk (traditional) or food",
+      "mechanism": "Steroidal saponins (shatavarins) bind estrogen receptors → mild phytoestrogenic effects; stimulates prolactin secretion supporting lactation; modulates NK cell and macrophage activity; adaptogenic via HPA axis normalization; mucilaginous compounds soothe GI mucosa.",
+      "bestTime": "Morning and evening with warm milk or food",
+      "withFood": "With food or warm milk",
       "synergies": [
         "Ashwagandha",
-        "Maca",
-        "Vitex"
+        "Maca Root",
+        "Vitex Chaste Tree",
+        "Fenugreek"
       ],
       "sideEffects": [
-        "GI upset",
-        "Possible estrogen-sensitive conditions",
-        "Diuretic effect"
+        "Estrogenic effects (avoid in estrogen-sensitive cancers)",
+        "GI bloating",
+        "Possible weight changes",
+        "Avoid during pregnancy (high doses)"
       ],
       "interactions": [
-        "Hormone medications",
+        "Estrogen therapies",
         "Diuretics",
-        "Immunosuppressants"
+        "ACE inhibitors"
       ],
       "evidence": 3,
       "popularity": 3,
       "references": [
         {
-          "title": "Shatavari Female Health",
+          "title": "Shatavari review of pharmacological properties",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23552190/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23195984/"
         }
       ],
       "goals": [
-        "Hormonal balance"
+        "Women's health",
+        "Hormonal support",
+        "Immune support"
       ]
     },
     {
@@ -20326,76 +20125,79 @@
       ]
     },
     {
-      "id": "dim",
+      "id": "diindolylmethane",
       "name": "DIM (Diindolylmethane)",
-      "classification": "Cruciferous Metabolite",
+      "classification": "Polyphenol/Longevity",
       "emoji": "🥦",
-      "summary": "A cruciferous vegetable metabolite that shifts estrogen metabolism toward protective 2-OHE1 and away from harmful 16α-OHE1.",
-      "shortDesc": "Estrogen metabolism optimizer from broccoli.",
+      "summary": "A metabolite of indole-3-carbinol from cruciferous vegetables that modulates estrogen metabolism, supporting healthy estrogen ratios in both men and women.",
+      "shortDesc": "Cruciferous vegetable metabolite for estrogen balance and cancer prevention.",
       "benefits": [
-        "Estrogen 2-OHE1 increase",
-        "16α-OHE1 reduction",
-        "Anti-cancer",
-        "Hormone balance",
-        "Acne"
+        "Estrogen metabolism optimization",
+        "Anti-cancer properties",
+        "Testosterone support (via estrogen reduction)",
+        "Prostate health",
+        "PMS symptom relief"
       ],
       "dosage": {
-        "male": "100–200 mg/day",
-        "female": "100–400 mg/day",
+        "male": "100–300 mg/day",
+        "female": "100–200 mg/day",
         "beginner": "100 mg/day",
         "upperLimit": "600 mg/day"
       },
       "forms": [
         {
-          "name": "DIM (pure)",
-          "bioavailability": "Moderate",
-          "bestFor": "Estrogen metabolism",
-          "notes": "Standard supplement form."
+          "name": "DIM Free Form",
+          "bioavailability": "Moderate (lipid-soluble)",
+          "bestFor": "Estrogen modulation, prostate",
+          "notes": "Fat-soluble; best taken with fat-containing food."
         },
         {
-          "name": "BioResponse DIM® (absorbable)",
-          "bioavailability": "Very High",
-          "bestFor": "Enhanced absorption",
-          "notes": "Microencapsulated; 10x better absorption."
-        },
-        {
-          "name": "DIM + Calcium D-Glucarate",
+          "name": "BioResponse DIM (microencapsulated)",
           "bioavailability": "High",
-          "bestFor": "Comprehensive estrogen detox",
-          "notes": "Combined formula for estrogen clearance."
+          "bestFor": "Enhanced bioavailability",
+          "notes": "Patented absorption-enhanced form."
+        },
+        {
+          "name": "Indole-3-Carbinol (I3C)",
+          "bioavailability": "Moderate",
+          "bestFor": "DIM precursor, broader effects",
+          "notes": "Converts to DIM and other metabolites in stomach acid."
         }
       ],
-      "mechanism": "Induces CYP1A1/1A2 shifting C2-hydroxylation of estradiol; modulates AhR; inhibits aromatase at higher doses.",
+      "mechanism": "Promotes conversion of estradiol to 2-hydroxyestrone (anti-cancer) over 16α-hydroxyestrone (pro-cancer); inhibits aromatase; activates AhR for detoxification.",
       "bestTime": "With meals",
-      "withFood": "With fat",
+      "withFood": "With fat-containing food",
       "synergies": [
+        "Broccoli Sprout Extract",
+        "Flaxseed Lignans",
         "Calcium D-Glucarate",
-        "Sulforaphane",
-        "Vitamin D"
+        "Zinc"
       ],
       "sideEffects": [
-        "GI upset",
         "Headache",
-        "Temporary darkening of urine",
-        "Can increase estrogen effects at low doses (bidirectional)"
+        "GI upset",
+        "Changes in urine color",
+        "Hormonal fluctuations"
       ],
       "interactions": [
-        "Hormone medications",
-        "CYP1A2 substrates",
-        "Tamoxifen"
+        "Hormone replacement therapy",
+        "Birth control pills",
+        "CYP1A2 substrates"
       ],
       "evidence": 3,
-      "popularity": 4,
+      "popularity": 3,
       "references": [
         {
-          "title": "DIM Estrogen Metabolism",
+          "title": "DIM and estrogen metabolism",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/11333184/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11234516/"
         }
       ],
       "goals": [
         "Hormonal balance",
-        "Detox support"
+        "Cancer prevention",
+        "Men's health",
+        "Women's health"
       ]
     },
     {
@@ -20805,74 +20607,75 @@
       ]
     },
     {
-      "id": "sea-buckthorn",
+      "id": "sea-buckthorn-oil",
       "name": "Sea Buckthorn Oil",
-      "classification": "Herbal Extract / Functional Oil",
-      "emoji": "🍊",
-      "summary": "Sea buckthorn berry oil contains the rare omega-7 (palmitoleic acid) and rare fat-soluble carotenoids for skin, gut, and cardiovascular health.",
-      "shortDesc": "Rare omega-7 oil for skin and mucosal health.",
+      "classification": "Herbal Extract",
+      "emoji": "🫐",
+      "summary": "A rare plant oil from Hippophae rhamnoides containing the unusual omega-7 fatty acid palmitoleic acid, along with omega-3, -6, -9, carotenoids, and vitamins E and K.",
+      "shortDesc": "Rare omega-7 rich oil for skin, mucosal health, and metabolic benefits.",
       "benefits": [
-        "Skin dryness",
-        "Mucous membrane health",
-        "Vaginal dryness (oral)",
-        "Cardiovascular",
-        "Wound healing"
+        "Skin moisture and elasticity",
+        "Mucosal membrane health",
+        "Omega-7 (palmitoleic acid)",
+        "Cardiovascular protection",
+        "Anti-inflammatory",
+        "Metabolic improvement"
       ],
       "dosage": {
         "male": "1–3 g/day",
-        "female": "1–3 g/day",
-        "beginner": "1 g/day",
-        "upperLimit": "6 g/day"
+        "female": "1–2 g/day",
+        "beginner": "500 mg/day",
+        "upperLimit": "No established UL"
       },
       "forms": [
         {
-          "name": "Sea Buckthorn Berry Oil",
-          "bioavailability": "High",
-          "bestFor": "Skin, vaginal, gut mucosa",
-          "notes": "Bright orange; omega-7 rich."
-        },
-        {
           "name": "Sea Buckthorn Seed Oil",
           "bioavailability": "High",
-          "bestFor": "Omega-3/6 balance",
-          "notes": "Different fatty acid profile than berry oil."
+          "bestFor": "Omega-3 and -6 rich; cardiovascular",
+          "notes": "Cold-pressed seed oil; golden color."
         },
         {
-          "name": "Sea Buckthorn Fruit Extract",
+          "name": "Sea Buckthorn Berry Oil",
           "bioavailability": "High",
-          "bestFor": "Antioxidant, general",
-          "notes": "Standardized carotenoid content."
+          "bestFor": "Omega-7, carotenoids, skin health",
+          "notes": "Bright orange; rich in palmitoleic acid."
+        },
+        {
+          "name": "Sea Buckthorn Blend (seed + berry)",
+          "bioavailability": "High",
+          "bestFor": "Full-spectrum omega profile",
+          "notes": "Combined for broad fatty acid and antioxidant coverage."
         }
       ],
-      "mechanism": "Palmitoleic acid (omega-7) is a lipokine activating SCD-1 in skin; carotenoids (particularly zeaxanthin and lycopene) protect mucous membranes.",
+      "mechanism": "Palmitoleic acid (omega-7) activates PPARα; supports mucosal integrity; carotenoids and tocopherols provide antioxidant protection; omega-3/6 modulate eicosanoid production.",
       "bestTime": "With meals",
       "withFood": "With fat-containing food",
       "synergies": [
         "Omega-3",
         "Vitamin E",
+        "Astaxanthin",
         "Collagen"
       ],
       "sideEffects": [
-        "GI upset",
-        "Orange-tinged skin at very high doses",
-        "Fishy odor"
+        "Orange discoloration of skin at high doses (carotenemia)",
+        "GI upset"
       ],
       "interactions": [
-        "Blood thinners",
-        "Blood pressure meds"
+        "Blood thinners (mild effect)"
       ],
       "evidence": 3,
-      "popularity": 3,
+      "popularity": 2,
       "references": [
         {
-          "title": "Sea Buckthorn Skin",
+          "title": "Sea buckthorn bioactive compounds",
           "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/10695950/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21432365/"
         }
       ],
       "goals": [
         "Skin health",
-        "Hormonal balance"
+        "Heart health",
+        "Anti-inflammatory"
       ]
     },
     {
@@ -22252,89 +22055,6 @@
       "goals": []
     },
     {
-      "id": "choline-bitartrate",
-      "name": "Choline Bitartrate",
-      "classification": "Water-Soluble Vitamin",
-      "emoji": "🧠",
-      "summary": "An essential nutrient and precursor to acetylcholine and phosphatidylcholine, supporting cognitive function, liver health, and muscle performance.",
-      "shortDesc": "Essential nutrient for brain function and liver health.",
-      "benefits": [
-        "Acetylcholine synthesis",
-        "Liver fat metabolism",
-        "Memory support",
-        "Muscle function"
-      ],
-      "dosage": {
-        "male": "550 mg/day",
-        "female": "425 mg/day",
-        "beginner": "250 mg/day",
-        "upperLimit": "3500 mg/day"
-      },
-      "forms": [
-        {
-          "name": "Choline Bitartrate",
-          "bioavailability": "Moderate",
-          "bestFor": "General supplementation, liver health",
-          "notes": "Most affordable form; moderate brain penetration."
-        },
-        {
-          "name": "Alpha-GPC",
-          "bioavailability": "High",
-          "bestFor": "Cognitive enhancement, sports performance",
-          "notes": "Superior brain bioavailability."
-        },
-        {
-          "name": "CDP-Choline (Citicoline)",
-          "bioavailability": "High",
-          "bestFor": "Neuroprotection, focus",
-          "notes": "Also provides cytidine for RNA synthesis."
-        },
-        {
-          "name": "Phosphatidylcholine",
-          "bioavailability": "High",
-          "bestFor": "Liver health, membrane support",
-          "notes": "Found in lecithin; best for liver conditions."
-        },
-        {
-          "name": "DMAE",
-          "bioavailability": "Moderate",
-          "bestFor": "Mood, focus",
-          "notes": "Weaker choline precursor; crosses BBB easily."
-        }
-      ],
-      "mechanism": "Precursor to acetylcholine neurotransmitter and phosphatidylcholine membrane component.",
-      "bestTime": "Morning or pre-workout",
-      "withFood": "With or without food",
-      "synergies": [
-        "B12",
-        "Folate",
-        "Inositol",
-        "DHA"
-      ],
-      "sideEffects": [
-        "Fishy odor at high doses",
-        "GI upset",
-        "Headache if choline-sensitive"
-      ],
-      "interactions": [
-        "Anticholinergic medications"
-      ],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Choline and cognitive function",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29540324/"
-        }
-      ],
-      "goals": [
-        "Brain health",
-        "Liver health",
-        "Sports performance"
-      ]
-    },
-    {
       "id": "para-aminobenzoic-acid",
       "name": "PABA (Para-Aminobenzoic Acid)",
       "classification": "Water-Soluble Vitamin",
@@ -23456,72 +23176,6 @@
       ]
     },
     {
-      "id": "d-ribose",
-      "name": "D-Ribose",
-      "classification": "Sports Nutrition",
-      "emoji": "⚡",
-      "summary": "A naturally occurring 5-carbon sugar that is the structural backbone of ATP and RNA, used therapeutically for cardiac energy recovery and exercise performance.",
-      "shortDesc": "ATP backbone sugar for cardiac energy, fibromyalgia, and recovery.",
-      "benefits": [
-        "ATP regeneration",
-        "Cardiac energy recovery",
-        "Fibromyalgia energy support",
-        "Exercise recovery",
-        "Reduced muscle soreness"
-      ],
-      "dosage": {
-        "male": "5–15 g/day",
-        "female": "5–10 g/day",
-        "beginner": "5 g/day",
-        "upperLimit": "20 g/day"
-      },
-      "forms": [
-        {
-          "name": "D-Ribose Powder",
-          "bioavailability": "High",
-          "bestFor": "Cardiac health, energy recovery, fibromyalgia",
-          "notes": "Dissolves well in water; sweet taste."
-        },
-        {
-          "name": "D-Ribose Capsules",
-          "bioavailability": "High",
-          "bestFor": "Convenience",
-          "notes": "Standard capsule form."
-        }
-      ],
-      "mechanism": "Pentose phosphate pathway substrate for ATP de novo synthesis; replenishes adenine nucleotide pool in cardiac and skeletal muscle.",
-      "bestTime": "Pre- and post-exercise; morning for energy",
-      "withFood": "With or without food",
-      "synergies": [
-        "CoQ10",
-        "L-Carnitine",
-        "Magnesium Malate",
-        "B vitamins"
-      ],
-      "sideEffects": [
-        "Hypoglycemia at high doses (lowers blood sugar)",
-        "GI upset"
-      ],
-      "interactions": [
-        "Insulin",
-        "Diabetes medications"
-      ],
-      "evidence": 3,
-      "popularity": 3,
-      "references": [
-        {
-          "title": "D-ribose and cardiac recovery",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/12006126/"
-        }
-      ],
-      "goals": [
-        "Energy",
-        "Sports performance",
-        "Heart health"
-      ]
-    },
-    {
       "id": "beta-hydroxybutyrate",
       "name": "Beta-Hydroxybutyrate (BHB)",
       "classification": "Sports Nutrition",
@@ -24386,73 +24040,6 @@
       ]
     },
     {
-      "id": "turkey-tail-mushroom",
-      "name": "Turkey Tail (Trametes versicolor)",
-      "classification": "Medicinal Mushroom",
-      "emoji": "🍂",
-      "summary": "A polypore mushroom containing PSK and PSP polysaccharopeptides with robust immune-modulating and anti-cancer adjunct properties, widely studied in oncology.",
-      "shortDesc": "Immune-modulating mushroom with anti-cancer adjunct properties.",
-      "benefits": [
-        "Immune modulation",
-        "Anti-cancer adjunct",
-        "Gut microbiome support (prebiotic)",
-        "NK cell and T-cell activation",
-        "Antiviral properties"
-      ],
-      "dosage": {
-        "male": "1–3 g/day",
-        "female": "1–3 g/day",
-        "beginner": "1 g/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Turkey Tail Extract (standardized PSK)",
-          "bioavailability": "High",
-          "bestFor": "Immune modulation, cancer support",
-          "notes": "PSK (Krestin) is a standardized polysaccharopeptide."
-        },
-        {
-          "name": "Turkey Tail Powder (fruiting body)",
-          "bioavailability": "Moderate",
-          "bestFor": "Prebiotic, immune support",
-          "notes": "Contains beta-glucans and prebiotics."
-        }
-      ],
-      "mechanism": "PSK and PSP polysaccharopeptides activate dendritic cells, NK cells, and T-lymphocytes; modulate TLR2/4 signaling; support beneficial gut bacteria.",
-      "bestTime": "Morning or with meals",
-      "withFood": "With food",
-      "synergies": [
-        "Reishi",
-        "Astragalus",
-        "Prebiotics",
-        "Vitamin D3"
-      ],
-      "sideEffects": [
-        "Mild GI upset",
-        "Dark stools",
-        "Rare allergic reaction"
-      ],
-      "interactions": [
-        "Chemotherapy (consult oncologist)",
-        "Immunosuppressants"
-      ],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Turkey tail PSK in cancer",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23435028/"
-        }
-      ],
-      "goals": [
-        "Immune support",
-        "Gut health",
-        "Cancer prevention"
-      ]
-    },
-    {
       "id": "he-shou-wu",
       "name": "He Shou Wu (Fo-Ti / Polygonum multiflorum)",
       "classification": "Herbal Extract",
@@ -24869,82 +24456,6 @@
         "Hormone optimization",
         "Men's health",
         "Energy"
-      ]
-    },
-    {
-      "id": "diindolylmethane",
-      "name": "DIM (Diindolylmethane)",
-      "classification": "Polyphenol/Longevity",
-      "emoji": "🥦",
-      "summary": "A metabolite of indole-3-carbinol from cruciferous vegetables that modulates estrogen metabolism, supporting healthy estrogen ratios in both men and women.",
-      "shortDesc": "Cruciferous vegetable metabolite for estrogen balance and cancer prevention.",
-      "benefits": [
-        "Estrogen metabolism optimization",
-        "Anti-cancer properties",
-        "Testosterone support (via estrogen reduction)",
-        "Prostate health",
-        "PMS symptom relief"
-      ],
-      "dosage": {
-        "male": "100–300 mg/day",
-        "female": "100–200 mg/day",
-        "beginner": "100 mg/day",
-        "upperLimit": "600 mg/day"
-      },
-      "forms": [
-        {
-          "name": "DIM Free Form",
-          "bioavailability": "Moderate (lipid-soluble)",
-          "bestFor": "Estrogen modulation, prostate",
-          "notes": "Fat-soluble; best taken with fat-containing food."
-        },
-        {
-          "name": "BioResponse DIM (microencapsulated)",
-          "bioavailability": "High",
-          "bestFor": "Enhanced bioavailability",
-          "notes": "Patented absorption-enhanced form."
-        },
-        {
-          "name": "Indole-3-Carbinol (I3C)",
-          "bioavailability": "Moderate",
-          "bestFor": "DIM precursor, broader effects",
-          "notes": "Converts to DIM and other metabolites in stomach acid."
-        }
-      ],
-      "mechanism": "Promotes conversion of estradiol to 2-hydroxyestrone (anti-cancer) over 16α-hydroxyestrone (pro-cancer); inhibits aromatase; activates AhR for detoxification.",
-      "bestTime": "With meals",
-      "withFood": "With fat-containing food",
-      "synergies": [
-        "Broccoli Sprout Extract",
-        "Flaxseed Lignans",
-        "Calcium D-Glucarate",
-        "Zinc"
-      ],
-      "sideEffects": [
-        "Headache",
-        "GI upset",
-        "Changes in urine color",
-        "Hormonal fluctuations"
-      ],
-      "interactions": [
-        "Hormone replacement therapy",
-        "Birth control pills",
-        "CYP1A2 substrates"
-      ],
-      "evidence": 3,
-      "popularity": 3,
-      "references": [
-        {
-          "title": "DIM and estrogen metabolism",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/11234516/"
-        }
-      ],
-      "goals": [
-        "Hormonal balance",
-        "Cancer prevention",
-        "Men's health",
-        "Women's health"
       ]
     },
     {
@@ -25587,70 +25098,6 @@
       ]
     },
     {
-      "id": "taurine-supplement",
-      "name": "Taurine",
-      "classification": "Amino Acid Derivative",
-      "emoji": "⚡",
-      "summary": "A conditionally essential sulfur amino acid with diverse roles in cardiovascular health, osmoregulation, bile acid conjugation, neurological function, and exercise performance.",
-      "shortDesc": "Multi-role amino acid for heart health, energy drinks, and cellular protection.",
-      "benefits": [
-        "Cardiovascular protection",
-        "Exercise performance",
-        "Antioxidant",
-        "Blood sugar regulation",
-        "Eye health (retinal taurine)",
-        "Anxiety reduction"
-      ],
-      "dosage": {
-        "male": "1–6 g/day",
-        "female": "1–4 g/day",
-        "beginner": "1 g/day",
-        "upperLimit": "10 g/day"
-      },
-      "forms": [
-        {
-          "name": "Taurine Free Form Powder",
-          "bioavailability": "High",
-          "bestFor": "Energy, cardiovascular, exercise",
-          "notes": "Inexpensive; dissolves well."
-        },
-        {
-          "name": "Taurine Capsules",
-          "bioavailability": "High",
-          "bestFor": "Convenience",
-          "notes": "Standard capsule form."
-        }
-      ],
-      "mechanism": "Osmoregulates cell volume; conjugates bile acids; activates GABA and glycine receptors; scavenges hypochlorous acid; improves mitochondrial function via calcium regulation.",
-      "bestTime": "Pre-workout or with meals",
-      "withFood": "With or without food",
-      "synergies": [
-        "Magnesium",
-        "CoQ10",
-        "B vitamins",
-        "Carnitine"
-      ],
-      "sideEffects": [
-        "Very well tolerated; rare GI upset"
-      ],
-      "interactions": [],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Taurine longevity and health",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37283371/"
-        }
-      ],
-      "goals": [
-        "Heart health",
-        "Sports performance",
-        "Longevity",
-        "Energy"
-      ]
-    },
-    {
       "id": "tongkat-ali-longjack",
       "name": "Tongkat Ali (Eurycoma longifolia / Longjack)",
       "classification": "Herbal Extract",
@@ -25989,137 +25436,6 @@
       ]
     },
     {
-      "id": "msm-methylsulfonylmethane",
-      "name": "MSM (Methylsulfonylmethane)",
-      "classification": "Sports Nutrition",
-      "emoji": "🦴",
-      "summary": "An organic sulfur compound with potent anti-inflammatory properties, widely used for joint pain, arthritis, muscle recovery, and skin/hair health.",
-      "shortDesc": "Organic sulfur for joint pain, anti-inflammation, and connective tissue support.",
-      "benefits": [
-        "Joint pain reduction",
-        "Anti-inflammatory",
-        "Muscle soreness reduction",
-        "Skin health",
-        "Allergy symptom relief",
-        "Antioxidant (glutathione precursor)"
-      ],
-      "dosage": {
-        "male": "1000–6000 mg/day",
-        "female": "1000–4000 mg/day",
-        "beginner": "1000 mg/day",
-        "upperLimit": "10 g/day"
-      },
-      "forms": [
-        {
-          "name": "MSM Powder (OptiMSM, pure)",
-          "bioavailability": "High",
-          "bestFor": "Joint pain, inflammation, recovery",
-          "notes": "OptiMSM is distillation-purified; purest form."
-        },
-        {
-          "name": "MSM Capsules",
-          "bioavailability": "High",
-          "bestFor": "Convenience",
-          "notes": "Same efficacy as powder form."
-        }
-      ],
-      "mechanism": "Provides bioavailable sulfur for glutathione and amino acid synthesis; inhibits NF-kB and COX-2; reduces hydrogen peroxide production; supports collagen cross-linking.",
-      "bestTime": "With meals, split doses",
-      "withFood": "With food to reduce GI upset",
-      "synergies": [
-        "Glucosamine",
-        "Chondroitin",
-        "Collagen",
-        "Vitamin C",
-        "Boswellia"
-      ],
-      "sideEffects": [
-        "Mild GI upset",
-        "Headache initially (detox reaction)",
-        "Insomnia if taken late"
-      ],
-      "interactions": [
-        "Blood thinners (theoretical sulfur interaction)"
-      ],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "MSM for joint pain and inflammation",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/16309928/"
-        }
-      ],
-      "goals": [
-        "Joint health",
-        "Recovery",
-        "Skin health"
-      ]
-    },
-    {
-      "id": "collagen-type-2",
-      "name": "Type II Collagen (UC-II)",
-      "classification": "Sports Nutrition",
-      "emoji": "🦵",
-      "summary": "Native undenatured type II collagen from chicken sternum that works via oral tolerance to reduce knee joint pain and stiffness through a unique immunomodulatory mechanism.",
-      "shortDesc": "Undenatured chicken collagen for joint pain via immune tolerance at 40 mg/day.",
-      "benefits": [
-        "Knee joint pain reduction",
-        "Improved joint mobility",
-        "Cartilage protection",
-        "Anti-inflammatory joint effect"
-      ],
-      "dosage": {
-        "male": "40 mg/day (UC-II)",
-        "female": "40 mg/day",
-        "beginner": "40 mg/day",
-        "upperLimit": "80 mg/day"
-      },
-      "forms": [
-        {
-          "name": "UC-II (undenatured type II collagen)",
-          "bioavailability": "High (oral tolerance)",
-          "bestFor": "Joint pain, osteoarthritis, athletic joints",
-          "notes": "Only 40 mg required; different mechanism from hydrolyzed collagen."
-        },
-        {
-          "name": "Hydrolyzed Type II Collagen",
-          "bioavailability": "Moderate",
-          "bestFor": "Joint cartilage support",
-          "notes": "Digested form; requires higher doses (10+ grams)."
-        }
-      ],
-      "mechanism": "Undenatured collagen induces oral immune tolerance in gut-associated lymphoid tissue (GALT) — regulatory T cells then suppress cartilage-attacking inflammation in joints.",
-      "bestTime": "On empty stomach (critical for oral tolerance)",
-      "withFood": "Must take on empty stomach",
-      "synergies": [
-        "Hyaluronic Acid",
-        "Boron",
-        "MSM",
-        "Vitamin C"
-      ],
-      "sideEffects": [
-        "Generally very well tolerated"
-      ],
-      "interactions": [
-        "Immunosuppressants (may reduce efficacy)"
-      ],
-      "evidence": 4,
-      "popularity": 3,
-      "references": [
-        {
-          "title": "UC-II collagen and joint pain",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/17076983/"
-        }
-      ],
-      "goals": [
-        "Joint health",
-        "Sports performance",
-        "Injury prevention"
-      ]
-    },
-    {
       "id": "ipriflavone",
       "name": "Ipriflavone",
       "classification": "Polyphenol/Longevity",
@@ -26334,71 +25650,6 @@
         "Better sleep",
         "Longevity",
         "Immune support"
-      ]
-    },
-    {
-      "id": "glycine-supplement",
-      "name": "Glycine",
-      "classification": "Amino Acid",
-      "emoji": "💤",
-      "summary": "The simplest amino acid, serving as both an inhibitory neurotransmitter and a structural component of collagen and glutathione, with proven sleep-improving and anti-aging effects.",
-      "shortDesc": "Simplest amino acid for sleep quality, collagen synthesis, and longevity.",
-      "benefits": [
-        "Sleep quality improvement",
-        "Core body temperature reduction at night",
-        "Collagen synthesis",
-        "Glutathione precursor",
-        "Anti-inflammatory",
-        "Metabolic benefits (GlyNAC)"
-      ],
-      "dosage": {
-        "male": "3–12 g/day",
-        "female": "3–12 g/day",
-        "beginner": "3 g/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Glycine Powder",
-          "bioavailability": "High",
-          "bestFor": "Sleep, collagen, glutathione, anti-aging",
-          "notes": "Inexpensive; sweet taste; mixes well."
-        },
-        {
-          "name": "Magnesium Glycinate (combo)",
-          "bioavailability": "High",
-          "bestFor": "Sleep + magnesium benefits",
-          "notes": "Glycinate chelate delivers both nutrients."
-        }
-      ],
-      "mechanism": "Inhibitory neurotransmitter at spinal cord glycine receptors; reduces core body temperature to improve sleep onset; anti-inflammatory via glycine-gated chloride channels; methyl acceptor role.",
-      "bestTime": "Before bed (3 g for sleep); with meals for collagen/detox",
-      "withFood": "With or without food",
-      "synergies": [
-        "NAC (GlyNAC combo)",
-        "Collagen",
-        "Proline",
-        "B6"
-      ],
-      "sideEffects": [
-        "Soft stools at high doses",
-        "Rare GI upset"
-      ],
-      "interactions": [],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Glycine and sleep quality RCT",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22952018/"
-        }
-      ],
-      "goals": [
-        "Better sleep",
-        "Longevity",
-        "Gut health",
-        "Recovery"
       ]
     },
     {
@@ -26983,80 +26234,6 @@
       ]
     },
     {
-      "id": "lemon-balm-rosavins",
-      "name": "Lemon Balm (Melissa officinalis)",
-      "classification": "Herbal Extract",
-      "emoji": "🌿",
-      "summary": "A calming herb from the mint family that reduces GABA degradation via GABA transaminase inhibition, producing mild sedation, anxiety relief, and improved sleep.",
-      "shortDesc": "GABA transaminase inhibitor for anxiety, sleep, and cognitive calm.",
-      "benefits": [
-        "Anxiety reduction",
-        "Sleep improvement",
-        "GABA elevation",
-        "Stress relief",
-        "Mood improvement",
-        "Digestive calming"
-      ],
-      "dosage": {
-        "male": "300–900 mg/day",
-        "female": "300–600 mg/day",
-        "beginner": "300 mg/day",
-        "upperLimit": "2 g/day"
-      },
-      "forms": [
-        {
-          "name": "Lemon Balm Extract (Cyracos, standardized)",
-          "bioavailability": "Moderate-High",
-          "bestFor": "Anxiety, sleep, GABA support",
-          "notes": "Standardized for rosmarinic acid and flavonoids."
-        },
-        {
-          "name": "Lemon Balm Dried Herb Powder",
-          "bioavailability": "Moderate",
-          "bestFor": "Traditional use, tea preparation",
-          "notes": "Variable potency."
-        },
-        {
-          "name": "Lemon Balm Tincture",
-          "bioavailability": "Moderate-High",
-          "bestFor": "Quick absorption, acute anxiety",
-          "notes": "Liquid extract for faster onset."
-        }
-      ],
-      "mechanism": "Rosmarinic acid inhibits GABA transaminase (enzyme breaking down GABA); flavonoids modulate serotonergic receptors; antiviral (anti-herpes) rosmarinic acid mechanism.",
-      "bestTime": "Evening or 30 min before stressful events",
-      "withFood": "With or without food",
-      "synergies": [
-        "Valerian",
-        "Passionflower",
-        "L-Theanine",
-        "Magnesium Glycinate"
-      ],
-      "sideEffects": [
-        "Drowsiness",
-        "Thyroid inhibition at very high doses (theoretical)"
-      ],
-      "interactions": [
-        "Thyroid medications (theoretical)",
-        "Sedatives",
-        "Thyroid-active compounds"
-      ],
-      "evidence": 4,
-      "popularity": 3,
-      "references": [
-        {
-          "title": "Lemon balm GABA and anxiety",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/24209484/"
-        }
-      ],
-      "goals": [
-        "Better sleep",
-        "Lower stress",
-        "Mental health"
-      ]
-    },
-    {
       "id": "passionflower-extract",
       "name": "Passionflower (Passiflora incarnata)",
       "classification": "Herbal Extract",
@@ -27543,82 +26720,6 @@
       ]
     },
     {
-      "id": "green-tea-egcg",
-      "name": "Green Tea Extract (EGCG)",
-      "classification": "Polyphenol/Longevity",
-      "emoji": "🍵",
-      "summary": "The primary polyphenol in green tea with broad anti-cancer, antioxidant, metabolic, and neuroprotective properties, also used for fat oxidation and cardiovascular health.",
-      "shortDesc": "EGCG catechin for metabolism, cancer prevention, and antioxidant defense.",
-      "benefits": [
-        "EGCG antioxidant",
-        "Fat oxidation enhancement",
-        "Cardiovascular protection",
-        "Anti-cancer properties",
-        "Blood sugar regulation",
-        "Neuroprotection"
-      ],
-      "dosage": {
-        "male": "200–800 mg EGCG/day",
-        "female": "200–600 mg/day",
-        "beginner": "200 mg/day",
-        "upperLimit": "800 mg EGCG/day"
-      },
-      "forms": [
-        {
-          "name": "Green Tea Extract (50% EGCG)",
-          "bioavailability": "Moderate-High",
-          "bestFor": "General health, antioxidant, metabolism",
-          "notes": "Standardized to EGCG content."
-        },
-        {
-          "name": "Decaffeinated Green Tea Extract",
-          "bioavailability": "Moderate-High",
-          "bestFor": "EGCG without caffeine",
-          "notes": "Better for afternoon/evening use."
-        },
-        {
-          "name": "Matcha Powder (whole leaf)",
-          "bioavailability": "Moderate",
-          "bestFor": "Food-form EGCG with L-theanine",
-          "notes": "Contains both EGCG and L-theanine for calm focus."
-        }
-      ],
-      "mechanism": "EGCG inhibits catechol-O-methyltransferase (COMT) to extend catecholamine effects; inhibits FASN for anti-cancer and fat reduction; activates AMPK; chelates metal ions.",
-      "bestTime": "Morning or before exercise",
-      "withFood": "Between meals on empty stomach for best absorption (food reduces EGCG absorption)",
-      "synergies": [
-        "Caffeine (synergistic fat oxidation)",
-        "Piperine",
-        "Vitamin C",
-        "Quercetin"
-      ],
-      "sideEffects": [
-        "Liver toxicity at very high doses (>800 mg EGCG fasted)",
-        "GI upset",
-        "Iron absorption inhibition"
-      ],
-      "interactions": [
-        "Iron supplements (take apart)",
-        "Warfarin",
-        "Statins"
-      ],
-      "evidence": 5,
-      "popularity": 5,
-      "references": [
-        {
-          "title": "Green tea EGCG health effects",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/10552882/"
-        }
-      ],
-      "goals": [
-        "Weight management",
-        "Heart health",
-        "Longevity",
-        "Cancer prevention"
-      ]
-    },
-    {
       "id": "resveratrol-trans",
       "name": "Trans-Resveratrol (Polygonum cuspidatum)",
       "classification": "Polyphenol/Longevity",
@@ -27830,78 +26931,6 @@
       ]
     },
     {
-      "id": "sea-buckthorn-oil",
-      "name": "Sea Buckthorn Oil",
-      "classification": "Herbal Extract",
-      "emoji": "🫐",
-      "summary": "A rare plant oil from Hippophae rhamnoides containing the unusual omega-7 fatty acid palmitoleic acid, along with omega-3, -6, -9, carotenoids, and vitamins E and K.",
-      "shortDesc": "Rare omega-7 rich oil for skin, mucosal health, and metabolic benefits.",
-      "benefits": [
-        "Skin moisture and elasticity",
-        "Mucosal membrane health",
-        "Omega-7 (palmitoleic acid)",
-        "Cardiovascular protection",
-        "Anti-inflammatory",
-        "Metabolic improvement"
-      ],
-      "dosage": {
-        "male": "1–3 g/day",
-        "female": "1–2 g/day",
-        "beginner": "500 mg/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Sea Buckthorn Seed Oil",
-          "bioavailability": "High",
-          "bestFor": "Omega-3 and -6 rich; cardiovascular",
-          "notes": "Cold-pressed seed oil; golden color."
-        },
-        {
-          "name": "Sea Buckthorn Berry Oil",
-          "bioavailability": "High",
-          "bestFor": "Omega-7, carotenoids, skin health",
-          "notes": "Bright orange; rich in palmitoleic acid."
-        },
-        {
-          "name": "Sea Buckthorn Blend (seed + berry)",
-          "bioavailability": "High",
-          "bestFor": "Full-spectrum omega profile",
-          "notes": "Combined for broad fatty acid and antioxidant coverage."
-        }
-      ],
-      "mechanism": "Palmitoleic acid (omega-7) activates PPARα; supports mucosal integrity; carotenoids and tocopherols provide antioxidant protection; omega-3/6 modulate eicosanoid production.",
-      "bestTime": "With meals",
-      "withFood": "With fat-containing food",
-      "synergies": [
-        "Omega-3",
-        "Vitamin E",
-        "Astaxanthin",
-        "Collagen"
-      ],
-      "sideEffects": [
-        "Orange discoloration of skin at high doses (carotenemia)",
-        "GI upset"
-      ],
-      "interactions": [
-        "Blood thinners (mild effect)"
-      ],
-      "evidence": 3,
-      "popularity": 2,
-      "references": [
-        {
-          "title": "Sea buckthorn bioactive compounds",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/21432365/"
-        }
-      ],
-      "goals": [
-        "Skin health",
-        "Heart health",
-        "Anti-inflammatory"
-      ]
-    },
-    {
       "id": "mct-c8",
       "name": "MCT Oil C8 (Caprylic Acid)",
       "classification": "Sports Nutrition",
@@ -27973,71 +27002,6 @@
         "Weight management",
         "Energy",
         "Sports performance"
-      ]
-    },
-    {
-      "id": "evening-primrose-oil",
-      "name": "Evening Primrose Oil (GLA)",
-      "classification": "Herbal Extract",
-      "emoji": "🌼",
-      "summary": "A seed oil exceptionally rich in gamma-linolenic acid (GLA), used for hormonal balance, eczema, PMS, breast pain, and rheumatoid arthritis.",
-      "shortDesc": "High-GLA oil for PMS, eczema, hormonal balance, and joint inflammation.",
-      "benefits": [
-        "PMS symptom relief",
-        "Eczema and skin inflammation",
-        "Breast pain (mastalgia)",
-        "Rheumatoid arthritis",
-        "Hormonal balance",
-        "Nerve pain (diabetic neuropathy)"
-      ],
-      "dosage": {
-        "male": "1–3 g/day",
-        "female": "1–4 g/day",
-        "beginner": "1 g/day",
-        "upperLimit": "8 g/day"
-      },
-      "forms": [
-        {
-          "name": "Evening Primrose Oil Softgel",
-          "bioavailability": "High",
-          "bestFor": "PMS, eczema, breast pain, hormones",
-          "notes": "Standardized to 8–10% GLA content."
-        }
-      ],
-      "mechanism": "GLA → DGLA → PGE1 (anti-inflammatory) and 15-HETrE (5-LOX inhibitor); competes with arachidonic acid; may modulate prolactin sensitivity in breast tissue.",
-      "bestTime": "With meals",
-      "withFood": "With fat-containing food",
-      "synergies": [
-        "Omega-3 EPA/DHA",
-        "Vitamin E",
-        "Zinc",
-        "B6"
-      ],
-      "sideEffects": [
-        "GI upset",
-        "Headache",
-        "Blood-thinning",
-        "Possible seizure threshold lowering (high doses)"
-      ],
-      "interactions": [
-        "Blood thinners",
-        "Anticonvulsants",
-        "Phenothiazines"
-      ],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Evening primrose oil PMS and eczema",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/8250682/"
-        }
-      ],
-      "goals": [
-        "Women's health",
-        "Skin health",
-        "Anti-inflammatory",
-        "Hormonal balance"
       ]
     },
     {
@@ -28940,85 +27904,6 @@
       ]
     },
     {
-      "id": "quercetin-supplement",
-      "name": "Quercetin",
-      "classification": "Polyphenol/Longevity",
-      "emoji": "🍎",
-      "summary": "A ubiquitous plant flavonoid with senolytic, antiviral, anti-inflammatory, and AMPK-activating properties, acting as a zinc ionophore and mast cell stabilizer.",
-      "shortDesc": "Flavonoid senolytic and zinc ionophore for anti-aging, allergy, and immunity.",
-      "benefits": [
-        "Senolytic activity",
-        "Zinc ionophore (antiviral)",
-        "Mast cell stabilization (anti-allergy)",
-        "AMPK activation",
-        "Anti-inflammatory",
-        "Anti-cancer",
-        "Cardiovascular protection"
-      ],
-      "dosage": {
-        "male": "250–1000 mg/day",
-        "female": "250–500 mg/day",
-        "beginner": "250 mg/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Quercetin Dihydrate",
-          "bioavailability": "Low-Moderate (lipid-soluble)",
-          "bestFor": "General antioxidant, anti-inflammatory",
-          "notes": "Standard form; poor water solubility."
-        },
-        {
-          "name": "Quercetin Phytosome (Quercefit)",
-          "bioavailability": "Very High (20x)",
-          "bestFor": "Senolysis, antiviral, allergy, AMPK",
-          "notes": "Sunflower phospholipid complex; dramatically improved BA."
-        },
-        {
-          "name": "Quercetin + Bromelain",
-          "bioavailability": "High",
-          "bestFor": "Anti-allergy, anti-inflammatory synergy",
-          "notes": "Bromelain enhances quercetin absorption."
-        }
-      ],
-      "mechanism": "Zinc ionophore transports Zn²⁺ into cells (antiviral); inhibits NF-kB and NLRP3; positive allosteric modulator of SIRT1; inhibits Senescence-Associated Secretory Phenotype (SASP).",
-      "bestTime": "With meals; with zinc for antiviral effect",
-      "withFood": "With fat-containing food (fat-soluble)",
-      "synergies": [
-        "Zinc",
-        "Vitamin C",
-        "Fisetin",
-        "Piperine",
-        "Bromelain"
-      ],
-      "sideEffects": [
-        "GI upset at high doses",
-        "Headache",
-        "Potential CYP3A4 interaction"
-      ],
-      "interactions": [
-        "Warfarin",
-        "Cyclosporine",
-        "CYP3A4 substrates",
-        "Quinolone antibiotics"
-      ],
-      "evidence": 4,
-      "popularity": 5,
-      "references": [
-        {
-          "title": "Quercetin anti-inflammatory and senolytic",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27537836/"
-        }
-      ],
-      "goals": [
-        "Longevity",
-        "Immune support",
-        "Anti-inflammatory",
-        "Allergy relief"
-      ]
-    },
-    {
       "id": "bromelain",
       "name": "Bromelain",
       "classification": "Herbal Extract",
@@ -29085,81 +27970,6 @@
         "Anti-inflammatory",
         "Gut health",
         "Recovery"
-      ]
-    },
-    {
-      "id": "aged-garlic-extract",
-      "name": "Aged Garlic Extract (Kyolic)",
-      "classification": "Herbal Extract",
-      "emoji": "🧄",
-      "summary": "An odorless garlic supplement aged 20 months to convert harsh allicin into stable S-allylcysteine, with superior cardiovascular, immune, and anti-cancer benefits over raw garlic.",
-      "shortDesc": "Odorless aged garlic with stable S-allylcysteine for heart, immunity, and cancer prevention.",
-      "benefits": [
-        "Blood pressure reduction",
-        "LDL cholesterol reduction",
-        "Platelet aggregation inhibition",
-        "Immune activation",
-        "Anti-cancer (organosulfur compounds)",
-        "Anti-aging"
-      ],
-      "dosage": {
-        "male": "600–1200 mg/day",
-        "female": "600 mg/day",
-        "beginner": "300 mg/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Aged Garlic Extract (Kyolic)",
-          "bioavailability": "High (stable SAC)",
-          "bestFor": "Cardiovascular, immune, cancer prevention",
-          "notes": "S-allylcysteine stable and odorless; most studied form."
-        },
-        {
-          "name": "Raw Garlic (allicin)",
-          "bioavailability": "Low (unstable)",
-          "bestFor": "Antimicrobial, acute effects",
-          "notes": "Allicin unstable; degrades rapidly."
-        },
-        {
-          "name": "Allicin Powder (stabilized)",
-          "bioavailability": "Moderate",
-          "bestFor": "Antimicrobial, acute cardiovascular",
-          "notes": "Stabilized allicin preparation."
-        }
-      ],
-      "mechanism": "SAC inhibits HMG-CoA reductase; organosulfur compounds inhibit platelet aggregation; activation of NK cells and macrophages; inhibit NF-kB; H2S vasodilation.",
-      "bestTime": "With meals",
-      "withFood": "With food",
-      "synergies": [
-        "CoQ10",
-        "Omega-3",
-        "B vitamins",
-        "Vitamin C"
-      ],
-      "sideEffects": [
-        "Odorless — minimal",
-        "GI upset at high doses",
-        "Blood-thinning"
-      ],
-      "interactions": [
-        "Blood thinners",
-        "HIV medications (ritonavir)",
-        "Saquinavir"
-      ],
-      "evidence": 5,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Aged garlic extract cardiovascular",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26764326/"
-        }
-      ],
-      "goals": [
-        "Heart health",
-        "Immune support",
-        "Blood pressure"
       ]
     },
     {
@@ -29234,75 +28044,6 @@
       ]
     },
     {
-      "id": "feverfew-extract",
-      "name": "Feverfew (Tanacetum parthenium)",
-      "classification": "Herbal Extract",
-      "emoji": "🌼",
-      "summary": "A chrysanthemum-family herb containing parthenolide that prevents migraines by inhibiting platelet aggregation, serotonin release, and inflammatory prostaglandin synthesis.",
-      "shortDesc": "Parthenolide-rich herb for migraine prevention and anti-inflammatory effects.",
-      "benefits": [
-        "Migraine prevention",
-        "Headache frequency reduction",
-        "Anti-inflammatory",
-        "Platelet aggregation inhibition",
-        "Fever reduction",
-        "Arthritis support"
-      ],
-      "dosage": {
-        "male": "50–150 mg/day (standardized 0.2% parthenolide)",
-        "female": "50–150 mg/day",
-        "beginner": "50 mg/day",
-        "upperLimit": "300 mg/day"
-      },
-      "forms": [
-        {
-          "name": "Feverfew Extract (0.2% parthenolide)",
-          "bioavailability": "Moderate-High",
-          "bestFor": "Migraine prevention, anti-inflammatory",
-          "notes": "Standardized to parthenolide; most effective form."
-        },
-        {
-          "name": "Dried Feverfew Leaf",
-          "bioavailability": "Moderate",
-          "bestFor": "Traditional use, migraine prevention",
-          "notes": "Variable parthenolide content."
-        }
-      ],
-      "mechanism": "Parthenolide inhibits platelet aggregation, reduces serotonin release from platelets, inhibits NF-kB, suppresses arachidonic acid metabolism via PLA2 inhibition.",
-      "bestTime": "Daily continuous use for migraine prevention",
-      "withFood": "With food",
-      "synergies": [
-        "Magnesium",
-        "B2 (Riboflavin)",
-        "CoQ10",
-        "Ginger"
-      ],
-      "sideEffects": [
-        "Rebound headache if stopped abruptly",
-        "Oral ulcers (with fresh leaf)",
-        "GI upset",
-        "Possible uterine contraction"
-      ],
-      "interactions": [
-        "Blood thinners",
-        "NSAIDs",
-        "SSRIs"
-      ],
-      "evidence": 4,
-      "popularity": 3,
-      "references": [
-        {
-          "title": "Feverfew migraine prevention meta-analysis",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15109264/"
-        }
-      ],
-      "goals": [
-        "Migraine relief",
-        "Anti-inflammatory"
-      ]
-    },
-    {
       "id": "butterbur-petasites",
       "name": "Butterbur (Petasites hybridus)",
       "classification": "Herbal Extract",
@@ -29367,65 +28108,6 @@
         "Migraine relief",
         "Allergy relief",
         "Anti-inflammatory"
-      ]
-    },
-    {
-      "id": "lions-mane-pqq",
-      "name": "PQQ (Pyrroloquinoline Quinone)",
-      "classification": "NAD+ Precursor",
-      "emoji": "⚡",
-      "summary": "A redox-active cofactor and antioxidant that stimulates mitochondrial biogenesis via PGC-1α, supports nerve growth factor synthesis, and protects mitochondria from oxidative damage.",
-      "shortDesc": "Mitochondrial biogenesis activator and neuroprotective redox cofactor.",
-      "benefits": [
-        "Mitochondrial biogenesis",
-        "NGF synthesis support",
-        "Cognitive improvement",
-        "Cellular energy",
-        "Antioxidant in mitochondria",
-        "Sleep quality improvement"
-      ],
-      "dosage": {
-        "male": "10–20 mg/day",
-        "female": "10–20 mg/day",
-        "beginner": "10 mg/day",
-        "upperLimit": "20 mg/day"
-      },
-      "forms": [
-        {
-          "name": "PQQ Disodium Salt (BioPQQ)",
-          "bioavailability": "High",
-          "bestFor": "Mitochondrial health, cognition, NGF",
-          "notes": "Most clinically studied form."
-        }
-      ],
-      "mechanism": "Activates PGC-1α → stimulates mitochondrial biogenesis; CREB activation → NGF synthesis; scavenges superoxide and hydroxyl radicals specifically in mitochondria; modulates NMDA receptors.",
-      "bestTime": "Morning with food",
-      "withFood": "With fat-containing food",
-      "synergies": [
-        "CoQ10",
-        "Acetyl-L-Carnitine",
-        "Lion's Mane",
-        "Omega-3 DHA"
-      ],
-      "sideEffects": [
-        "Generally very well tolerated",
-        "Headache at high doses",
-        "Sleep disturbance if taken late"
-      ],
-      "interactions": [],
-      "evidence": 3,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "PQQ and mitochondrial biogenesis",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/20861478/"
-        }
-      ],
-      "goals": [
-        "Brain health",
-        "Energy",
-        "Longevity"
       ]
     },
     {
@@ -29587,68 +28269,6 @@
       ]
     },
     {
-      "id": "pea-protein",
-      "name": "Pea Protein Isolate",
-      "classification": "Sports Nutrition",
-      "emoji": "🫛",
-      "summary": "A plant-derived protein from yellow split peas with a complete amino acid profile, hypoallergenic properties, and clinical evidence for muscle gain comparable to whey protein.",
-      "shortDesc": "Complete plant protein comparable to whey for muscle gain without dairy allergens.",
-      "benefits": [
-        "Muscle protein synthesis (comparable to whey)",
-        "Hypoallergenic",
-        "Kidney-friendly",
-        "Satiety improvement",
-        "Blood pressure reduction (pea peptides)"
-      ],
-      "dosage": {
-        "male": "25–50 g/day",
-        "female": "20–40 g/day",
-        "beginner": "25 g/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Pea Protein Isolate (85–90% protein)",
-          "bioavailability": "High",
-          "bestFor": "Vegan muscle building, allergy-friendly protein",
-          "notes": "Most concentrated form; low FODMAP."
-        },
-        {
-          "name": "Pea Protein Concentrate (80% protein)",
-          "bioavailability": "Moderate-High",
-          "bestFor": "General use, slightly more fiber",
-          "notes": "Lower cost; contains more oligosaccharides."
-        }
-      ],
-      "mechanism": "BCAA content (high arginine, moderate leucine) stimulates mTOR; pea peptides inhibit ACE for blood pressure; slower gastric emptying vs whey provides sustained amino acid release.",
-      "bestTime": "Post-workout or between meals",
-      "withFood": "With or without food",
-      "synergies": [
-        "Rice Protein (complete amino acid combo)",
-        "Leucine supplement",
-        "Creatine"
-      ],
-      "sideEffects": [
-        "Gas and bloating in some individuals",
-        "GI upset at high doses"
-      ],
-      "interactions": [],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Pea protein vs whey muscle gains",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25628520/"
-        }
-      ],
-      "goals": [
-        "Muscle building",
-        "Sports performance",
-        "Weight management"
-      ]
-    },
-    {
       "id": "caffeine-l-theanine",
       "name": "Caffeine + L-Theanine Stack",
       "classification": "Nootropic",
@@ -29786,77 +28406,6 @@
         "Immune support",
         "Blood sugar control",
         "Cancer prevention"
-      ]
-    },
-    {
-      "id": "nac-supplement",
-      "name": "NAC (N-Acetyl Cysteine)",
-      "classification": "Amino Acid Derivative",
-      "emoji": "🛡️",
-      "summary": "A cysteine derivative and glutathione precursor with mucolytic, hepatoprotective, and antioxidant properties, used for acetaminophen overdose, respiratory conditions, and OCD.",
-      "shortDesc": "Glutathione precursor and mucolytic for liver detox, respiratory, and OCD relief.",
-      "benefits": [
-        "Glutathione synthesis",
-        "Mucolytic (lung health)",
-        "Liver detoxification (acetaminophen overdose)",
-        "OCD and compulsive behavior reduction",
-        "Anti-inflammatory",
-        "Addiction reduction"
-      ],
-      "dosage": {
-        "male": "600–1800 mg/day",
-        "female": "600–1200 mg/day",
-        "beginner": "600 mg/day",
-        "upperLimit": "3000 mg/day"
-      },
-      "forms": [
-        {
-          "name": "NAC Standard Capsule/Powder",
-          "bioavailability": "Moderate-High",
-          "bestFor": "Glutathione, liver, respiratory, OCD",
-          "notes": "Most common form; well-absorbed."
-        },
-        {
-          "name": "NAC Effervescent Tablet",
-          "bioavailability": "High",
-          "bestFor": "Respiratory, mucolytic, convenience",
-          "notes": "Effervescent form for respiratory conditions."
-        }
-      ],
-      "mechanism": "Converted to cysteine → glutathione (via gamma-glutamylcysteine synthetase); disrupts disulfide bonds in mucus; inhibits NF-kB; glutamate modulator (reduces glutamate excess in OCD); reduces NMDA excitotoxicity.",
-      "bestTime": "Morning or split doses",
-      "withFood": "With food to reduce GI upset",
-      "synergies": [
-        "Glycine (GlyNAC)",
-        "Alpha-Lipoic Acid",
-        "Selenium",
-        "Vitamin C"
-      ],
-      "sideEffects": [
-        "GI upset",
-        "Nausea",
-        "Rash",
-        "Possible worsening of asthma at very high doses"
-      ],
-      "interactions": [
-        "Nitroglycerin (hypotension risk)",
-        "Activated charcoal",
-        "Chemotherapy"
-      ],
-      "evidence": 5,
-      "popularity": 5,
-      "references": [
-        {
-          "title": "NAC glutathione and clinical uses",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23013202/"
-        }
-      ],
-      "goals": [
-        "Liver health",
-        "Respiratory health",
-        "Detox support",
-        "Mental health"
       ]
     },
     {
@@ -31291,77 +29840,6 @@
       ]
     },
     {
-      "id": "astaxanthin-supplement",
-      "name": "Astaxanthin",
-      "classification": "Polyphenol/Longevity",
-      "emoji": "🦩",
-      "summary": "The most powerful natural antioxidant known (6000x stronger than vitamin C by singlet oxygen quenching), a carotenoid from Haematococcus pluvialis algae with cardiovascular, eye, skin, and athletic benefits.",
-      "shortDesc": "World's most potent antioxidant carotenoid for skin, eyes, heart, and endurance.",
-      "benefits": [
-        "Most potent natural antioxidant",
-        "Eye health (macular degeneration prevention)",
-        "Skin photoprotection",
-        "Cardiovascular protection",
-        "Athletic endurance improvement",
-        "Anti-inflammatory",
-        "Neuroprotection"
-      ],
-      "dosage": {
-        "male": "4–12 mg/day",
-        "female": "4–12 mg/day",
-        "beginner": "4 mg/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Natural Astaxanthin (Haematococcus pluvialis)",
-          "bioavailability": "High",
-          "bestFor": "All benefits; eye, skin, heart, endurance",
-          "notes": "Natural algae-derived; superior to synthetic."
-        },
-        {
-          "name": "Synthetic Astaxanthin (petrochemical)",
-          "bioavailability": "Moderate",
-          "bestFor": "Lower potency than natural",
-          "notes": "Not recommended for supplementation."
-        }
-      ],
-      "mechanism": "Spans cell membrane bilayer as unique antioxidant; quenches singlet oxygen 6000x more potently than vitamin C; modulates NF-kB, Nrf2, and NO pathways; protects mitochondria and membrane lipids.",
-      "bestTime": "With meals",
-      "withFood": "Required — fat-soluble carotenoid",
-      "synergies": [
-        "Vitamin E",
-        "Omega-3",
-        "CoQ10",
-        "Lutein",
-        "Zeaxanthin"
-      ],
-      "sideEffects": [
-        "Orange skin pigmentation at high doses",
-        "GI upset",
-        "Dark-colored stools"
-      ],
-      "interactions": [
-        "Blood thinners (theoretical)",
-        "Hormone medications"
-      ],
-      "evidence": 4,
-      "popularity": 4,
-      "references": [
-        {
-          "title": "Astaxanthin antioxidant and health",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/21281504/"
-        }
-      ],
-      "goals": [
-        "Longevity",
-        "Eye health",
-        "Skin health",
-        "Sports performance"
-      ]
-    },
-    {
       "id": "lutein-zeaxanthin",
       "name": "Lutein & Zeaxanthin",
       "classification": "Polyphenol/Longevity",
@@ -31432,77 +29910,6 @@
         "Eye health",
         "Longevity",
         "Brain health"
-      ]
-    },
-    {
-      "id": "lycopene-supplement",
-      "name": "Lycopene",
-      "classification": "Polyphenol/Longevity",
-      "emoji": "🍅",
-      "summary": "A red carotenoid from tomatoes with powerful antioxidant properties preferentially protecting against prostate cancer, cardiovascular disease, and UV-induced skin damage.",
-      "shortDesc": "Tomato carotenoid antioxidant for prostate health, cardiovascular, and skin protection.",
-      "benefits": [
-        "Prostate cancer prevention",
-        "Cardiovascular protection",
-        "Skin UV protection",
-        "LDL oxidation reduction",
-        "Bone density preservation",
-        "Anti-inflammatory"
-      ],
-      "dosage": {
-        "male": "10–30 mg/day",
-        "female": "10–30 mg/day",
-        "beginner": "10 mg/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Lycopene from Tomato Extract",
-          "bioavailability": "High",
-          "bestFor": "Prostate, cardiovascular, skin",
-          "notes": "Standardized tomato oleoresin."
-        },
-        {
-          "name": "LycoRed (natural tomato lycopene)",
-          "bioavailability": "Very High",
-          "bestFor": "Highest bioavailability lycopene",
-          "notes": "Oil-suspended natural lycopene complex."
-        },
-        {
-          "name": "Cooked Tomato Products",
-          "bioavailability": "Moderate (food source)",
-          "bestFor": "General antioxidant, prostate prevention",
-          "notes": "Cooking breaks down cell walls; increases lycopene release."
-        }
-      ],
-      "mechanism": "Concentrated in prostate, adrenal, and testes; quenches singlet oxygen 2x more potently than beta-carotene; inhibits IGF-1 signaling in prostate cells; reduces LDL oxidation via lipoprotein protection.",
-      "bestTime": "With meals",
-      "withFood": "Required — fat-soluble carotenoid; cooked with oil is best",
-      "synergies": [
-        "Vitamin E",
-        "Astaxanthin",
-        "Lutein",
-        "Omega-3"
-      ],
-      "sideEffects": [
-        "Lycopenemia (skin orangeness) at very high doses",
-        "GI upset"
-      ],
-      "interactions": [],
-      "evidence": 4,
-      "popularity": 3,
-      "references": [
-        {
-          "title": "Lycopene and prostate cancer prevention",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/10952783/"
-        }
-      ],
-      "goals": [
-        "Men's health",
-        "Cancer prevention",
-        "Heart health",
-        "Skin health"
       ]
     },
     {
@@ -31633,83 +30040,6 @@
       ]
     },
     {
-      "id": "nmn-supplement",
-      "name": "NMN (Nicotinamide Mononucleotide)",
-      "classification": "NAD+ Precursor",
-      "emoji": "🔬",
-      "summary": "A direct precursor to NAD+ that bypasses rate-limiting steps in the NAD+ biosynthesis pathway, supporting mitochondrial function, DNA repair, SIRT1 activation, and cellular aging reversal.",
-      "shortDesc": "Direct NAD+ precursor for mitochondrial health, DNA repair, and anti-aging.",
-      "benefits": [
-        "NAD+ elevation",
-        "Mitochondrial function",
-        "DNA repair",
-        "SIRT1/3/5 activation",
-        "Insulin sensitivity",
-        "Muscle endurance",
-        "Cognitive aging prevention"
-      ],
-      "dosage": {
-        "male": "250–1000 mg/day",
-        "female": "250–500 mg/day",
-        "beginner": "250 mg/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "NMN Beta (β-NMN)",
-          "bioavailability": "High",
-          "bestFor": "NAD+ elevation, mitochondria, aging",
-          "notes": "Most stable and studied form."
-        },
-        {
-          "name": "Sublingual NMN",
-          "bioavailability": "Very High",
-          "bestFor": "Bypasses gut; fastest NAD+ elevation",
-          "notes": "Sublingual avoids first-pass NAMPT processing."
-        },
-        {
-          "name": "NMN Liposomal",
-          "bioavailability": "High",
-          "bestFor": "Enhanced bioavailability",
-          "notes": "Phospholipid protection from degradation."
-        }
-      ],
-      "mechanism": "Converted to NAD+ via NMNAT enzymes in cells; NAD+ activates sirtuins (SIRT1–7) and PARPs for DNA repair; substrate for CD38 (consumed, hence apigenin synergy); fuels electron transport chain.",
-      "bestTime": "Morning on empty stomach or pre-workout",
-      "withFood": "Can take fasted or with meals",
-      "synergies": [
-        "Apigenin",
-        "Resveratrol",
-        "TMG",
-        "Exercise",
-        "Metformin alternative"
-      ],
-      "sideEffects": [
-        "Generally very well tolerated",
-        "Mild GI upset",
-        "Flushing (less than niacin)",
-        "Nausea at high doses"
-      ],
-      "interactions": [
-        "Chemotherapy (theoretical, NAD fuels DNA repair in tumors)"
-      ],
-      "evidence": 4,
-      "popularity": 5,
-      "references": [
-        {
-          "title": "NMN and NAD metabolism aging",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/24987009/"
-        }
-      ],
-      "goals": [
-        "Longevity",
-        "Energy",
-        "Metabolic health",
-        "Brain health"
-      ]
-    },
-    {
       "id": "alpha-ketoglutarate",
       "name": "Alpha-Ketoglutarate (AKG / Ca-AKG)",
       "classification": "NAD+ Precursor",
@@ -31773,76 +30103,6 @@
         "Longevity",
         "Metabolic health",
         "Sports performance"
-      ]
-    },
-    {
-      "id": "magnesium-l-threonate",
-      "name": "Magnesium L-Threonate",
-      "classification": "Essential Mineral",
-      "emoji": "🧠",
-      "summary": "A patented magnesium form specifically designed to cross the blood-brain barrier and increase brain magnesium levels, uniquely improving cognitive function, memory, and sleep architecture.",
-      "shortDesc": "Brain-penetrating magnesium for cognitive enhancement, memory, and sleep.",
-      "benefits": [
-        "Brain magnesium elevation",
-        "Memory enhancement",
-        "Cognitive performance",
-        "Synaptic density improvement",
-        "Sleep quality and quality",
-        "Anxiety reduction"
-      ],
-      "dosage": {
-        "male": "1500–2000 mg/day (MgT; ~144 mg elemental Mg)",
-        "female": "1500–2000 mg/day",
-        "beginner": "1500 mg/day",
-        "upperLimit": "2000 mg MgT/day"
-      },
-      "forms": [
-        {
-          "name": "Magtein (patented Mg L-Threonate)",
-          "bioavailability": "Very High (CNS)",
-          "bestFor": "Brain health, memory, synapses, sleep",
-          "notes": "Patented form; multiple human RCTs."
-        },
-        {
-          "name": "Magnesium L-Threonate Generic",
-          "bioavailability": "High",
-          "bestFor": "Same uses as Magtein",
-          "notes": "Generic equivalent; verify quality."
-        }
-      ],
-      "mechanism": "Threonate carrier actively transports magnesium across BBB via sodium-dependent transporter; increases brain Mg²⁺ → enhances NMDA receptor function → improves synaptic plasticity → LTP and memory.",
-      "bestTime": "Evening before bed (promotes sleep architecture)",
-      "withFood": "With or without food",
-      "synergies": [
-        "L-Theanine",
-        "Phosphatidylserine",
-        "Lion's Mane",
-        "Bacopa"
-      ],
-      "sideEffects": [
-        "Drowsiness (take in evening)",
-        "GI upset",
-        "Headache initially"
-      ],
-      "interactions": [
-        "Antibiotics",
-        "Bisphosphonates",
-        "Neuromuscular blocking drugs"
-      ],
-      "evidence": 4,
-      "popularity": 5,
-      "references": [
-        {
-          "title": "Magnesium L-threonate and cognitive function",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34113358/"
-        }
-      ],
-      "goals": [
-        "Brain health",
-        "Memory",
-        "Better sleep",
-        "Lower stress"
       ]
     },
     {
@@ -33525,77 +31785,6 @@
       ]
     },
     {
-      "id": "pregnenolone-supplement",
-      "name": "Pregnenolone",
-      "classification": "Polyphenol/Longevity",
-      "emoji": "🧬",
-      "summary": "A neurosteroid and precursor to all steroid hormones including DHEA, progesterone, and cortisol, with memory-enhancing and mood-stabilizing properties via GABA and NMDA receptor modulation.",
-      "shortDesc": "Mother of all steroid hormones; neurosteroid for memory, mood, and hormonal balance.",
-      "benefits": [
-        "Memory enhancement",
-        "Mood stabilization",
-        "Hormonal precursor",
-        "Neuroprotection",
-        "Arthritis symptom relief",
-        "Fatigue reduction"
-      ],
-      "dosage": {
-        "male": "10–50 mg/day",
-        "female": "10–30 mg/day",
-        "beginner": "10 mg/day",
-        "upperLimit": "100 mg/day"
-      },
-      "forms": [
-        {
-          "name": "Pregnenolone (micronized)",
-          "bioavailability": "High",
-          "bestFor": "Memory, mood, hormonal support",
-          "notes": "Best absorbed as micronized powder."
-        },
-        {
-          "name": "Pregnenolone (sublingual)",
-          "bioavailability": "Very High",
-          "bestFor": "Rapid neurosteroid effects",
-          "notes": "Faster onset via sublingual route."
-        }
-      ],
-      "mechanism": "Precursor to all steroid hormones via the cholesterol → pregnenolone step; acts directly as neurosteroid at GABAA (inhibits), NMDA (modulates), and sigma-1 receptors; potentiates memory consolidation in hippocampus.",
-      "bestTime": "Morning with food",
-      "withFood": "With fat-containing food",
-      "synergies": [
-        "DHEA",
-        "Progesterone",
-        "Vitamin D3",
-        "Phosphatidylserine"
-      ],
-      "sideEffects": [
-        "Overstimulation/insomnia at high doses",
-        "Acne",
-        "Hair loss",
-        "Possible anxiety",
-        "Hormonal imbalance"
-      ],
-      "interactions": [
-        "Hormone therapies",
-        "Corticosteroids",
-        "Sedatives (opposes GABA)"
-      ],
-      "evidence": 3,
-      "popularity": 3,
-      "references": [
-        {
-          "title": "Pregnenolone neurosteroid review",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/10454453/"
-        }
-      ],
-      "goals": [
-        "Brain health",
-        "Hormonal support",
-        "Energy"
-      ]
-    },
-    {
       "id": "lemon-balm-extract",
       "name": "Lemon Balm Extract (Melissa officinalis)",
       "classification": "Herbal Extract",
@@ -34218,77 +32407,6 @@
         "Gut health",
         "Detox support",
         "General wellness"
-      ]
-    },
-    {
-      "id": "shatavari-extract",
-      "name": "Shatavari (Asparagus racemosus)",
-      "classification": "Adaptogenic Herb",
-      "emoji": "🌱",
-      "summary": "A female tonic adaptogen from Ayurvedic medicine with steroidal saponins that support hormonal balance, lactation, fertility, menopausal symptoms, and immune function via estrogenic and adaptogenic activity.",
-      "shortDesc": "Ayurvedic female adaptogen for hormonal balance, lactation, and fertility support.",
-      "benefits": [
-        "Hormone balance (phytoestrogenic)",
-        "Lactation enhancement (galactagogue)",
-        "Fertility support",
-        "Menopausal symptom relief",
-        "Immune modulation",
-        "Adaptogenic stress response",
-        "Digestive soothing"
-      ],
-      "dosage": {
-        "male": "500–1000 mg/day",
-        "female": "500–2000 mg/day",
-        "beginner": "500 mg/day",
-        "upperLimit": "No established UL"
-      },
-      "forms": [
-        {
-          "name": "Shatavari Root Extract (standardized saponins)",
-          "bioavailability": "High",
-          "bestFor": "Hormonal, lactation, fertility",
-          "notes": "Standardized for steroidal saponins (shatavarin I-IV)."
-        },
-        {
-          "name": "Shatavari Powder (churna)",
-          "bioavailability": "Moderate",
-          "bestFor": "Traditional Ayurvedic use, digestive",
-          "notes": "Mixed with warm milk per Ayurvedic tradition."
-        }
-      ],
-      "mechanism": "Steroidal saponins (shatavarins) bind estrogen receptors → mild phytoestrogenic effects; stimulates prolactin secretion supporting lactation; modulates NK cell and macrophage activity; adaptogenic via HPA axis normalization; mucilaginous compounds soothe GI mucosa.",
-      "bestTime": "Morning and evening with warm milk or food",
-      "withFood": "With food or warm milk",
-      "synergies": [
-        "Ashwagandha",
-        "Maca Root",
-        "Vitex Chaste Tree",
-        "Fenugreek"
-      ],
-      "sideEffects": [
-        "Estrogenic effects (avoid in estrogen-sensitive cancers)",
-        "GI bloating",
-        "Possible weight changes",
-        "Avoid during pregnancy (high doses)"
-      ],
-      "interactions": [
-        "Estrogen therapies",
-        "Diuretics",
-        "ACE inhibitors"
-      ],
-      "evidence": 3,
-      "popularity": 3,
-      "references": [
-        {
-          "title": "Shatavari review of pharmacological properties",
-          "source": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23195984/"
-        }
-      ],
-      "goals": [
-        "Women's health",
-        "Hormonal support",
-        "Immune support"
       ]
     },
     {
