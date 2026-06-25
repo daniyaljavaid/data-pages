@@ -14,6 +14,11 @@
     :root { --bg: #f6faf8; --fg: #14211c; --muted: #5a6f66; --accent: #137a4d;
             --card-bg: rgba(19,122,77,.08); --card-border: rgba(19,122,77,.4); }
   }
+  /* Explicit theme via ?theme=light|dark (used by the in-app viewer) — wins over the media query. */
+  :root[data-theme="dark"] { --bg: #0e1a16; --fg: #ecf3ef; --muted: #8fa89d; --accent: #7cdca9;
+            --card-bg: rgba(124,220,169,.08); --card-border: rgba(124,220,169,.45); }
+  :root[data-theme="light"] { --bg: #f6faf8; --fg: #14211c; --muted: #5a6f66; --accent: #137a4d;
+            --card-bg: rgba(19,122,77,.08); --card-border: rgba(19,122,77,.4); }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
          max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6;
          background: var(--bg); color: var(--fg); }
@@ -25,6 +30,13 @@
                 padding: 14px 16px; border-radius: 12px; }
   code { background: rgba(127,127,127,.18); padding: 0 4px; border-radius: 4px; }
 </style>
+<script>
+  // Apply ?theme=light|dark before paint so the in-app viewer matches the app's theme.
+  (function () {
+    var t = new URLSearchParams(location.search).get('theme');
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
 </head>
 <body>
 <h1>Terms of Use</h1>
