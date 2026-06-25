@@ -5,12 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy — Quality Of Life: Health</title>
 <style>
-  :root { color-scheme: light dark; }
+  :root {
+    color-scheme: light dark;
+    --bg: #0e1a16; --fg: #ecf3ef; --muted: #8fa89d; --accent: #7cdca9;
+    --card-bg: rgba(124,220,169,.08); --card-border: rgba(124,220,169,.45);
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f6faf8; --fg: #14211c; --muted: #5a6f66; --accent: #137a4d;
+            --card-bg: rgba(19,122,77,.08); --card-border: rgba(19,122,77,.4); }
+  }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-         max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6; }
+         max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6;
+         background: var(--bg); color: var(--fg); }
+  h1, h2 { color: var(--accent); }
   h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 1.8em; }
-  .muted { opacity: .7; font-size: .9rem; }
-  code { background: rgba(127,127,127,.15); padding: 0 4px; border-radius: 4px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: .9rem; }
+  code { background: rgba(127,127,127,.18); padding: 0 4px; border-radius: 4px; }
 </style>
 </head>
 <body>
