@@ -1,4 +1,34 @@
 {
+  "schemaVersion": 2,
+  "goalCatalog": [
+    "Better sleep",
+    "More energy",
+    "Sharper focus",
+    "Brain health",
+    "Lower stress",
+    "Improve mood",
+    "Build muscle",
+    "Improve endurance",
+    "Athletic performance",
+    "Faster recovery",
+    "Weight management",
+    "Stronger immunity",
+    "Reduce inflammation",
+    "Healthy heart",
+    "Blood sugar control",
+    "Hormonal balance",
+    "Sexual health",
+    "Thyroid support",
+    "Better gut health",
+    "Liver support",
+    "Detox support",
+    "Joint & bone health",
+    "Healthy skin & hair",
+    "Eye health",
+    "Respiratory health",
+    "Antioxidant support",
+    "Longevity"
+  ],
   "supplements": [
     {
       "id": "magnesium",
@@ -80,7 +110,14 @@
         "Better sleep",
         "Faster recovery",
         "Lower stress"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ashwagandha",
@@ -147,7 +184,15 @@
         "Improve mood",
         "Hormonal balance",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "creatine",
@@ -212,7 +257,14 @@
         "Brain health",
         "More energy",
         "Faster recovery"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-d3",
@@ -277,7 +329,15 @@
         "Improve mood",
         "Longevity",
         "Hormonal balance"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-theanine",
@@ -332,7 +392,14 @@
         "Sharper focus",
         "Lower stress",
         "Improve mood"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "omega-3",
@@ -401,7 +468,14 @@
         "Longevity",
         "Improve mood",
         "Faster recovery"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "rhodiola-rosea",
@@ -476,7 +550,14 @@
         "More energy",
         "Athletic performance",
         "Brain health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc",
@@ -539,7 +620,14 @@
         "Stronger immunity",
         "Hormonal balance",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "caffeine",
@@ -605,7 +693,17 @@
         "More energy",
         "Sharper focus",
         "Build muscle"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "stimulant"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lions-mane",
@@ -668,7 +766,15 @@
         "Brain health",
         "Sharper focus",
         "Improve mood"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "bacopa-brahmi",
@@ -739,7 +845,15 @@
       "goals": [
         "Brain health",
         "Lower stress"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "coq10",
@@ -805,7 +919,16 @@
         "More energy",
         "Longevity",
         "Faster recovery"
-      ]
+      ],
+      "category": "enzyme",
+      "timingSlots": [
+        "morning",
+        "afternoon",
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "berberine",
@@ -872,7 +995,14 @@
         "Better gut health",
         "Longevity",
         "More energy"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "collagen",
@@ -941,7 +1071,17 @@
         "Healthy skin & hair",
         "Faster recovery",
         "Longevity"
-      ]
+      ],
+      "category": "protein",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-c",
@@ -1012,7 +1152,17 @@
         "Stronger immunity",
         "Healthy skin & hair",
         "Longevity"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "nmn-supplement",
@@ -1089,7 +1239,15 @@
         "More energy",
         "Blood sugar control",
         "Brain health"
-      ]
+      ],
+      "category": "nad_precursor",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "resveratrol",
@@ -1153,7 +1311,14 @@
         "Longevity",
         "Brain health",
         "Improve mood"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "probiotics",
@@ -1223,7 +1388,14 @@
         "Better gut health",
         "Stronger immunity",
         "Improve mood"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "beta-alanine",
@@ -1286,7 +1458,14 @@
         "Build muscle",
         "More energy",
         "Faster recovery"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-citrulline",
@@ -1351,7 +1530,14 @@
       "goals": [
         "Athletic performance",
         "Healthy heart"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "melatonin",
@@ -1416,7 +1602,14 @@
       "goals": [
         "Better sleep",
         "Longevity"
-      ]
+      ],
+      "category": "hormone",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "5-htp",
@@ -1476,7 +1669,14 @@
         "Improve mood",
         "Better sleep",
         "Lower stress"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tudca",
@@ -1534,7 +1734,14 @@
         "Better gut health",
         "Longevity",
         "Faster recovery"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "nac-supplement",
@@ -1605,7 +1812,14 @@
         "Respiratory health",
         "Detox support",
         "Brain health"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tongkat-ali",
@@ -1665,7 +1879,14 @@
         "More energy",
         "Improve mood",
         "Build muscle"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "fadogia-agrestis",
@@ -1721,7 +1942,14 @@
       "goals": [
         "Hormonal balance",
         "Build muscle"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "biotin",
@@ -1776,7 +2004,15 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hyaluronic-acid",
@@ -1838,7 +2074,15 @@
         "Healthy skin & hair",
         "Faster recovery",
         "Longevity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "phosphatidylserine",
@@ -1902,7 +2146,15 @@
         "Brain health",
         "Sharper focus",
         "Lower stress"
-      ]
+      ],
+      "category": "phospholipid",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "alpha-lipoic-acid",
@@ -1968,7 +2220,14 @@
         "Longevity",
         "More energy",
         "Better gut health"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "quercetin-supplement",
@@ -2046,7 +2305,14 @@
         "Longevity",
         "Stronger immunity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b12",
@@ -2117,7 +2383,14 @@
         "More energy",
         "Brain health",
         "Improve mood"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iron",
@@ -2184,7 +2457,14 @@
         "More energy",
         "Build muscle",
         "Stronger immunity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "maca-root",
@@ -2254,7 +2534,15 @@
         "Improve mood",
         "More energy",
         "Hormonal balance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "turmeric-curcumin",
@@ -2327,7 +2615,14 @@
         "Longevity",
         "Better gut health",
         "Improve mood"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "reishi",
@@ -2389,7 +2684,14 @@
         "Lower stress",
         "Better sleep",
         "Longevity"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "echinacea",
@@ -2452,7 +2754,16 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "stimulant"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-a-retinol",
@@ -2524,7 +2835,15 @@
         "Stronger immunity",
         "Healthy skin & hair",
         "Eye health"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-a-beta-carotene",
@@ -2587,7 +2906,14 @@
         "Eye health",
         "Healthy skin & hair",
         "Antioxidant support"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b1-thiamine",
@@ -2663,7 +2989,15 @@
         "More energy",
         "Brain health",
         "Blood sugar control"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b2-riboflavin",
@@ -2726,7 +3060,15 @@
       "goals": [
         "More energy",
         "Brain health"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b3-niacin",
@@ -2806,7 +3148,14 @@
         "Longevity",
         "More energy",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b3-niacinamide",
@@ -2870,7 +3219,14 @@
         "More energy",
         "Improve mood",
         "Longevity"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b5-pantothenic",
@@ -2939,7 +3295,14 @@
         "More energy",
         "Healthy skin & hair",
         "Hormonal balance"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b6-pyridoxine",
@@ -3005,7 +3368,14 @@
         "Brain health",
         "Hormonal balance",
         "Lower stress"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b7-biotin",
@@ -3067,7 +3437,14 @@
       "goals": [
         "Healthy skin & hair",
         "Blood sugar control"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b9-folate",
@@ -3138,7 +3515,14 @@
         "Brain health",
         "Healthy heart",
         "Hormonal balance"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-b12-methylcobalamin",
@@ -3215,7 +3599,14 @@
         "More energy",
         "Brain health",
         "Improve mood"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-c-ascorbic",
@@ -3299,7 +3690,16 @@
         "Stronger immunity",
         "Healthy skin & hair",
         "Antioxidant support"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-e-tocopherol",
@@ -3376,7 +3776,14 @@
         "Healthy heart",
         "Healthy skin & hair",
         "Antioxidant support"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-k1-phylloquinone",
@@ -3437,7 +3844,14 @@
       "goals": [
         "Healthy heart",
         "Joint & bone health"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-k2-mk7",
@@ -3506,7 +3920,14 @@
         "Joint & bone health",
         "Healthy heart",
         "Longevity"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-k2-mk4",
@@ -3565,7 +3986,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "calcium-carbonate",
@@ -3654,7 +4082,14 @@
       "goals": [
         "Joint & bone health",
         "Faster recovery"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "calcium-citrate",
@@ -3710,7 +4145,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-glycinate",
@@ -3775,7 +4217,14 @@
         "Better sleep",
         "Lower stress",
         "Faster recovery"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-citrate",
@@ -3833,7 +4282,14 @@
         "Better sleep",
         "Faster recovery",
         "Better gut health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-l-threonate",
@@ -3902,7 +4358,14 @@
         "Brain health",
         "Better sleep",
         "Lower stress"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-oxide",
@@ -3956,7 +4419,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-malate",
@@ -4014,7 +4484,15 @@
         "More energy",
         "Faster recovery",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-taurate",
@@ -4072,7 +4550,14 @@
       "goals": [
         "Healthy heart",
         "Lower stress"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-chloride",
@@ -4141,7 +4626,14 @@
       "goals": [
         "Faster recovery",
         "Lower stress"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-sulfate",
@@ -4201,7 +4693,14 @@
       "goals": [
         "Faster recovery",
         "Lower stress"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc-picolinate",
@@ -4297,7 +4796,15 @@
         "Stronger immunity",
         "Hormonal balance",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc-gluconate",
@@ -4354,7 +4861,14 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc-bisglycinate",
@@ -4411,7 +4925,15 @@
         "Stronger immunity",
         "Healthy skin & hair",
         "Hormonal balance"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iron-ferrous-bisglycinate",
@@ -4504,7 +5026,14 @@
         "More energy",
         "Stronger immunity",
         "Brain health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "selenium-selenomethionine",
@@ -4580,7 +5109,15 @@
         "Thyroid support",
         "Stronger immunity",
         "Longevity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iodine",
@@ -4658,7 +5195,14 @@
         "Thyroid support",
         "More energy",
         "Brain health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "copper-bisglycinate",
@@ -4734,7 +5278,16 @@
         "Healthy skin & hair",
         "More energy",
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "manganese",
@@ -4802,7 +5355,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chromium-picolinate",
@@ -4871,7 +5431,14 @@
       "goals": [
         "Blood sugar control",
         "Weight management"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "molybdenum",
@@ -4937,7 +5504,14 @@
       ],
       "goals": [
         "Detox support"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "boron",
@@ -5013,7 +5587,15 @@
       "goals": [
         "Joint & bone health",
         "Hormonal balance"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "silica-silicon",
@@ -5087,7 +5669,16 @@
       "goals": [
         "Joint & bone health",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "potassium-citrate",
@@ -5163,7 +5754,14 @@
       "goals": [
         "Healthy heart",
         "Faster recovery"
-      ]
+      ],
+      "category": "electrolyte",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "sodium",
@@ -5233,7 +5831,14 @@
       ],
       "goals": [
         "Athletic performance"
-      ]
+      ],
+      "category": "electrolyte",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "phosphorus",
@@ -5302,7 +5907,14 @@
       "goals": [
         "Joint & bone health",
         "More energy"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "fluoride",
@@ -5367,7 +5979,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vanadium",
@@ -5427,7 +6046,14 @@
       ],
       "goals": [
         "Blood sugar control"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "turmeric-curcumin-bc95",
@@ -5517,7 +6143,14 @@
         "Joint & bone health",
         "Reduce inflammation",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "boswellia",
@@ -5586,7 +6219,14 @@
       "goals": [
         "Joint & bone health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ginger-extract",
@@ -5659,7 +6299,14 @@
         "Better gut health",
         "Reduce inflammation",
         "Joint & bone health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "holy-basil-tulsi",
@@ -5731,7 +6378,15 @@
         "Lower stress",
         "Blood sugar control",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "siberian-ginseng",
@@ -5797,7 +6452,14 @@
         "Athletic performance",
         "Lower stress",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "panax-ginseng",
@@ -5872,7 +6534,14 @@
         "More energy",
         "Hormonal balance",
         "Brain health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "american-ginseng",
@@ -5938,7 +6607,14 @@
         "Blood sugar control",
         "Stronger immunity",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "schisandra",
@@ -6004,7 +6680,15 @@
         "Liver support",
         "Lower stress",
         "Athletic performance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "gotu-kola",
@@ -6071,7 +6755,16 @@
         "Brain health",
         "Healthy skin & hair",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "milk-thistle",
@@ -6143,7 +6836,14 @@
         "Liver support",
         "Detox support",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "valerian-root",
@@ -6215,7 +6915,14 @@
       "goals": [
         "Better sleep",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "passionflower",
@@ -6280,7 +6987,14 @@
       "goals": [
         "Lower stress",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lemon-balm-rosavins",
@@ -6354,7 +7068,14 @@
         "Better sleep",
         "Lower stress",
         "Brain health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chamomile",
@@ -6424,7 +7145,14 @@
       "goals": [
         "Better sleep",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hawthorn",
@@ -6495,7 +7223,14 @@
       ],
       "goals": [
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "elderberry",
@@ -6564,7 +7299,14 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "astragalus",
@@ -6634,7 +7376,14 @@
       "goals": [
         "Stronger immunity",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cats-claw",
@@ -6701,7 +7450,14 @@
         "Joint & bone health",
         "Reduce inflammation",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "devils-claw",
@@ -6766,7 +7522,14 @@
       "goals": [
         "Joint & bone health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "andrographis",
@@ -6831,7 +7594,16 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "stimulant"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "oregano-oil",
@@ -6903,7 +7675,14 @@
       "goals": [
         "Stronger immunity",
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "garlic-extract",
@@ -6982,7 +7761,14 @@
       "goals": [
         "Healthy heart",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ginkgo-biloba",
@@ -7056,7 +7842,14 @@
       "goals": [
         "Brain health",
         "Sharper focus"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "st-johns-wort",
@@ -7131,7 +7924,14 @@
         "Improve mood",
         "Lower stress",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "kava",
@@ -7204,7 +8004,14 @@
       "goals": [
         "Lower stress",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tribulus-terrestris",
@@ -7269,7 +8076,14 @@
       "goals": [
         "Hormonal balance",
         "Athletic performance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "horny-goat-weed",
@@ -7336,7 +8150,14 @@
       "goals": [
         "Hormonal balance",
         "Joint & bone health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "saw-palmetto",
@@ -7407,7 +8228,14 @@
       "goals": [
         "Sexual health",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pygeum",
@@ -7468,7 +8296,14 @@
       ],
       "goals": [
         "Sexual health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "stinging-nettle",
@@ -7540,7 +8375,14 @@
       "goals": [
         "Hormonal balance",
         "Sexual health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "fenugreek",
@@ -7614,7 +8456,14 @@
       "goals": [
         "Hormonal balance",
         "Blood sugar control"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cinnamon-extract",
@@ -7686,7 +8535,14 @@
       "goals": [
         "Blood sugar control",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "gymnema-sylvestre",
@@ -7750,7 +8606,14 @@
       "goals": [
         "Blood sugar control",
         "Weight management"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "bitter-melon",
@@ -7820,7 +8683,14 @@
       ],
       "goals": [
         "Blood sugar control"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-glutamine",
@@ -7884,7 +8754,15 @@
         "Better gut health",
         "Faster recovery",
         "Stronger immunity"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening",
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-arginine",
@@ -7963,7 +8841,15 @@
         "Athletic performance",
         "Healthy heart",
         "Hormonal balance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening",
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-leucine",
@@ -8025,7 +8911,14 @@
       "goals": [
         "Build muscle",
         "Faster recovery"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-isoleucine",
@@ -8087,7 +8980,14 @@
       "goals": [
         "Build muscle",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-valine",
@@ -8146,7 +9046,14 @@
       "goals": [
         "Build muscle",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hmb",
@@ -8214,7 +9121,15 @@
       "goals": [
         "Build muscle",
         "Faster recovery"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "with_meal",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "taurine-supplement",
@@ -8278,7 +9193,15 @@
         "Athletic performance",
         "Longevity",
         "More energy"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "with_meal",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "glycine-supplement",
@@ -8343,7 +9266,17 @@
         "Longevity",
         "Better gut health",
         "Faster recovery"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-lysine",
@@ -8407,7 +9340,16 @@
       "goals": [
         "Healthy skin & hair",
         "Stronger immunity"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-proline",
@@ -8466,7 +9408,16 @@
       "goals": [
         "Healthy skin & hair",
         "Joint & bone health"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-carnitine-tartrate",
@@ -8551,7 +9502,14 @@
         "Weight management",
         "More energy",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "acetyl-l-carnitine",
@@ -8618,7 +9576,15 @@
         "Brain health",
         "More energy",
         "Longevity"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-tyrosine",
@@ -8687,7 +9653,14 @@
         "Brain health",
         "Lower stress",
         "More energy"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "gaba-supplement",
@@ -8758,7 +9731,14 @@
       "goals": [
         "Lower stress",
         "Better sleep"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "d-aspartic-acid",
@@ -8821,7 +9801,14 @@
       "goals": [
         "Hormonal balance",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "alpha-gpc",
@@ -8887,7 +9874,15 @@
       "goals": [
         "Brain health",
         "Athletic performance"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "citicoline-cdp-choline",
@@ -8946,7 +9941,14 @@
       "goals": [
         "Brain health",
         "Sharper focus"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "huperzine-a",
@@ -9013,7 +10015,14 @@
       ],
       "goals": [
         "Brain health"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "noopept",
@@ -9078,7 +10087,14 @@
       "goals": [
         "Brain health",
         "Sharper focus"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lions-mane-extract",
@@ -9149,7 +10165,14 @@
       "goals": [
         "Brain health",
         "Longevity"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "reishi-extract",
@@ -9223,7 +10246,14 @@
         "Stronger immunity",
         "Longevity",
         "Better sleep"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "turkey-tail-mushroom",
@@ -9290,7 +10320,15 @@
         "Stronger immunity",
         "Better gut health",
         "Longevity"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chaga-mushroom",
@@ -9362,7 +10400,14 @@
         "Stronger immunity",
         "Antioxidant support",
         "Longevity"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cordyceps",
@@ -9435,7 +10480,15 @@
         "Athletic performance",
         "More energy",
         "Hormonal balance"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "maitake-mushroom",
@@ -9500,7 +10553,14 @@
       "goals": [
         "Stronger immunity",
         "Blood sugar control"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "shiitake-mushroom",
@@ -9569,7 +10629,14 @@
       "goals": [
         "Stronger immunity",
         "Healthy heart"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "nr-nicotinamide-riboside",
@@ -9634,7 +10701,14 @@
       "goals": [
         "Longevity",
         "More energy"
-      ]
+      ],
+      "category": "nad_precursor",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pterostilbene",
@@ -9698,7 +10772,14 @@
       "goals": [
         "Longevity",
         "Brain health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "fisetin",
@@ -9763,7 +10844,14 @@
         "Longevity",
         "Brain health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "quercetin-phytosome",
@@ -9837,7 +10925,14 @@
         "Longevity",
         "Reduce inflammation",
         "Stronger immunity"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "spermidine",
@@ -9901,7 +10996,14 @@
         "Longevity",
         "Healthy skin & hair",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "apigenin",
@@ -9966,7 +11068,15 @@
       "goals": [
         "Longevity",
         "Better sleep"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tmg-betaine",
@@ -10031,7 +11141,15 @@
         "Longevity",
         "Healthy heart",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "coq10-ubiquinol",
@@ -10111,7 +11229,14 @@
         "Healthy heart",
         "More energy",
         "Longevity"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lions-mane-pqq",
@@ -10170,7 +11295,15 @@
         "Brain health",
         "More energy",
         "Longevity"
-      ]
+      ],
+      "category": "nad_precursor",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "moringa",
@@ -10243,7 +11376,14 @@
         "Reduce inflammation",
         "Blood sugar control",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "spirulina",
@@ -10315,7 +11455,14 @@
         "Stronger immunity",
         "Reduce inflammation",
         "Longevity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chlorella",
@@ -10380,7 +11527,14 @@
       "goals": [
         "Detox support",
         "Stronger immunity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "saffron",
@@ -10446,7 +11600,14 @@
       "goals": [
         "Improve mood",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lavender-silexan",
@@ -10509,7 +11670,14 @@
       "goals": [
         "Lower stress",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnolia-bark",
@@ -10575,7 +11743,14 @@
       "goals": [
         "Lower stress",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "mucuna-pruriens",
@@ -10650,7 +11825,16 @@
       "goals": [
         "Improve mood",
         "Hormonal balance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "evening",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vinpocetine",
@@ -10711,7 +11895,14 @@
       ],
       "goals": [
         "Brain health"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ashwagandha-ksm66",
@@ -10793,7 +11984,15 @@
         "Hormonal balance",
         "Athletic performance",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pine-bark-pycnogenol",
@@ -10861,7 +12060,14 @@
         "Athletic performance",
         "Healthy skin & hair",
         "Healthy heart"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "grape-seed-extract",
@@ -10934,7 +12140,16 @@
         "Healthy heart",
         "Healthy skin & hair",
         "Antioxidant support"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "berberine-hcl",
@@ -11015,7 +12230,14 @@
         "Blood sugar control",
         "Weight management",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "omega3-epa",
@@ -11089,7 +12311,14 @@
         "Healthy heart",
         "Improve mood",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "omega3-dha",
@@ -11162,7 +12391,14 @@
         "Brain health",
         "Eye health",
         "Sharper focus"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "fish-oil",
@@ -11249,7 +12485,17 @@
         "Brain health",
         "Reduce inflammation",
         "Joint & bone health"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived",
+        "shellfish"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "flaxseed-oil",
@@ -11319,7 +12565,14 @@
       "goals": [
         "Healthy heart",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "astaxanthin-supplement",
@@ -11390,7 +12643,14 @@
         "Eye health",
         "Healthy skin & hair",
         "Athletic performance"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lutein",
@@ -11458,7 +12718,14 @@
       "goals": [
         "Eye health",
         "Longevity"
-      ]
+      ],
+      "category": "carotenoid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zeaxanthin",
@@ -11524,7 +12791,14 @@
       ],
       "goals": [
         "Eye health"
-      ]
+      ],
+      "category": "carotenoid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lycopene-supplement",
@@ -11595,7 +12869,14 @@
         "Longevity",
         "Healthy heart",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "beta-glucan-yeast",
@@ -11663,7 +12944,14 @@
       "goals": [
         "Stronger immunity",
         "Healthy heart"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "msm-methylsulfonylmethane",
@@ -11731,7 +13019,14 @@
         "Joint & bone health",
         "Faster recovery",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "glucosamine-sulfate",
@@ -11801,7 +13096,16 @@
       "goals": [
         "Joint & bone health",
         "Longevity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "shellfish"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chondroitin-sulfate",
@@ -11870,7 +13174,16 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "shellfish"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "collagen-type1",
@@ -11946,7 +13259,17 @@
       "goals": [
         "Healthy skin & hair",
         "Joint & bone health"
-      ]
+      ],
+      "category": "protein",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "probiotics-lactobacillus",
@@ -12028,7 +13351,14 @@
       "goals": [
         "Better gut health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "probiotics-bifidobacterium",
@@ -12104,7 +13434,14 @@
       "goals": [
         "Better gut health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "prebiotics-inulin",
@@ -12179,7 +13516,15 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "fiber",
+      "timingSlots": [
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "digestive-enzymes",
@@ -12261,7 +13606,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc-carnosine",
@@ -12317,7 +13669,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "dgl-licorice",
@@ -12379,7 +13738,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "slippery-elm",
@@ -12441,7 +13807,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "marshmallow-root",
@@ -12502,7 +13875,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "caffeine-anhydrous",
@@ -12589,7 +13969,17 @@
         "More energy",
         "Athletic performance",
         "Brain health"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "stimulant"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "citrulline-malate",
@@ -12652,7 +14042,14 @@
       "goals": [
         "Athletic performance",
         "Faster recovery"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "beet-root",
@@ -12723,7 +14120,14 @@
       "goals": [
         "Athletic performance",
         "Healthy heart"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "whey-protein-isolate",
@@ -12800,7 +14204,16 @@
         "Build muscle",
         "Faster recovery",
         "Weight management"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "casein-protein",
@@ -12869,7 +14282,16 @@
         "Build muscle",
         "Faster recovery",
         "Better sleep"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pea-protein",
@@ -12931,7 +14353,16 @@
         "Build muscle",
         "Athletic performance",
         "Weight management"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "electrolyte-blend",
@@ -13001,7 +14432,14 @@
       ],
       "goals": [
         "Athletic performance"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "creatine-hcl",
@@ -13057,7 +14495,14 @@
       "goals": [
         "Build muscle",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "creatine-ethyl-ester",
@@ -13112,7 +14557,14 @@
       "goals": [
         "Build muscle",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "kre-alkalyn",
@@ -13167,7 +14619,14 @@
       "goals": [
         "Build muscle",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "nooLVL",
@@ -13225,7 +14684,14 @@
       "goals": [
         "Brain health",
         "Athletic performance"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "agmatine-sulfate",
@@ -13285,7 +14751,15 @@
         "Athletic performance",
         "Brain health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "with_meal",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-d3-k2",
@@ -13357,7 +14831,15 @@
         "Joint & bone health",
         "Healthy heart",
         "Stronger immunity"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc-magnesium-b6",
@@ -13424,7 +14906,14 @@
         "Hormonal balance",
         "Better sleep",
         "Build muscle"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "dhea",
@@ -13507,7 +14996,17 @@
         "Hormonal balance",
         "More energy",
         "Longevity"
-      ]
+      ],
+      "category": "hormone",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "banned_in_sport"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pregnenolone-supplement",
@@ -13578,7 +15077,17 @@
         "Brain health",
         "Hormonal balance",
         "More energy"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "banned_in_sport"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "7-keto-dhea",
@@ -13643,7 +15152,16 @@
         "Weight management",
         "Hormonal balance",
         "More energy"
-      ]
+      ],
+      "category": "hormone",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "banned_in_sport"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "maca-root-red",
@@ -13708,7 +15226,14 @@
       "goals": [
         "Hormonal balance",
         "Joint & bone health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "maca-root-black",
@@ -13771,7 +15296,14 @@
       "goals": [
         "Hormonal balance",
         "Sexual health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "shilajit",
@@ -13843,7 +15375,14 @@
         "Hormonal balance",
         "More energy",
         "Longevity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "same",
@@ -13913,7 +15452,14 @@
         "Improve mood",
         "Joint & bone health",
         "Liver support"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "inositol",
@@ -13985,7 +15531,14 @@
         "Improve mood",
         "Hormonal balance",
         "Blood sugar control"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "st-johns-wort-hyperforin",
@@ -14054,7 +15607,14 @@
       "goals": [
         "Improve mood",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "green-tea-egcg",
@@ -14129,7 +15689,15 @@
         "Weight management",
         "Healthy heart",
         "Longevity"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cla",
@@ -14200,7 +15768,14 @@
       "goals": [
         "Weight management",
         "Build muscle"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "garcinia-cambogia",
@@ -14265,7 +15840,14 @@
       ],
       "goals": [
         "Weight management"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "glucomannan",
@@ -14332,7 +15914,14 @@
         "Weight management",
         "Blood sugar control",
         "Better gut health"
-      ]
+      ],
+      "category": "fiber",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "psyllium-husk",
@@ -14404,7 +15993,14 @@
         "Healthy heart",
         "Blood sugar control",
         "Better gut health"
-      ]
+      ],
+      "category": "fiber",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "collagen-marine",
@@ -14468,7 +16064,17 @@
       "goals": [
         "Healthy skin & hair",
         "Joint & bone health"
-      ]
+      ],
+      "category": "protein",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived",
+        "shellfish"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "collagen-type-2",
@@ -14531,7 +16137,16 @@
         "Joint & bone health",
         "Athletic performance",
         "Faster recovery"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "biotin-high-dose",
@@ -14593,7 +16208,14 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hyaluronic-acid-topical",
@@ -14660,7 +16282,14 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-c-topical",
@@ -14742,7 +16371,16 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "retinol",
@@ -14825,7 +16463,16 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "niacinamide-topical",
@@ -14893,7 +16540,15 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "saw-palmetto-hair",
@@ -14957,7 +16612,14 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pumpkin-seed-oil",
@@ -15021,7 +16683,14 @@
       "goals": [
         "Healthy skin & hair",
         "Sexual health"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "olive-leaf-extract",
@@ -15087,7 +16756,14 @@
       "goals": [
         "Stronger immunity",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "monolaurin",
@@ -15149,7 +16825,14 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "colostrum",
@@ -15215,7 +16898,16 @@
         "Stronger immunity",
         "Better gut health",
         "Athletic performance"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lactoferrin",
@@ -15280,7 +16972,14 @@
       "goals": [
         "Stronger immunity",
         "Better gut health"
-      ]
+      ],
+      "category": "protein",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "propolis",
@@ -15351,7 +17050,14 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "manuka-honey",
@@ -15422,7 +17128,14 @@
       "goals": [
         "Better gut health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "calcium-hydroxyapatite",
@@ -15486,7 +17199,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "strontium-citrate",
@@ -15549,7 +17269,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "undenatured-collagen",
@@ -15604,7 +17331,17 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived",
+        "shellfish"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "avocado-soybean",
@@ -15660,7 +17397,14 @@
       "goals": [
         "Joint & bone health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "red-yeast-rice",
@@ -15726,7 +17470,14 @@
       ],
       "goals": [
         "Healthy heart"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "nattokinase",
@@ -15790,7 +17541,14 @@
       ],
       "goals": [
         "Healthy heart"
-      ]
+      ],
+      "category": "enzyme",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "serrapeptase",
@@ -15863,7 +17621,14 @@
         "Joint & bone health",
         "Reduce inflammation",
         "Respiratory health"
-      ]
+      ],
+      "category": "enzyme",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ubiquinol-enhanced",
@@ -15929,7 +17694,14 @@
       "goals": [
         "Longevity",
         "More energy"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "policosanol",
@@ -15994,7 +17766,15 @@
       ],
       "goals": [
         "Healthy heart"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "aged-garlic-extract",
@@ -16068,7 +17848,14 @@
       "goals": [
         "Healthy heart",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "alpha-lipoic-r-form",
@@ -16135,7 +17922,14 @@
         "Blood sugar control",
         "Antioxidant support",
         "Brain health"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "metformin-mimetic",
@@ -16200,7 +17994,14 @@
         "Blood sugar control",
         "Weight management",
         "Longevity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "activated-charcoal",
@@ -16264,7 +18065,14 @@
       "goals": [
         "Detox support",
         "Better gut health"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "glutathione-reduced",
@@ -16349,7 +18157,14 @@
         "Longevity",
         "Healthy skin & hair",
         "Antioxidant support"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "dandelion-root",
@@ -16421,7 +18236,14 @@
       "goals": [
         "Liver support",
         "Detox support"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "artichoke-extract",
@@ -16487,7 +18309,14 @@
       "goals": [
         "Liver support",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "d-ribose",
@@ -16553,7 +18382,15 @@
         "More energy",
         "Athletic performance",
         "Healthy heart"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iodine-lugols",
@@ -16626,7 +18463,15 @@
       "goals": [
         "Thyroid support",
         "Stronger immunity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "evening-primrose-oil",
@@ -16691,7 +18536,14 @@
         "Healthy skin & hair",
         "Reduce inflammation",
         "Hormonal balance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chasteberry-vitex",
@@ -16764,7 +18616,14 @@
       ],
       "goals": [
         "Hormonal balance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "black-cohosh",
@@ -16832,7 +18691,14 @@
       "goals": [
         "Hormonal balance",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "dong-quai",
@@ -16898,7 +18764,14 @@
       "goals": [
         "Hormonal balance",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "red-clover-isoflavones",
@@ -16964,7 +18837,14 @@
       "goals": [
         "Hormonal balance",
         "Joint & bone health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "soy-isoflavones",
@@ -17038,7 +18918,14 @@
         "Hormonal balance",
         "Joint & bone health",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iron-ferrous-sulfate",
@@ -17114,7 +19001,14 @@
         "More energy",
         "Stronger immunity",
         "Brain health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "panax-notoginseng",
@@ -17179,7 +19073,14 @@
       ],
       "goals": [
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "jiaogulan",
@@ -17246,7 +19147,15 @@
         "Blood sugar control",
         "Longevity",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "suma-root",
@@ -17312,7 +19221,14 @@
         "Athletic performance",
         "Hormonal balance",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ecdysterone",
@@ -17375,7 +19291,14 @@
       "goals": [
         "Build muscle",
         "Athletic performance"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "turkesterone",
@@ -17440,7 +19363,14 @@
       "goals": [
         "Build muscle",
         "Athletic performance"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "choline-bitartrate",
@@ -17523,7 +19453,15 @@
         "Brain health",
         "Liver support",
         "Athletic performance"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "rapamycin-alternative-torin",
@@ -17588,7 +19526,14 @@
       ],
       "goals": [
         "Longevity"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "urolithin-a",
@@ -17652,7 +19597,14 @@
         "Longevity",
         "More energy",
         "Athletic performance"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "gynostemma-tea",
@@ -17718,7 +19670,15 @@
         "Longevity",
         "Lower stress",
         "Blood sugar control"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "colostrum-ig",
@@ -17781,7 +19741,16 @@
       "goals": [
         "Stronger immunity",
         "Better gut health"
-      ]
+      ],
+      "category": "protein",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "epicatechin",
@@ -17852,7 +19821,14 @@
         "Build muscle",
         "Healthy heart",
         "Athletic performance"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnolia-officinalis",
@@ -17919,7 +19895,15 @@
         "Lower stress",
         "Weight management",
         "Better sleep"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "holy-basil-ursolic",
@@ -17984,7 +19968,14 @@
       "goals": [
         "Build muscle",
         "Weight management"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-aspartate",
@@ -18041,7 +20032,15 @@
       "goals": [
         "More energy",
         "Faster recovery"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-lactate",
@@ -18104,7 +20103,14 @@
       "goals": [
         "Faster recovery",
         "Lower stress"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-hydroxide",
@@ -18166,7 +20172,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnesium-orotate",
@@ -18231,7 +20244,14 @@
       "goals": [
         "Healthy heart",
         "More energy"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc-acetate",
@@ -18294,7 +20314,14 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "b-complex",
@@ -18368,7 +20395,15 @@
         "More energy",
         "Brain health",
         "Lower stress"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "multivitamin",
@@ -18459,7 +20494,15 @@
         "Longevity",
         "Stronger immunity",
         "More energy"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "licorice-root",
@@ -18528,7 +20571,14 @@
       "goals": [
         "Better gut health",
         "Liver support"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "feverfew-extract",
@@ -18597,7 +20647,14 @@
       "goals": [
         "Brain health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "willow-bark",
@@ -18664,7 +20721,14 @@
       ],
       "goals": [
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "arnica",
@@ -18734,7 +20798,14 @@
       "goals": [
         "Reduce inflammation",
         "Athletic performance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "calendula",
@@ -18802,7 +20873,14 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "aloe-vera",
@@ -18874,7 +20952,14 @@
       "goals": [
         "Better gut health",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "neem",
@@ -18949,7 +21034,14 @@
         "Stronger immunity",
         "Joint & bone health",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "triphala",
@@ -19023,7 +21115,15 @@
         "Better gut health",
         "Detox support",
         "Antioxidant support"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "shatavari-extract",
@@ -19094,7 +21194,15 @@
         "Sexual health",
         "Hormonal balance",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "brahmi-bacopa-plus",
@@ -19154,7 +21262,15 @@
       "goals": [
         "Brain health",
         "Lower stress"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "mucuna-standard",
@@ -19223,7 +21339,14 @@
       "goals": [
         "Improve mood",
         "Hormonal balance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cats-claw-una",
@@ -19287,7 +21410,14 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "black-seed-nigella",
@@ -19363,7 +21493,14 @@
         "Stronger immunity",
         "Reduce inflammation",
         "Blood sugar control"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pine-pollen",
@@ -19429,7 +21566,16 @@
       "goals": [
         "Hormonal balance",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "banned_in_sport"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "rehmannia",
@@ -19497,7 +21643,14 @@
         "Hormonal balance",
         "Blood sugar control",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "eucommia-bark",
@@ -19562,7 +21715,14 @@
       "goals": [
         "Healthy heart",
         "Joint & bone health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "huang-qi-astragalus-high",
@@ -19626,7 +21786,14 @@
       "goals": [
         "Stronger immunity",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "thunder-god-vine",
@@ -19684,7 +21851,14 @@
       ],
       "goals": [
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "kefir-probiotics",
@@ -19755,7 +21929,14 @@
       "goals": [
         "Better gut health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "bone-broth",
@@ -19826,7 +22007,19 @@
         "Better gut health",
         "Joint & bone health",
         "Better sleep"
-      ]
+      ],
+      "category": "protein",
+      "timingSlots": [
+        "morning",
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived",
+        "shellfish"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lion-mane-ngu",
@@ -19897,7 +22090,14 @@
       "goals": [
         "Brain health",
         "Longevity"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "maitake-dFraction",
@@ -19963,7 +22163,14 @@
       "goals": [
         "Stronger immunity",
         "Blood sugar control"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "calcium-glycinate",
@@ -20027,7 +22234,15 @@
       "goals": [
         "Joint & bone health",
         "Better sleep"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "calcium-d-glucarate",
@@ -20084,7 +22299,14 @@
       "goals": [
         "Detox support",
         "Hormonal balance"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "diindolylmethane",
@@ -20159,7 +22381,14 @@
         "Hormonal balance",
         "Longevity",
         "Sexual health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "sulforaphane",
@@ -20232,7 +22461,14 @@
         "Detox support",
         "Reduce inflammation",
         "Longevity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "indole-3-carbinol",
@@ -20297,7 +22533,14 @@
       "goals": [
         "Hormonal balance",
         "Detox support"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "diatomaceous-earth",
@@ -20362,7 +22605,14 @@
       "goals": [
         "Detox support",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iodoral",
@@ -20429,7 +22679,14 @@
       ],
       "goals": [
         "Thyroid support"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tocotrienols",
@@ -20501,7 +22758,14 @@
         "Brain health",
         "Healthy heart",
         "Antioxidant support"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "astaxanthin-high",
@@ -20565,7 +22829,14 @@
         "Athletic performance",
         "Healthy skin & hair",
         "Brain health"
-      ]
+      ],
+      "category": "carotenoid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "sea-buckthorn-oil",
@@ -20637,7 +22908,14 @@
         "Healthy skin & hair",
         "Healthy heart",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hemp-seed-oil",
@@ -20703,7 +22981,14 @@
         "Healthy heart",
         "Healthy skin & hair",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "mct-oil",
@@ -20781,7 +23066,15 @@
         "Brain health",
         "Weight management",
         "More energy"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "colostrum-first-milk",
@@ -20846,7 +23139,16 @@
         "Stronger immunity",
         "Athletic performance",
         "Better gut health"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "carnitine-fumarate",
@@ -20913,7 +23215,14 @@
         "More energy",
         "Healthy heart",
         "Athletic performance"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lithium-orotate",
@@ -20980,7 +23289,14 @@
       "goals": [
         "Brain health",
         "Improve mood"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "curcumin-longvida",
@@ -21047,7 +23363,14 @@
         "Brain health",
         "Reduce inflammation",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "sacha-inchi",
@@ -21112,7 +23435,14 @@
         "Healthy heart",
         "Reduce inflammation",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "resveratrol-piceid",
@@ -21177,7 +23507,14 @@
         "Longevity",
         "Healthy heart",
         "Antioxidant support"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "olive-polyphenols",
@@ -21248,7 +23585,14 @@
         "Healthy heart",
         "Antioxidant support",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "phytosterols",
@@ -21316,7 +23660,14 @@
       ],
       "goals": [
         "Healthy heart"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "krill-oil",
@@ -21389,7 +23740,17 @@
         "Healthy heart",
         "Brain health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "fatty_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived",
+        "shellfish"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "glutathione-glynac",
@@ -21455,7 +23816,14 @@
         "Longevity",
         "Antioxidant support",
         "More energy"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "calcium-lactate-gluconate",
@@ -21517,7 +23885,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "methyl-b12-adenosyl",
@@ -21585,7 +23960,14 @@
         "Brain health",
         "More energy",
         "Longevity"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ergothioneine",
@@ -21649,7 +24031,14 @@
         "Longevity",
         "Brain health",
         "Antioxidant support"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tamarind-seed",
@@ -21706,7 +24095,14 @@
       "goals": [
         "Joint & bone health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "boswellia-akba",
@@ -21769,7 +24165,14 @@
       "goals": [
         "Joint & bone health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "piperine",
@@ -21832,7 +24235,14 @@
       ],
       "goals": [
         "Longevity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-d2",
@@ -21895,7 +24305,14 @@
       "goals": [
         "Joint & bone health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-e-tocotrienols",
@@ -21965,7 +24382,14 @@
         "Brain health",
         "Healthy heart",
         "Longevity"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-k3-menadione",
@@ -22015,7 +24439,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "para-aminobenzoic-acid",
@@ -22076,7 +24507,14 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc-l-carnosine",
@@ -22133,7 +24571,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iron-carbonyl",
@@ -22212,7 +24657,14 @@
       "goals": [
         "More energy",
         "Sexual health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "selenium-methyl-selenocysteine",
@@ -22290,7 +24742,15 @@
         "Stronger immunity",
         "Thyroid support",
         "Longevity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iodine-nascent",
@@ -22368,7 +24828,14 @@
         "Thyroid support",
         "Blood sugar control",
         "More energy"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "boron-glycinate",
@@ -22445,7 +24912,15 @@
         "Hormonal balance",
         "Joint & bone health",
         "Brain health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "manganese-bisglycinate",
@@ -22516,7 +24991,14 @@
       ],
       "goals": [
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chromium-polynicotinate",
@@ -22594,7 +25076,14 @@
       "goals": [
         "Blood sugar control",
         "Weight management"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "molybdenum-glycinate",
@@ -22661,7 +25150,14 @@
       "goals": [
         "Detox support",
         "Blood sugar control"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vanadyl-sulfate",
@@ -22725,7 +25221,14 @@
       "goals": [
         "Blood sugar control",
         "Athletic performance"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "silica-horsetail",
@@ -22802,7 +25305,16 @@
       "goals": [
         "Healthy skin & hair",
         "Joint & bone health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-tryptophan",
@@ -22871,7 +25383,14 @@
         "Better sleep",
         "Brain health",
         "Lower stress"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-phenylalanine",
@@ -22946,7 +25465,14 @@
         "Brain health",
         "Sharper focus",
         "More energy"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-histidine",
@@ -23003,7 +25529,14 @@
       "goals": [
         "Athletic performance",
         "Stronger immunity"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-methionine",
@@ -23068,7 +25601,15 @@
         "Liver support",
         "Detox support",
         "Longevity"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "eaa-blend",
@@ -23129,7 +25670,14 @@
         "Build muscle",
         "Athletic performance",
         "Faster recovery"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "beta-hydroxybutyrate",
@@ -23204,7 +25752,15 @@
         "Brain health",
         "Athletic performance",
         "More energy"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hmb-free-acid",
@@ -23269,7 +25825,15 @@
         "Build muscle",
         "Athletic performance",
         "Healthy heart"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "laxogenin",
@@ -23331,7 +25895,14 @@
         "Build muscle",
         "Athletic performance",
         "Weight management"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "peak-atp",
@@ -23387,7 +25958,14 @@
         "Athletic performance",
         "Build muscle",
         "More energy"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "nitrosigine",
@@ -23446,7 +26024,14 @@
         "Athletic performance",
         "Build muscle",
         "Brain health"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "s7-blend",
@@ -23502,7 +26087,14 @@
         "Athletic performance",
         "Healthy heart",
         "More energy"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "beetroot-nitrate",
@@ -23575,7 +26167,14 @@
         "Athletic performance",
         "Healthy heart",
         "Improve endurance"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "sodium-bicarbonate-sport",
@@ -23641,7 +26240,14 @@
         "Athletic performance",
         "Improve endurance",
         "Build muscle"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tart-cherry-extract",
@@ -23713,7 +26319,15 @@
         "Faster recovery",
         "Better sleep",
         "Joint & bone health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "evening",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pomegranate-extract",
@@ -23785,7 +26399,15 @@
         "Longevity",
         "Healthy heart",
         "Faster recovery"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "black-pepper-piperine",
@@ -23849,7 +26471,14 @@
       "goals": [
         "Longevity",
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lions-mane-erinacines",
@@ -23918,7 +26547,15 @@
       ],
       "goals": [
         "Brain health"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cordyceps-cs4",
@@ -23991,7 +26628,15 @@
         "Athletic performance",
         "More energy",
         "Improve endurance"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "he-shou-wu",
@@ -24056,7 +26701,14 @@
       "goals": [
         "Healthy skin & hair",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "bupleurum",
@@ -24124,7 +26776,14 @@
         "Liver support",
         "Stronger immunity",
         "Hormonal balance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "codonopsis",
@@ -24189,7 +26848,15 @@
         "More energy",
         "Stronger immunity",
         "Respiratory health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "rehmannia-steamed",
@@ -24261,7 +26928,14 @@
         "Hormonal balance",
         "Longevity",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "black-seed-oil-thymoquinone",
@@ -24336,7 +27010,15 @@
         "Stronger immunity",
         "Reduce inflammation",
         "Blood sugar control"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pine-pollen-extract",
@@ -24410,7 +27092,16 @@
         "Hormonal balance",
         "Sexual health",
         "More energy"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "banned_in_sport"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "sulforaphane-broccoli",
@@ -24484,7 +27175,14 @@
         "Detox support",
         "Longevity",
         "Brain health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "luteolin",
@@ -24551,7 +27249,14 @@
         "Brain health",
         "Stronger immunity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "myricetin",
@@ -24611,7 +27316,14 @@
       "goals": [
         "Longevity",
         "Blood sugar control"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "kaempferol",
@@ -24676,7 +27388,14 @@
       "goals": [
         "Longevity",
         "Brain health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "rutin",
@@ -24743,7 +27462,14 @@
       "goals": [
         "Healthy heart",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hesperidin",
@@ -24815,7 +27541,14 @@
       "goals": [
         "Healthy heart",
         "Faster recovery"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pycnogenol",
@@ -24892,7 +27625,14 @@
         "Healthy skin & hair",
         "Brain health",
         "Sexual health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "amla-extract",
@@ -24967,7 +27707,15 @@
         "Healthy skin & hair",
         "Antioxidant support",
         "Blood sugar control"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ashwagandha-shoden",
@@ -25044,7 +27792,16 @@
         "Lower stress",
         "Athletic performance",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tongkat-ali-longjack",
@@ -25117,7 +27874,15 @@
         "Hormonal balance",
         "Sexual health",
         "Athletic performance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "fadogia-agrestis-extract",
@@ -25173,7 +27938,15 @@
       "goals": [
         "Hormonal balance",
         "Sexual health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "5-htp-supplement",
@@ -25245,7 +28018,14 @@
         "Better sleep",
         "Weight management",
         "Lower stress"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "same-supplement",
@@ -25315,7 +28095,14 @@
         "Brain health",
         "Joint & bone health",
         "Liver support"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "trimethylglycine",
@@ -25382,7 +28169,15 @@
         "Athletic performance",
         "Healthy heart",
         "Liver support"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "with_meal",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "ipriflavone",
@@ -25441,7 +28236,14 @@
       "goals": [
         "Joint & bone health",
         "Sexual health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "dhea-supplement",
@@ -25519,7 +28321,17 @@
         "Longevity",
         "Weight management",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "banned_in_sport"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "melatonin-extended",
@@ -25599,7 +28411,14 @@
         "Better sleep",
         "Longevity",
         "Stronger immunity"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "carnitine-tartrate",
@@ -25687,7 +28506,14 @@
         "Athletic performance",
         "More energy",
         "Longevity"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "citicoline",
@@ -25755,7 +28581,15 @@
       "goals": [
         "Brain health",
         "Sharper focus"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "uridine-monophosphate",
@@ -25820,7 +28654,14 @@
       ],
       "goals": [
         "Brain health"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "phenylethylamine",
@@ -25888,7 +28729,15 @@
         "Brain health",
         "Sharper focus",
         "Weight management"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "n-acetyl-tyrosine",
@@ -25958,7 +28807,15 @@
         "Brain health",
         "More energy",
         "Thyroid support"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "phosphatidylserine-ps",
@@ -26030,7 +28887,15 @@
         "Brain health",
         "Athletic performance",
         "Lower stress"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "with_meal",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lion-mane-dual-extract",
@@ -26098,7 +28963,15 @@
       "goals": [
         "Brain health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "saffron-extract",
@@ -26174,7 +29047,16 @@
         "Sexual health",
         "Eye health",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "passionflower-extract",
@@ -26249,7 +29131,14 @@
         "Better sleep",
         "Lower stress",
         "Brain health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "melatonin-low-dose",
@@ -26312,7 +29201,14 @@
       ],
       "goals": [
         "Better sleep"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "l-ornithine",
@@ -26375,7 +29271,14 @@
         "Better sleep",
         "Faster recovery",
         "Liver support"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "inulin-prebiotic",
@@ -26444,7 +29347,14 @@
         "Better gut health",
         "Blood sugar control",
         "Stronger immunity"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "resistant-starch",
@@ -26513,7 +29423,14 @@
       "goals": [
         "Better gut health",
         "Blood sugar control"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "butyrate-sodium",
@@ -26583,7 +29500,14 @@
         "Better gut health",
         "Stronger immunity",
         "Longevity"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cinnamon-ceylon",
@@ -26656,7 +29580,14 @@
       "goals": [
         "Blood sugar control",
         "Weight management"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "resveratrol-trans",
@@ -26730,7 +29661,14 @@
         "Longevity",
         "Healthy heart",
         "Blood sugar control"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "horse-chestnut",
@@ -26796,7 +29734,14 @@
       "goals": [
         "Healthy heart",
         "Faster recovery"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "grape-seed-opc",
@@ -26866,7 +29811,14 @@
         "Healthy skin & hair",
         "Longevity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "mct-c8",
@@ -26940,7 +29892,15 @@
         "Weight management",
         "More energy",
         "Athletic performance"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "black-currant-seed-oil",
@@ -26998,7 +29958,14 @@
         "Reduce inflammation",
         "Healthy skin & hair",
         "Sexual health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "oregano-oil-carvacrol",
@@ -27073,7 +30040,14 @@
         "Stronger immunity",
         "Better gut health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "elderberry-extract",
@@ -27145,7 +30119,14 @@
       "goals": [
         "Stronger immunity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "echinacea-purpurea",
@@ -27216,7 +30197,14 @@
       ],
       "goals": [
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "astragalus-membranaceus",
@@ -27290,7 +30278,15 @@
         "Longevity",
         "Stronger immunity",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "larch-arabinogalactan",
@@ -27346,7 +30342,14 @@
       "goals": [
         "Stronger immunity",
         "Better gut health"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "beta-glucan-oat",
@@ -27415,7 +30418,14 @@
         "Healthy heart",
         "Blood sugar control",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "milk-thistle-silybin",
@@ -27489,7 +30499,14 @@
       "goals": [
         "Liver support",
         "Detox support"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "artichoke-leaf",
@@ -27553,7 +30570,14 @@
         "Healthy heart",
         "Better gut health",
         "Detox support"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "moringa-oleifera",
@@ -27627,7 +30651,14 @@
         "Blood sugar control",
         "Reduce inflammation",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "spirulina-supplement",
@@ -27701,7 +30732,15 @@
         "Longevity",
         "Athletic performance",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chlorella-supplement",
@@ -27776,7 +30815,14 @@
         "Detox support",
         "Stronger immunity",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "celery-seed-extract",
@@ -27839,7 +30885,14 @@
         "Joint & bone health",
         "Healthy heart",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "bromelain",
@@ -27908,7 +30961,14 @@
         "Reduce inflammation",
         "Better gut health",
         "Faster recovery"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hawthorn-berry",
@@ -27977,7 +31037,14 @@
       ],
       "goals": [
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "butterbur-petasites",
@@ -28044,7 +31111,14 @@
         "Brain health",
         "Stronger immunity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "alpha-lipoic-acid-rla",
@@ -28122,7 +31196,14 @@
         "Brain health",
         "Longevity",
         "Antioxidant support"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "glutathione-liposomal",
@@ -28202,7 +31283,16 @@
         "Stronger immunity",
         "Healthy skin & hair",
         "Longevity"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "stimulant"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "caffeine-l-theanine",
@@ -28273,7 +31363,17 @@
         "Brain health",
         "More energy",
         "Athletic performance"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "stimulant"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lion-mane-mycelium",
@@ -28342,7 +31442,14 @@
         "Stronger immunity",
         "Blood sugar control",
         "Longevity"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "melatonin-high-dose",
@@ -28406,7 +31513,14 @@
       "goals": [
         "Longevity",
         "Stronger immunity"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iodine-potassium",
@@ -28471,7 +31585,14 @@
       "goals": [
         "Thyroid support",
         "Stronger immunity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "calcium-citrate-malate",
@@ -28536,7 +31657,14 @@
       "goals": [
         "Joint & bone health",
         "Sexual health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "d-mannose",
@@ -28598,7 +31726,14 @@
       "goals": [
         "Sexual health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cranberry-pac",
@@ -28662,7 +31797,14 @@
       "goals": [
         "Sexual health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "maca-black",
@@ -28728,7 +31870,15 @@
         "Hormonal balance",
         "Sexual health",
         "Brain health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "red-maca",
@@ -28793,7 +31943,15 @@
         "Sexual health",
         "Joint & bone health",
         "Hormonal balance"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cat-claw-extract",
@@ -28862,7 +32020,14 @@
         "Joint & bone health",
         "Stronger immunity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "devils-claw-extract",
@@ -28930,7 +32095,14 @@
       "goals": [
         "Joint & bone health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "bacopa-monnieri",
@@ -28999,7 +32171,14 @@
       "goals": [
         "Brain health",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "schisandra-chinensis",
@@ -29069,7 +32248,15 @@
         "Athletic performance",
         "Lower stress",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "eleuthero-siberian",
@@ -29139,7 +32326,15 @@
         "Stronger immunity",
         "Lower stress",
         "More energy"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "panax-ginseng-rg",
@@ -29218,7 +32413,14 @@
         "Sexual health",
         "Stronger immunity",
         "Brain health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "gotu-kola-extract",
@@ -29288,7 +32490,16 @@
         "Healthy skin & hair",
         "Joint & bone health",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pygeum-africanum",
@@ -29345,7 +32556,14 @@
       ],
       "goals": [
         "Sexual health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "beta-sitosterol",
@@ -29411,7 +32629,14 @@
       "goals": [
         "Healthy heart",
         "Sexual health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iodine-kelp",
@@ -29477,7 +32702,15 @@
       "goals": [
         "Thyroid support",
         "Stronger immunity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "fenugreek-extract",
@@ -29546,7 +32779,14 @@
         "Hormonal balance",
         "Sexual health",
         "Blood sugar control"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hyaluronic-acid-supplement",
@@ -29616,7 +32856,15 @@
         "Joint & bone health",
         "Healthy skin & hair",
         "Faster recovery"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "collagen-peptides",
@@ -29689,7 +32937,16 @@
         "Joint & bone health",
         "Athletic performance",
         "Faster recovery"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "probiotics-lacto-bifido",
@@ -29763,7 +33020,15 @@
         "Better gut health",
         "Stronger immunity",
         "Brain health"
-      ]
+      ],
+      "category": "probiotic",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lutein-zeaxanthin",
@@ -29836,7 +33101,14 @@
         "Eye health",
         "Longevity",
         "Brain health"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "phosphatidic-acid",
@@ -29893,7 +33165,14 @@
         "Build muscle",
         "Athletic performance",
         "Weight management"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cordyceps-militaris",
@@ -29963,7 +33242,15 @@
         "More energy",
         "Improve endurance",
         "Stronger immunity"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "alpha-ketoglutarate",
@@ -30029,7 +33316,16 @@
         "Longevity",
         "Blood sugar control",
         "Athletic performance"
-      ]
+      ],
+      "category": "nad_precursor",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "reishi-spore",
@@ -30108,7 +33404,15 @@
         "Longevity",
         "Lower stress",
         "Liver support"
-      ]
+      ],
+      "category": "mushroom",
+      "timingSlots": [
+        "morning",
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "turmeric-bcm95",
@@ -30193,7 +33497,14 @@
         "Joint & bone health",
         "Brain health",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "berberine-phytosome",
@@ -30262,7 +33573,14 @@
         "Weight management",
         "Healthy heart",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "omega3-algae",
@@ -30333,7 +33651,16 @@
         "Healthy heart",
         "Reduce inflammation",
         "Longevity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [
+        "animal_derived"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "b-complex-active",
@@ -30405,7 +33732,15 @@
         "Longevity",
         "Brain health",
         "Blood sugar control"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-c-liposomal",
@@ -30488,7 +33823,15 @@
         "Healthy skin & hair",
         "Longevity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "zinc-orotate",
@@ -30557,7 +33900,14 @@
         "Stronger immunity",
         "Hormonal balance",
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iodine-potassium-salt",
@@ -30631,7 +33981,15 @@
       "goals": [
         "Athletic performance",
         "Longevity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal",
+        "pre_workout"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iron-polysaccharide",
@@ -30706,7 +34064,14 @@
       "goals": [
         "More energy",
         "Sexual health"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "melatonin-topical",
@@ -30769,7 +34134,14 @@
       ],
       "goals": [
         "Healthy skin & hair"
-      ]
+      ],
+      "category": "amino_acid",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "rosemary-extract",
@@ -30839,7 +34211,15 @@
         "Healthy skin & hair",
         "Brain health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "thymoquinone",
@@ -30908,7 +34288,14 @@
         "Stronger immunity",
         "Longevity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "niacin-extended-release",
@@ -30984,7 +34371,14 @@
       "goals": [
         "Healthy heart",
         "More energy"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "potassium-bicarbonate",
@@ -31059,7 +34453,14 @@
         "Joint & bone health",
         "Healthy heart",
         "Detox support"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "iodine-molecular",
@@ -31126,7 +34527,15 @@
         "Sexual health",
         "Thyroid support",
         "Longevity"
-      ]
+      ],
+      "category": "mineral",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "black-walnut-hull",
@@ -31196,7 +34605,14 @@
         "Better gut health",
         "Detox support",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "clove-eugenol",
@@ -31266,7 +34682,14 @@
         "Better gut health",
         "Detox support",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "wormwood-artemisinin",
@@ -31336,7 +34759,14 @@
         "Better gut health",
         "Detox support",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "pau-darco",
@@ -31407,7 +34837,14 @@
         "Stronger immunity",
         "Better gut health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "caprylic-acid",
@@ -31470,7 +34907,14 @@
       "goals": [
         "Better gut health",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "berberine-gut",
@@ -31539,7 +34983,14 @@
         "Better gut health",
         "Blood sugar control",
         "Stronger immunity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "andrographis-kalmegh",
@@ -31609,7 +35060,14 @@
       "goals": [
         "Stronger immunity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "vitamin-d3-5000",
@@ -31702,7 +35160,14 @@
         "Brain health",
         "Hormonal balance",
         "Longevity"
-      ]
+      ],
+      "category": "vitamin",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "lemon-balm-extract",
@@ -31771,7 +35236,14 @@
         "Better sleep",
         "Lower stress",
         "Brain health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "wild-yam-extract",
@@ -31840,7 +35312,14 @@
         "Sexual health",
         "Hormonal balance",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "chlorophyll-supplement",
@@ -31907,7 +35386,14 @@
         "Detox support",
         "Healthy skin & hair",
         "Longevity"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "myo-inositol",
@@ -31977,7 +35463,14 @@
         "Sexual health",
         "Blood sugar control",
         "Lower stress"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "d-chiro-inositol",
@@ -32045,7 +35538,14 @@
         "Sexual health",
         "Blood sugar control",
         "Hormonal balance"
-      ]
+      ],
+      "category": "nootropic",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "magnolia-bark-honokiol",
@@ -32117,7 +35617,14 @@
         "Lower stress",
         "Better sleep",
         "Brain health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "kelp-extract",
@@ -32187,7 +35694,14 @@
         "Stronger immunity",
         "Longevity",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "n-acetyl-cysteine-extended",
@@ -32257,7 +35771,16 @@
         "Detox support",
         "Respiratory health",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "antioxidant",
+      "timingSlots": [
+        "morning",
+        "evening",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "digestive-bitters",
@@ -32327,7 +35850,14 @@
         "Better gut health",
         "Detox support",
         "Longevity"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "tributyrin-supplement",
@@ -32396,7 +35926,14 @@
         "Better gut health",
         "Reduce inflammation",
         "Longevity"
-      ]
+      ],
+      "category": "other",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "burdock-root",
@@ -32451,7 +35988,14 @@
       "goals": [
         "Healthy skin & hair",
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "goldenseal",
@@ -32506,7 +36050,14 @@
       "goals": [
         "Stronger immunity",
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "banaba-leaf",
@@ -32558,7 +36109,14 @@
       ],
       "goals": [
         "Weight management"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "hops",
@@ -32613,7 +36171,14 @@
       "goals": [
         "Better sleep",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "california-poppy",
@@ -32666,7 +36231,14 @@
       "goals": [
         "Better sleep",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "kanna",
@@ -32720,7 +36292,14 @@
       "goals": [
         "Improve mood",
         "Lower stress"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "yohimbine",
@@ -32776,7 +36355,17 @@
       "goals": [
         "Weight management",
         "Sexual health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "pre_workout"
+      ],
+      "withFoodType": "without_food",
+      "tags": [
+        "stimulant",
+        "banned_in_sport"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "cayenne",
@@ -32831,7 +36420,14 @@
       "goals": [
         "Weight management",
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "peppermint-oil",
@@ -32883,7 +36479,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "without_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "fennel",
@@ -32935,7 +36538,14 @@
       ],
       "goals": [
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "guggul",
@@ -32991,7 +36601,14 @@
       "goals": [
         "Healthy heart",
         "Weight management"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "arjuna",
@@ -33044,7 +36661,15 @@
       ],
       "goals": [
         "Healthy heart"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "bilberry",
@@ -33098,7 +36723,14 @@
       "goals": [
         "Healthy heart",
         "Antioxidant support"
-      ]
+      ],
+      "category": "polyphenol",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "forskolin",
@@ -33151,7 +36783,14 @@
       ],
       "goals": [
         "Weight management"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "yerba-mate",
@@ -33206,7 +36845,17 @@
       "goals": [
         "More energy",
         "Sharper focus"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "stimulant"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "guarana",
@@ -33262,7 +36911,17 @@
       "goals": [
         "More energy",
         "Sharper focus"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning",
+        "pre_workout"
+      ],
+      "withFoodType": "either",
+      "tags": [
+        "stimulant"
+      ],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "oregon-grape",
@@ -33316,7 +36975,14 @@
       "goals": [
         "Healthy skin & hair",
         "Better gut health"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "with_meal"
+      ],
+      "withFoodType": "with_food",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "skullcap",
@@ -33370,7 +37036,14 @@
       "goals": [
         "Lower stress",
         "Better sleep"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "evening"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     },
     {
       "id": "mullein",
@@ -33423,36 +37096,14 @@
       "goals": [
         "Stronger immunity",
         "Reduce inflammation"
-      ]
+      ],
+      "category": "herb",
+      "timingSlots": [
+        "morning"
+      ],
+      "withFoodType": "either",
+      "tags": [],
+      "updatedAt": "2026-06-25"
     }
-  ],
-  "goalCatalog": [
-    "Better sleep",
-    "More energy",
-    "Sharper focus",
-    "Brain health",
-    "Lower stress",
-    "Improve mood",
-    "Build muscle",
-    "Improve endurance",
-    "Athletic performance",
-    "Faster recovery",
-    "Weight management",
-    "Stronger immunity",
-    "Reduce inflammation",
-    "Healthy heart",
-    "Blood sugar control",
-    "Hormonal balance",
-    "Sexual health",
-    "Thyroid support",
-    "Better gut health",
-    "Liver support",
-    "Detox support",
-    "Joint & bone health",
-    "Healthy skin & hair",
-    "Eye health",
-    "Respiratory health",
-    "Antioxidant support",
-    "Longevity"
   ]
 }
